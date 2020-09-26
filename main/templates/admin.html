@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <title>Free Huts</title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+
+<h1> Get KML </h2>
+
+<form action="free-huts.kml" method="get">
+Date: <input name="date" value="now" size="20" type="date"> + 
+ <input name="plus" value="0" size="10" type="number" min="0"> days<br>
+Start: <input name="start" value="1" size="10" type="number" min="1" max="400"><br>
+Stop: <input name="stop" value="380" size="10" type="number" min="1" max="400"><br>
+<input type="submit">
+</form>
+
+<h1> Get MAP </h2>
+
+<form action="map" method="get">
+Date: <input name="date" value="now" size="20" type="date"> + 
+ <input name="plus" value="0" size="10" type="number" min="0"> days<br>
+Start: <input name="start" value="1" size="10" type="number" min="1" max="400"><br>
+Stop: <input name="stop" value="380" size="10" type="number" min="1" max="400"><br>
+<input type="submit">
+</form>
+
+
+
+</body>
+</html>
