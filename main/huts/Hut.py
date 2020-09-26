@@ -157,6 +157,11 @@ class Hut(object):
     def sleeps(self):
         """Returns number of beds (Schlafplaetze)"""
         return int(self._hut_dict.get('sleeps', 0))
+    
+    @property
+    def is_biwak(self):
+        """If sleeping places and shelder space is the same we assume it is a biwak."""
+        return self.sleeps <= self.emergency_shelter
  
     @property
     def photos(self):
@@ -433,7 +438,7 @@ if __name__ == '__main__':
     s = requests.Session()
     
     LANG = "de"
-    HUT_INDEX = 0
+    HUT_INDEX = 30
     # 0: biwak
     # 1: SAC, no online reservation
     # 2: Almagellerhütte SAC, massenlager, online reservation

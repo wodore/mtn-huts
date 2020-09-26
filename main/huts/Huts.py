@@ -85,30 +85,16 @@ class Huts(object):
   
             
             
-            #print("{} (LV03: {} | WGS84: {}) - {} free".format(name, hut["coords_lv03"], coords, int(free)))
-    
-    #        gpx_segment.points.append(gpxpy.gpx.GPXTrackPoint(lat, lng))
-            # kml.newpoint(name=name.decode(errors='replace'), coords=[(coords[1], coords[0])])
-            #.decode(errors='replace')
-            reservation_url = hut.reservation_url #main_url + "?hut_id=" + str(int(hut_id))
             if url:
                 desc = "<h4><a href={} target=_blank>{}</a></h4>".format(url, name)
             else:
                 desc = "<h4>{}</h4>".format(name)
+            desc += "<p>"
             if hut.online_reservation:
-                desc += "<p><a href={} target=_blank>Reservation</a></p>".format(reservation_url)
-            
-#             desc += """
-#             <!-- SAC TOURENPORTAL START -->
-# <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js"></script>
-# <iframe src="https://www.sac-cas.ch/{lang}/destinationlistiframe.html?ids={sac_id}" style="width: calc(100% + 60px); border: 0; margin: -30px;" onload="iFrameResize()"></iframe>
-# <!-- SAC TOURENPORTAL END -->
-# """.format(sac_id=hut.sac_id, lang=self.user_language)
+                desc += "<a href={} target=_blank>Reservation</a> | ".format(hut.reservation_url)
+            desc += "<a href={} target=_blank>SAC</a></p>".format(hut.sac_url)
 
 
-            desc += "<p>{}</p>".format(hut.description)
-            
-            desc += "<p><img src=\"{}\" width=300></p>".format(hut.thumbnail)
             
             if hut.online_reservation:
                 occupied_list = []
@@ -118,6 +104,8 @@ class Huts(object):
                     free = over_time['total_free_rooms']
                     total = over_time['total_rooms']
                     oc = over_time['occupied_percent']
+                    if over_time['closed']:
+                        oc = -1
                     desc += "<li><img src=\"{}\"  width=\"9\" height=\"9\">".format(self.get_occupied_icon(oc, total))
                     desc += " <i>{}:</i> <b>{}</b>/{}</li>".format(res_date, int(free), int(total))
                     occupied_list.append(oc)
@@ -125,17 +113,24 @@ class Huts(object):
             else:
                 occupied_list = []
                 
-
+                
+            desc += "<p>{}</p>".format(hut.description)
+            desc += "<p><img src=\"{}\" width=250></p>".format(hut.thumbnail)
 
     #        if occupied > 99:
     #            title += "  FULL"
             pnt = kml.newpoint(coords=[coords]) # lng, lat
             #pnt.description = unicode(desc, 'utf-8')
             pnt.description = desc
-
-            icon = self.get_occupied_days_icon(occupied_list, total_rooms)
+            if hut.sac:
+                file_name = "hut-sac"
+            else:
+                file_name = "hut-private"
+            if hut.is_biwak:
+                file_name = file_name.replace("hut", "biwak")
+            icon = self.get_occupied_days_icon(occupied_list, file_name)
             pnt.style.iconstyle.icon.href = icon
-            pnt.style.iconstyle.scale = 0.4
+            pnt.style.iconstyle.scale = 0.5
         
         return kml
         #kml.save('free_huts.kml')
@@ -164,25 +159,53 @@ class Huts(object):
             icon = "{url}/static/pie-0.png".format(url=self.HOST_URL)
         return icon
     
-    def get_occupied_days_icon(self, occupied_list, total = 1):
-        if total == 0 or len(occupied_list) < 3:
-            icon = "{url}/static/status/0.png".format(url=self.HOST_URL)
-            return icon
-        first = 1
-        if occupied_list[0] > 45:
-            first = 2
-        if occupied_list[0] > 70:
-            first = 3
-        if occupied_list[0] >= 99:
-            first = 4
-        second = 1
-        if occupied_list[1] >= 99:
-            second = 2
-        third = 1
-        if occupied_list[2] >= 99:
-            third = 2
+    def get_occupied_days_icon(self, occupied_list, name = "hut-sac"):
+               
+        def round_oc(v):
+            if v >= 99:
+                 oc = 100
+            elif v >= 60:
+                 oc = 75
+            elif v >= 30:
+                 oc = 50
+            elif v >= 0:
+                 oc = 25
+            else:
+                oc = -1
+            return oc
+        
+        
+        if len(occupied_list) < 3:
+            icon = "{url}/static/icons/{name}-default.png".format(url=self.HOST_URL, name=name)
+        # elif occupied_list[0] >= 99:
+        #      icon = "{url}/static/icons/hut-sac-full.png".format(url=self.HOST_URL)
+        # elif occupied_list[0] >= 0:
+        #     icon = "{url}/static/icons/hut-sac-free.png".format(url=self.HOST_URL)
+        else:
+            o0 = round_oc(occupied_list[0])
+            o1 = round_oc(occupied_list[1])
+            o2 = round_oc(occupied_list[2])
+            o3 = round_oc(occupied_list[3])
+            icon = "{}/static/icons/out/{}-{}-{}-{}-{}.png".format(self.HOST_URL, name, o0, o1, o2, o3)
+        
+        # if total == 0 or len(occupied_list) < 3:
+        #     icon = "{url}/static/status/0.png".format(url=self.HOST_URL)
+        #     return icon
+        # first = 1
+        # if occupied_list[0] > 45:
+        #     first = 2
+        # if occupied_list[0] > 70:
+        #     first = 3
+        # if occupied_list[0] >= 99:
+        #     first = 4
+        # second = 1
+        # if occupied_list[1] >= 99:
+        #     second = 2
+        # third = 1
+        # if occupied_list[2] >= 99:
+        #     third = 2
                 
-        icon = "{}/static/status/{}{}{}.png".format(self.HOST_URL, first, second, third)    
+        # icon = "{}/static/status/{}{}{}.png".format(self.HOST_URL, first, second, third)    
             
         #icon = "http://frei.wodore.com/static/status/status.svg"
         return icon
