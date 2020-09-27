@@ -146,68 +146,41 @@ class Huts(object):
             raise ValueError("Language '{}' not supported. Use either 'de', 'fr', 'it' or 'en'.".format(lang))
          return lang.lower()
 
-
+    def round_oc(self, v):
+        if v >= 99:
+             oc = 100
+        elif v >= 60:
+             oc = 75
+        elif v >= 30:
+             oc = 50
+        elif v >= 0:
+             oc = 25
+        else:
+            oc = -1
+        return oc
+    
     def get_occupied_icon(self, occupied, total = 1):
-        icon = "{url}/static/pie-1.png".format(url=self.HOST_URL)
-        if occupied > 45:
-            icon = "{url}/static/pie-2.png".format(url=self.HOST_URL)
-        if occupied > 70:
-            icon = "{url}/static/pie-3.png".format(url=self.HOST_URL)
-        if occupied >= 99:
-            icon = "{url}/static/pie-4.png".format(url=self.HOST_URL)
         if total == 0:
-            icon = "{url}/static/pie-0.png".format(url=self.HOST_URL)
+            occupied = -1
+        oc = self.round_oc(occupied)
+        icon = "{url}/static/pie/{}.png".format(url=self.HOST_URL, oc)
         return icon
     
     def get_occupied_days_icon(self, occupied_list, name = "hut-sac"):
-               
-        def round_oc(v):
-            if v >= 99:
-                 oc = 100
-            elif v >= 60:
-                 oc = 75
-            elif v >= 30:
-                 oc = 50
-            elif v >= 0:
-                 oc = 25
-            else:
-                oc = -1
-            return oc
-        
         
         if len(occupied_list) < 3:
-            icon = "{url}/static/icons/{name}-default.png".format(url=self.HOST_URL, name=name)
+            icon = "{url}/static/icons/default/{name}.png".format(url=self.HOST_URL, name=name)
         # elif occupied_list[0] >= 99:
         #      icon = "{url}/static/icons/hut-sac-full.png".format(url=self.HOST_URL)
         # elif occupied_list[0] >= 0:
         #     icon = "{url}/static/icons/hut-sac-free.png".format(url=self.HOST_URL)
         else:
-            o0 = round_oc(occupied_list[0])
-            o1 = round_oc(occupied_list[1])
-            o2 = round_oc(occupied_list[2])
-            o3 = round_oc(occupied_list[3])
-            icon = "{}/static/icons/out/{}-{}-{}-{}-{}.png".format(self.HOST_URL, name, o0, o1, o2, o3)
-        
-        # if total == 0 or len(occupied_list) < 3:
-        #     icon = "{url}/static/status/0.png".format(url=self.HOST_URL)
-        #     return icon
-        # first = 1
-        # if occupied_list[0] > 45:
-        #     first = 2
-        # if occupied_list[0] > 70:
-        #     first = 3
-        # if occupied_list[0] >= 99:
-        #     first = 4
-        # second = 1
-        # if occupied_list[1] >= 99:
-        #     second = 2
-        # third = 1
-        # if occupied_list[2] >= 99:
-        #     third = 2
-                
-        # icon = "{}/static/status/{}{}{}.png".format(self.HOST_URL, first, second, third)    
-            
-        #icon = "http://frei.wodore.com/static/status/status.svg"
+            o0 = self.round_oc(occupied_list[0])
+            o1 = self.round_oc(occupied_list[1])
+            o2 = self.round_oc(occupied_list[2])
+            o3 = self.round_oc(occupied_list[3])
+            icon = "{}/static/icons/generated/{}-{}-{}-{}-{}.png".format(self.HOST_URL, name, o0, o1, o2, o3)
+
         return icon
     
    

@@ -1,0 +1,3 @@
+run `create-icons.py` to generate all icons.
+
+The 'pie' and 'default' icons are exported manually (selection with 96 dpi) with inkscape.
