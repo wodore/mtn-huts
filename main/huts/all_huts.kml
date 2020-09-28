@@ -1,518 +1,3558 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="761">
-        <Style id="764">
-            <IconStyle id="765">
+    <Document id="153">
+        <Style id="156">
+            <IconStyle id="157">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="766">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/biwak-sac-default.png</href>
+                <Icon id="158">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="769">
-            <IconStyle id="770">
+        <Style id="161">
+            <IconStyle id="162">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="771">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-sac-default.png</href>
+                <Icon id="163">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="774">
-            <IconStyle id="775">
+        <Style id="166">
+            <IconStyle id="167">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="776">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/out/hut-sac--1--1--1--1.png</href>
+                <Icon id="168">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/generated/hut-sac--1--1--1--1.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="779">
-            <IconStyle id="780">
+        <Style id="171">
+            <IconStyle id="172">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="781">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="173">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="784">
-            <IconStyle id="785">
+        <Style id="176">
+            <IconStyle id="177">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="786">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="178">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="789">
-            <IconStyle id="790">
+        <Style id="181">
+            <IconStyle id="182">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="791">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="183">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="794">
-            <IconStyle id="795">
+        <Style id="186">
+            <IconStyle id="187">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="796">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/biwak-private-default.png</href>
+                <Icon id="188">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="799">
-            <IconStyle id="800">
+        <Style id="191">
+            <IconStyle id="192">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="801">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="193">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="804">
-            <IconStyle id="805">
+        <Style id="196">
+            <IconStyle id="197">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="806">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="198">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="809">
-            <IconStyle id="810">
+        <Style id="201">
+            <IconStyle id="202">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="811">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/biwak-private-default.png</href>
+                <Icon id="203">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="814">
-            <IconStyle id="815">
+        <Style id="206">
+            <IconStyle id="207">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="816">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="208">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="819">
-            <IconStyle id="820">
+        <Style id="211">
+            <IconStyle id="212">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="821">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/biwak-sac-default.png</href>
+                <Icon id="213">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="824">
-            <IconStyle id="825">
+        <Style id="216">
+            <IconStyle id="217">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="826">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="218">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="829">
-            <IconStyle id="830">
+        <Style id="221">
+            <IconStyle id="222">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="831">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="223">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="834">
-            <IconStyle id="835">
+        <Style id="226">
+            <IconStyle id="227">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="836">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/biwak-private-default.png</href>
+                <Icon id="228">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="839">
-            <IconStyle id="840">
+        <Style id="231">
+            <IconStyle id="232">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="841">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/out/hut-sac-25-25-25-25.png</href>
+                <Icon id="233">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/generated/hut-sac-25-25-25-25.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="844">
-            <IconStyle id="845">
+        <Style id="236">
+            <IconStyle id="237">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="846">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/out/hut-private--1--1--1--1.png</href>
+                <Icon id="238">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/generated/hut-private--1--1--1--1.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="849">
-            <IconStyle id="850">
+        <Style id="241">
+            <IconStyle id="242">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="851">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/biwak-private-default.png</href>
+                <Icon id="243">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="854">
-            <IconStyle id="855">
+        <Style id="246">
+            <IconStyle id="247">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="856">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-sac-default.png</href>
+                <Icon id="248">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="859">
-            <IconStyle id="860">
+        <Style id="251">
+            <IconStyle id="252">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="861">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/out/hut-sac-25--1--1--1.png</href>
+                <Icon id="253">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/generated/hut-sac--1--1--1--1.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="864">
-            <IconStyle id="865">
+        <Style id="256">
+            <IconStyle id="257">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="866">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="258">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="869">
-            <IconStyle id="870">
+        <Style id="261">
+            <IconStyle id="262">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="871">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="263">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="874">
-            <IconStyle id="875">
+        <Style id="266">
+            <IconStyle id="267">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="876">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="268">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="879">
-            <IconStyle id="880">
+        <Style id="271">
+            <IconStyle id="272">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="881">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/biwak-private-default.png</href>
+                <Icon id="273">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="884">
-            <IconStyle id="885">
+        <Style id="276">
+            <IconStyle id="277">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="886">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="278">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="889">
-            <IconStyle id="890">
+        <Style id="281">
+            <IconStyle id="282">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="891">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="283">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="894">
-            <IconStyle id="895">
+        <Style id="286">
+            <IconStyle id="287">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="896">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="288">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="899">
-            <IconStyle id="900">
+        <Style id="291">
+            <IconStyle id="292">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="901">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="293">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="904">
-            <IconStyle id="905">
+        <Style id="296">
+            <IconStyle id="297">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="906">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="298">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="909">
-            <IconStyle id="910">
+        <Style id="301">
+            <IconStyle id="302">
                 <colorMode>normal</colorMode>
                 <scale>0.5</scale>
                 <heading>0</heading>
-                <Icon id="911">
-                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/hut-private-default.png</href>
+                <Icon id="303">
+                    <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <name>Hut Vacancy now</name>
-        <Placemark id="763">
-            <description>&lt;h4&gt;&lt;a href=http://www.sac-pilatus.ch target=_blank&gt;Aarbiwak SAC&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000001 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Abgelegenes, recht komfortables, gemütliches Hochgebirgsbiwak, inmitten des Gletscherkessels. Lange Gletschertour vom Grimsel Hospiz aus über Unteraar- und Finsteraargletscher. Imposante Aussicht direkt zur Ostwand des Finsteraarhorns. Ausgangspunkt für anspruchsvolle hochalpine Besteigungen von Lauteraarhorn, Finsteraarhorn oder Studerhorn und Übergänge Strahleggpass–Schreckhornhütte (teils markiert), Finsteraarjoch und Agassizjoch.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1521191696_1539748597Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#764</styleUrl>
-            <Point id="762">
+        <name>Hut Vacancy 28.09.2020</name>
+        <Placemark id="155">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-sac.png&quot;&gt;
+                &lt;a href=http://www.sac-pilatus.ch target=_blank&gt;Aarbiwak SAC&lt;/a&gt;
+                &lt;small&gt;SAC Pilatus&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000001 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Abgelegenes, recht komfortables, gemütliches Hochgebirgsbiwak, inmitten des Gletscherkessels. Lange Gletschertour vom Grimsel Hospiz aus über Unteraar- und Finsteraargletscher. Imposante Aussicht direkt zur Ostwand des Finsteraarhorns. Ausgangspunkt für anspruchsvolle hochalpine Besteigungen von Lauteraarhorn, Finsteraarhorn oder Studerhorn und Übergänge Strahleggpass–Schreckhornhütte (teils markiert), Finsteraarjoch und Agassizjoch.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1521191696_1539748597Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Aarbiwak SAC, Blick Richtung Studerhorn. (&amp;copy; Bruno Lüthi)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#156</styleUrl>
+            <Point id="154">
                 <coordinates>8.15222678796981,46.55555404703093,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="768">
-            <description>&lt;h4&gt;&lt;a href=http://www.albertheimhuette.ch target=_blank&gt;Albert-Heim-Hütte SAC&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000006 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Albert Heim war passionierter Alpenforscher, Geologe und Ehrenmitglied des SAC. Die nach ihm benannte Hütte liegt auf einem markanten Fels-Kopf im Gebiet des Furkapasses, am Fusse des Tiefengletschers und im Banne des Galenstocks. Sie ist bei Familien, Berggängern und Tagesbesuchern sehr beliebt. Doch auch Kletterrouten im griffigen Granit, der Höhenweg über dem Urserental sowie Ski- und Schneeschuhtouren im Winter bieten sich an.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1572858197_1366310325Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#769</styleUrl>
-            <Point id="767">
+        <Placemark id="160">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
+                &lt;a href=http://www.albertheimhuette.ch target=_blank&gt;Albert-Heim-Hütte SAC&lt;/a&gt;
+                &lt;small&gt;SAC Uto&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000006 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Albert Heim war passionierter Alpenforscher, Geologe und Ehrenmitglied des SAC. Die nach ihm benannte Hütte liegt auf einem markanten Fels-Kopf im Gebiet des Furkapasses, am Fusse des Tiefengletschers und im Banne des Galenstocks. Sie ist bei Familien, Berggängern und Tagesbesuchern sehr beliebt. Doch auch Kletterrouten im griffigen Granit, der Höhenweg über dem Urserental sowie Ski- und Schneeschuhtouren im Winter bieten sich an.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1572858197_1366310325Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Albert-Heim-Hütte SAC, Aussenansicht (&amp;copy; George Eisler)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#161</styleUrl>
+            <Point id="159">
                 <coordinates>8.463518795919578,46.60890792501105,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="773">
-            <description>&lt;h4&gt;&lt;a href=http://www.almagellerhuette.ch target=_blank&gt;Almagellerhütte SAC&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.alpsonline.org/reservation/calendar?hut_id=208&amp;lang=de_CH target=_blank&gt;Reservation&lt;/a&gt; | &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000008 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;ul style=&quot;list-style-type:none;&quot;&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;27.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;28.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;29.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;30.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;01.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;02.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;03.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;04.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;05.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;06.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Beliebte Alpin- und Wanderhütte auf der Südseite des Weissmies. Ausgangspunkt für Hochgebirgs- und Klettertouren, Stützpunkt zum Sportklettern und Unterkunft für Mehrtageswanderungen. Blick durch das Almagellertal zur Mischabelgruppe und auf neun Viertausender. Der Pavillon neben der Hütte bietet Gruppen ein separates Zuhause. Neben dem direkten Aufstieg aus dem Tal gibt es auch zwei Panoramawege via Kreuzboden resp. Furggstalden.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1521188008_205599419Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#774</styleUrl>
-            <Point id="772">
+        <Placemark id="165">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
+                &lt;a href=http://www.almagellerhuette.ch target=_blank&gt;Almagellerhütte SAC&lt;/a&gt;
+                &lt;small&gt;SAC Niesen&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;a href=https://www.alpsonline.org/reservation/calendar?hut_id=208&amp;lang=de_CH target=_blank&gt;Online Reservierung&lt;/a&gt; | &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000008 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;ul class=&quot;list-inline list-unstyled hut-date-list&quot;&gt;
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mo&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;28.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Di&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;29.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mi&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;30.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Do&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;01.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Fr&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;02.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Sa&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;03.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;So&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;04.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mo&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;05.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Di&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;06.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mi&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;07.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   &lt;/ul&gt;&lt;p&gt;Beliebte Alpin- und Wanderhütte auf der Südseite des Weissmies. Ausgangspunkt für Hochgebirgs- und Klettertouren, Stützpunkt zum Sportklettern und Unterkunft für Mehrtageswanderungen. Blick durch das Almagellertal zur Mischabelgruppe und auf neun Viertausender. Der Pavillon neben der Hütte bietet Gruppen ein separates Zuhause. Neben dem direkten Aufstieg aus dem Tal gibt es auch zwei Panoramawege via Kreuzboden resp. Furggstalden.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1521188008_205599419Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Almagellerhütte SAC, Aussenansicht. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#166</styleUrl>
+            <Point id="164">
                 <coordinates>8.00769886181262,46.10766600032284,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="778">
-            <description>&lt;h4&gt;&lt;a href=https://www.lafouly.ch/fr/sejourner/reservez-votre-hebergement target=_blank&gt;Alpage de la Peule (Peulaz)&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436049 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Dort, wo heute die Alpage de la Peule steht, gibt es seit 160 Jahren einen Stall. Lange Zeit war es ruhig um das Gebäude zuhinterst im Val Ferret – bis die ersten Wanderpioniere über den Col Ferret hier vorbeikamen. Ihr Ziel: den Mont Blanc, wenn auch nicht zu besteigen, doch wenigstens zu umrunden. Was weder sie noch der Älpler der Alpage de la Peule wissen konnten: Hundert Jahre später wird auf Dutzenden von Webseiten die Tour du Mont Blanc als der schönste Weitwanderweg Europas gepriesen. Mit Folgen: Ganze Karawanen von Weitwanderern bewegen sich auf den gut ausgebauten Wanderwegen um den höchsten Berg des Kontinents herum – und so hat sich die Alpage de la Peule langsam, aber stetig zu einer richtigen Gîte d’étape entwickelt. Wo früher Vieh eingestallt war, können heute 58 Wanderer in bequemen Kajütenbetten übernachten. Für Interessierte steht aussen eine Jurte bereit, und in der Gaststube gibt es den hiesigen Raclettekäse in allen Variationen. Die Alpage de La Peule ist zur Alpzeit von Mitte Juni bis Mitte September geöffnet. Weitere Informationen unter +41 27 783 10 41 (Saison), +41 27 783 32 70 (ausserhalb Saison), bzw. http://www.montourdumontblanc.fr.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593523896_1150226188Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#779</styleUrl>
-            <Point id="777">
+        <Placemark id="170">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=https://www.lafouly.ch/fr/sejourner/reservez-votre-hebergement target=_blank&gt;Alpage de la Peule (Peulaz)&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436049 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Dort, wo heute die Alpage de la Peule steht, gibt es seit 160 Jahren einen Stall. Lange Zeit war es ruhig um das Gebäude zuhinterst im Val Ferret – bis die ersten Wanderpioniere über den Col Ferret hier vorbeikamen. Ihr Ziel: den Mont Blanc, wenn auch nicht zu besteigen, doch wenigstens zu umrunden. Was weder sie noch der Älpler der Alpage de la Peule wissen konnten: Hundert Jahre später wird auf Dutzenden von Webseiten die Tour du Mont Blanc als der schönste Weitwanderweg Europas gepriesen. Mit Folgen: Ganze Karawanen von Weitwanderern bewegen sich auf den gut ausgebauten Wanderwegen um den höchsten Berg des Kontinents herum – und so hat sich die Alpage de la Peule langsam, aber stetig zu einer richtigen Gîte d’étape entwickelt. Wo früher Vieh eingestallt war, können heute 58 Wanderer in bequemen Kajütenbetten übernachten. Für Interessierte steht aussen eine Jurte bereit, und in der Gaststube gibt es den hiesigen Raclettekäse in allen Variationen. Die Alpage de La Peule ist zur Alpzeit von Mitte Juni bis Mitte September geöffnet. Weitere Informationen unter +41 27 783 10 41 (Saison), +41 27 783 32 70 (ausserhalb Saison), bzw. http://www.montourdumontblanc.fr.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593523896_1150226188Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alpage de la Peule. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#171</styleUrl>
+            <Point id="169">
                 <coordinates>7.112689864280237,45.898505200554006,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="783">
-            <description>&lt;h4&gt;&lt;a href=https://gruyere.com/fr/fromageries/alpage-la-grandsonnaz/ target=_blank&gt;Alpage La Grandsonnaz-Dessus&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436052 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Alpage La Grandsonnaz-Dessus im Waadtländer Jura bietet wunderschöne kurze Wanderungen wie etwa zum Chasseron – einem Gipfel, von dem aus man eine herrliche Aussicht auf die Ebene hat. Danach lässt es sich gemütlich auf der Terrasse verweilen und hausgemachte Rösti, Fondue und Desserts geniessen. Geöffnet von Mai bis Oktober. Informationen zur Alpage La Grandsonnaz-Dessus: Tel. + 41 24 454 23 62&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593775908_1105662778Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#784</styleUrl>
-            <Point id="782">
+        <Placemark id="175">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=https://gruyere.com/fr/fromageries/alpage-la-grandsonnaz/ target=_blank&gt;Alpage La Grandsonnaz-Dessus&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436052 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Alpage La Grandsonnaz-Dessus im Waadtländer Jura bietet wunderschöne kurze Wanderungen wie etwa zum Chasseron – einem Gipfel, von dem aus man eine herrliche Aussicht auf die Ebene hat. Danach lässt es sich gemütlich auf der Terrasse verweilen und hausgemachte Rösti, Fondue und Desserts geniessen. Geöffnet von Mai bis Oktober. Informationen zur Alpage La Grandsonnaz-Dessus: Tel. + 41 24 454 23 62&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593775908_1105662778Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alpage La Grandsonnaz-Dessus. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#176</styleUrl>
+            <Point id="174">
                 <coordinates>6.551722036286589,46.85964309990491,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="788">
-            <description>&lt;h4&gt;&lt;a href=https://www.creuxduvan.com/restaurant-petites-fauconnieres.html target=_blank&gt;Alpage Les Petites Fauconnières&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436053 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Alpage des Petites-Fauconnières ist eine reine Rinderalp ohne Käseproduktion. Es ist währschafte Kost, die in Petites Fauconnières auf den Tisch kommt. Neben den verschiedenen Röstis und Fondues sind hier vor allem die hausgemachten Maccaroni beliebt. Das hat sich herumgesprochen, und so treffen sich hier – etwas abseits des Rummels um den Creux du Van, auch die Einheimischen und die Familien aus der Region, um etwas Alpluft zu schnuppern. Die Alp ist von Anfang Mai bis Ende November belebt. Es gibt eine Dépendance mit 25 Schlafplätzen und zwei Zimmer mit 2 und 4 Betten. Informationen: Tel. +41 32 863 31 22, +41 79 446 39 83 oder http://www.myvaldetravers.ch&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593777227_1853386618Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#789</styleUrl>
-            <Point id="787">
+        <Placemark id="180">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=https://www.creuxduvan.com/restaurant-petites-fauconnieres.html target=_blank&gt;Alpage Les Petites Fauconnières&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436053 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Alpage des Petites-Fauconnières ist eine reine Rinderalp ohne Käseproduktion. Es ist währschafte Kost, die in Petites Fauconnières auf den Tisch kommt. Neben den verschiedenen Röstis und Fondues sind hier vor allem die hausgemachten Maccaroni beliebt. Das hat sich herumgesprochen, und so treffen sich hier – etwas abseits des Rummels um den Creux du Van, auch die Einheimischen und die Familien aus der Region, um etwas Alpluft zu schnuppern. Die Alp ist von Anfang Mai bis Ende November belebt. Es gibt eine Dépendance mit 25 Schlafplätzen und zwei Zimmer mit 2 und 4 Betten. Informationen: Tel. +41 32 863 31 22, +41 79 446 39 83 oder http://www.myvaldetravers.ch&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593777227_1853386618Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alpage Les Petits Fauconnières. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#181</styleUrl>
+            <Point id="179">
                 <coordinates>6.708044798744102,46.92256637450007,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="793">
-            <description>&lt;h4&gt;&lt;a href=http://www.sentiero-calanca.ch target=_blank&gt;Alp de Fora&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000099 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Alp di Fora hat 16 Schlafplätze und eine heizbare Küche mit Gasherd. Getränke können gekauft werden. Die Reservation läuft über die Capanna Buffalora: Tel. +41 (0)91 828 14 67 oder Mobile +41 (0)79 772 45 13 oder http://www.sentiero-calanca.ch.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1589972751_304977330Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#794</styleUrl>
-            <Point id="792">
+        <Placemark id="185">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
+                &lt;a href=http://www.sentiero-calanca.ch target=_blank&gt;Alp de Fora&lt;/a&gt;
+                &lt;small&gt;Associazione Sentieri Alpini Calanca&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000099 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Alp di Fora hat 16 Schlafplätze und eine heizbare Küche mit Gasherd. Getränke können gekauft werden. Die Reservation läuft über die Capanna Buffalora: Tel. +41 (0)91 828 14 67 oder Mobile +41 (0)79 772 45 13 oder http://www.sentiero-calanca.ch.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1589972751_304977330Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Alp de Fora. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#186</styleUrl>
+            <Point id="184">
                 <coordinates>9.13915759447716,46.29702234192467,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="798">
-            <description>&lt;h4&gt;&lt;a href=https://www.ticino.ch/de/farmhouses/details/Alpe-Cedullo/105372.html target=_blank&gt;Alpe Cedullo&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436218 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Geöffnet während der Alpzeit von Anfang Mai bis Ende Oktober. Es steht ein einfaches Mehrbettzimmer mit 6 Kajütenbetten mit Bettdecken zur Verfügung. Infos und Reservation: Tel. +41 91 794 13 83 / +41 79 476 23 75. Es gibt eine Osteria und Halbpension.
-Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Oratorio di Sant Anna 15 Minuten von der Alpe Cedullo entfernt weitere 12 Schlafplätze mit Wolldecken. Informationen bei der Alpe Cedullo.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1589965550_2037617558Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#799</styleUrl>
-            <Point id="797">
+        <Placemark id="190">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=https://www.ticino.ch/de/farmhouses/details/Alpe-Cedullo/105372.html target=_blank&gt;Alpe Cedullo&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436218 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Geöffnet während der Alpzeit von Anfang Mai bis Ende Oktober. Es steht ein einfaches Mehrbettzimmer mit 6 Kajütenbetten mit Bettdecken zur Verfügung. Infos und Reservation: Tel. +41 91 794 13 83 / +41 79 476 23 75. Es gibt eine Osteria und Halbpension.
+Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Oratorio di Sant Anna 15 Minuten von der Alpe Cedullo entfernt weitere 12 Schlafplätze mit Wolldecken. Informationen bei der Alpe Cedullo.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1589965550_2037617558Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alpe Cedullo. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#191</styleUrl>
+            <Point id="189">
                 <coordinates>8.816204639535842,46.10954431382241,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="803">
-            <description>&lt;h4&gt;&lt;a href=http://www.waser-bergwelt.ch/ target=_blank&gt;Alp Oberfeld&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436039 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Seit über hundert Jahren ist die Alp Oberfeld im Besitz der Familie Waser vom Bergbauernhof Ifängi hoch über Grafenort. Da die Alp Oberfeld nur über ein kleines, aber feines Massenlager für die Kinder und eine „Oberfeld-Suite“ für die Eltern verfügt, lohnt sich eine Anmeldung. Geöffnet ist die Alpwirtschaft von Juni bis Oktober, Wenn keine Plätze mehr verfügbar sind, bietet sich als Alternative das Berggasthaus Urnerstaffel an (Zimmer und Massenlager, ganzjährig geöffnet ausser November).&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1589554358_430712889Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#804</styleUrl>
-            <Point id="802">
+        <Placemark id="195">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.waser-bergwelt.ch/ target=_blank&gt;Alp Oberfeld&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436039 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Seit über hundert Jahren ist die Alp Oberfeld im Besitz der Familie Waser vom Bergbauernhof Ifängi hoch über Grafenort. Da die Alp Oberfeld nur über ein kleines, aber feines Massenlager für die Kinder und eine „Oberfeld-Suite“ für die Eltern verfügt, lohnt sich eine Anmeldung. Geöffnet ist die Alpwirtschaft von Juni bis Oktober, Wenn keine Plätze mehr verfügbar sind, bietet sich als Alternative das Berggasthaus Urnerstaffel an (Zimmer und Massenlager, ganzjährig geöffnet ausser November).&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1589554358_430712889Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alp Oberfeld. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#196</styleUrl>
+            <Point id="194">
                 <coordinates>8.42296107019881,46.8671318692204,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="808">
-            <description>&lt;h4&gt;&lt;a href=http://www.vs-wallis.ch target=_blank&gt;Ammertenhütte&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000012 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Kleine Privatunterkunft am Bergweg von der Lenk zum Ammertepass. Nicht bewartet. Kleine und einfache Kochgelegenheit. Immer offen (Türfalle nach oben drücken).&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1552394640_1513561186Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#809</styleUrl>
-            <Point id="807">
+        <Placemark id="200">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
+                &lt;a href=http://www.vs-wallis.ch target=_blank&gt;Ammertenhütte&lt;/a&gt;
+                &lt;small&gt;Hans Allemann&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000012 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Kleine Privatunterkunft am Bergweg von der Lenk zum Ammertepass. Nicht bewartet. Kleine und einfache Kochgelegenheit. Immer offen (Türfalle nach oben drücken).&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1552394640_1513561186Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt; (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#201</styleUrl>
+            <Point id="199">
                 <coordinates>7.514739527496114,46.425899627835086,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="813">
-            <description>&lt;h4&gt;&lt;a href=http://www.anenhuette.ch target=_blank&gt;Anenhütte Peter Tscherrig&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000013 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Private alpine Unterkunft, eher ein Hotel, im hinteren Lötschental gelegen. Sehr schöne Architektur, die sich gut ins Landschaftsbild einfügt und einen speziellen Akzent setzt.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1537865567_2032951971Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#814</styleUrl>
-            <Point id="812">
+        <Placemark id="205">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.anenhuette.ch target=_blank&gt;Anenhütte Peter Tscherrig&lt;/a&gt;
+                &lt;small&gt;Peter Tscherrig&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000013 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Private alpine Unterkunft, eher ein Hotel, im hinteren Lötschental gelegen. Sehr schöne Architektur, die sich gut ins Landschaftsbild einfügt und einen speziellen Akzent setzt.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1537865567_2032951971Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Anenhütte Peter Tscherrig. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#206</styleUrl>
+            <Point id="204">
                 <coordinates>7.911633630801625,46.45444577771577,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="818">
-            <description>&lt;h4&gt;&lt;a href=http://sac.zermatt.ch/verein/arbenbiwak target=_blank&gt;Arbenbiwak SAC&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000016 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Am Fusse des Ober Gabelhorns gelegen, dient die kleine Unterkunft mit 15 Schlafplätzen und voll ausgerüsteter Küche erfahrenen Bergsteigern mit entsprechender Ausrüstung als Stützpunkt. Die nicht bewartete alpine Sommerhütte war 1977 ein Geschenk der Königlichen Niederländischen Alpenvereinigung an die SAC Sektion Zermatt anlässlich des 75 Jahr-Jubiläums des KNAV. Eindrücklicher Blick zum Matterhorngletscher und in die Matterhorn-Nordwand.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1528786548_1861812040Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#819</styleUrl>
-            <Point id="817">
+        <Placemark id="210">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-sac.png&quot;&gt;
+                &lt;a href=http://sac.zermatt.ch/verein/arbenbiwak target=_blank&gt;Arbenbiwak SAC&lt;/a&gt;
+                &lt;small&gt;SAC Zermatt&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000016 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Am Fusse des Ober Gabelhorns gelegen, dient die kleine Unterkunft mit 15 Schlafplätzen und voll ausgerüsteter Küche erfahrenen Bergsteigern mit entsprechender Ausrüstung als Stützpunkt. Die nicht bewartete alpine Sommerhütte war 1977 ein Geschenk der Königlichen Niederländischen Alpenvereinigung an die SAC Sektion Zermatt anlässlich des 75 Jahr-Jubiläums des KNAV. Eindrücklicher Blick zum Matterhorngletscher und in die Matterhorn-Nordwand.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1528786548_1861812040Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Arbenbiwak SAC (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#211</styleUrl>
+            <Point id="209">
                 <coordinates>7.665167672897683,46.03133225955094,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="823">
-            <description>&lt;h4&gt;&lt;a href=https://aubergedechindonne.ch/ target=_blank&gt;Auberge de Chindonne&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147437297 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Da man mit dem Auto bis zur Auberge de Chindonne vorfahren kann, hat diese den Charakter eines Bergrestaurants. So setzt man sich zu den anderen Gästen, geniesst das Bier vom Fass und eine gutbürgerliche Küche. Auch duschen kann man hier, was man nach einer anstrengenden Etappe zu schätzen weiss. Die Auberge des Chindonne verfügt über ein einfachens Massenlager. Daunendecken und Kopfkissen sind zwar vorhanden, ein selbst mitgebrachter Leintuchschlafsack sorgt aber trotzdem für mehr Hygiene. Daneben gibt es zwei Zweierzimmer – wer also etwas Privatsphäre wünscht, muss beizeiten reservieren. Denn vor allem an schönen Wochenenden ist auch am Abend einiges los, und vielleicht ist auch im Bankettsaal Betrieb. Nun: Wenn man müde ist, wird das alles kein Problem sein und am nächsten Morgen frisch und gestärkt weiterziehen.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593766418_2143866069Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#824</styleUrl>
-            <Point id="822">
+        <Placemark id="215">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=https://aubergedechindonne.ch/ target=_blank&gt;Auberge de Chindonne&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147437297 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Da man mit dem Auto bis zur Auberge de Chindonne vorfahren kann, hat diese den Charakter eines Bergrestaurants. So setzt man sich zu den anderen Gästen, geniesst das Bier vom Fass und eine gutbürgerliche Küche. Auch duschen kann man hier, was man nach einer anstrengenden Etappe zu schätzen weiss. Die Auberge des Chindonne verfügt über ein einfachens Massenlager. Daunendecken und Kopfkissen sind zwar vorhanden, ein selbst mitgebrachter Leintuchschlafsack sorgt aber trotzdem für mehr Hygiene. Daneben gibt es zwei Zweierzimmer – wer also etwas Privatsphäre wünscht, muss beizeiten reservieren. Denn vor allem an schönen Wochenenden ist auch am Abend einiges los, und vielleicht ist auch im Bankettsaal Betrieb. Nun: Wenn man müde ist, wird das alles kein Problem sein und am nächsten Morgen frisch und gestärkt weiterziehen.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593766418_2143866069Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Auberge de Chindonne. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#216</styleUrl>
+            <Point id="214">
                 <coordinates>6.952252048750768,46.214399828816234,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="828">
-            <description>&lt;h4&gt;&lt;a href=http://www.salanfe.ch target=_blank&gt;Auberge de Salanfe&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147303900 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Auberge de Salanfe ist Etappenort zahlreicher Rundtouren und grosser Mehretappenwanderungen, geöffnet in der Sommersaison. 100 Plätze in Mehrbettzimmern, 20 Plätze in Doppel- oder Dreibettzimmern.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1595398585_125058401Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#829</styleUrl>
-            <Point id="827">
+        <Placemark id="220">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.salanfe.ch target=_blank&gt;Auberge de Salanfe&lt;/a&gt;
+                &lt;small&gt;Commune d'Evionnaz&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147303900 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Auberge de Salanfe ist Etappenort zahlreicher Rundtouren und grosser Mehretappenwanderungen, geöffnet in der Sommersaison. 100 Plätze in Mehrbettzimmern, 20 Plätze in Doppel- oder Dreibettzimmern.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1595398585_125058401Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Auberge de Salanfe. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#221</styleUrl>
+            <Point id="219">
                 <coordinates>6.97052683485254,46.144652309958715,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="833">
-            <description>&lt;h4&gt;&lt;a href=http://www.aeugstenhuette.ch target=_blank&gt;Äugstenhütte&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000020 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1536314386_1412312281Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#834</styleUrl>
-            <Point id="832">
+        <Placemark id="225">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
+                &lt;a href=http://www.aeugstenhuette.ch target=_blank&gt;Äugstenhütte&lt;/a&gt;
+                &lt;small&gt;Ortsgemeinde Ennenda&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000020 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1536314386_1412312281Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Äugstenhütte. (&amp;copy; Hansueli Rhyner)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#226</styleUrl>
+            <Point id="224">
                 <coordinates>9.106782100913087,47.027201366884896,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="838">
-            <description>&lt;h4&gt;&lt;a href=http://www.baechlitalhuette.ch target=_blank&gt;Bächlitalhütte SAC&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.alpsonline.org/reservation/calendar?hut_id=23&amp;lang=de_CH target=_blank&gt;Reservation&lt;/a&gt; | &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000021 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;ul style=&quot;list-style-type:none;&quot;&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;27.09.2020:&lt;/i&gt; &lt;b&gt;45&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;28.09.2020:&lt;/i&gt; &lt;b&gt;45&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;29.09.2020:&lt;/i&gt; &lt;b&gt;45&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;30.09.2020:&lt;/i&gt; &lt;b&gt;45&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;01.10.2020:&lt;/i&gt; &lt;b&gt;45&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;02.10.2020:&lt;/i&gt; &lt;b&gt;45&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;03.10.2020:&lt;/i&gt; &lt;b&gt;34&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;04.10.2020:&lt;/i&gt; &lt;b&gt;42&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;05.10.2020:&lt;/i&gt; &lt;b&gt;32&lt;/b&gt;/45&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;06.10.2020:&lt;/i&gt; &lt;b&gt;41&lt;/b&gt;/45&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Auf einem Felsvorsprung thront die Hütte mitten im Grimselgebiet. Beliebt für klassische hochalpine Touren und Überschreitungen im Sommer und Winter, wie auch fürs Sportklettern. Das Gebiet ist bekannt für Kinder- und Jugendlichen-Kletterangebote, sowie Eis- und alpine Ausbildung am Bächligletscher. Natursteinstufen, der «Flechtenweg» und eine bedeutende alpine Schwemmlandschaft entlang des Hüttenzustiegs sind Besonderheiten dieser Hütte im Haslital.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1521129729_1734077068Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#839</styleUrl>
-            <Point id="837">
+        <Placemark id="230">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
+                &lt;a href=http://www.baechlitalhuette.ch target=_blank&gt;Bächlitalhütte SAC&lt;/a&gt;
+                &lt;small&gt;SAC Am Albis&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;a href=https://www.alpsonline.org/reservation/calendar?hut_id=23&amp;lang=de_CH target=_blank&gt;Online Reservierung&lt;/a&gt; | &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000021 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;ul class=&quot;list-inline list-unstyled hut-date-list&quot;&gt;
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mo&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;28.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;45&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Di&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;29.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;45&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mi&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;30.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;45&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Do&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;01.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;45&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Fr&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;02.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;45&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Sa&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;03.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;34&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;So&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;04.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;42&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mo&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;05.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;32&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Di&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;06.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;41&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/25.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mi&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;07.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;45&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/45&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   &lt;/ul&gt;&lt;p&gt;Auf einem Felsvorsprung thront die Hütte mitten im Grimselgebiet. Beliebt für klassische hochalpine Touren und Überschreitungen im Sommer und Winter, wie auch fürs Sportklettern. Das Gebiet ist bekannt für Kinder- und Jugendlichen-Kletterangebote, sowie Eis- und alpine Ausbildung am Bächligletscher. Natursteinstufen, der «Flechtenweg» und eine bedeutende alpine Schwemmlandschaft entlang des Hüttenzustiegs sind Besonderheiten dieser Hütte im Haslital.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1521129729_1734077068Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Bächlitalhütte SAC, Aussenansicht. (&amp;copy; Zettel/Schulthess)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#231</styleUrl>
+            <Point id="229">
                 <coordinates>8.282681550901897,46.587037979835685,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="843">
-            <description>&lt;h4&gt;&lt;a href=http://www.badushuette.ch target=_blank&gt;Badushütte&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.alpsonline.org/reservation/calendar?hut_id=21&amp;lang=de_CH target=_blank&gt;Reservation&lt;/a&gt; | &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000022 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;ul style=&quot;list-style-type:none;&quot;&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;27.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;28.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;29.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;30.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;01.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;02.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;03.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;04.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;05.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;06.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Die Hütte wird von Juli bis September von Sektionsmitgliedern bewartet. Im Angebot sind einfache Mahlzeiten und verschiedene Getränke.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1518015240_1109393234Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#844</styleUrl>
-            <Point id="842">
+        <Placemark id="235">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.badushuette.ch target=_blank&gt;Badushütte&lt;/a&gt;
+                &lt;small&gt;SAC Manegg&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;a href=https://www.alpsonline.org/reservation/calendar?hut_id=21&amp;lang=de_CH target=_blank&gt;Online Reservierung&lt;/a&gt; | &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000022 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;ul class=&quot;list-inline list-unstyled hut-date-list&quot;&gt;
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mo&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;28.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Di&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;29.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mi&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;30.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Do&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;01.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Fr&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;02.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Sa&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;03.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;So&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;04.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mo&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;05.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Di&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;06.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mi&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;07.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   &lt;/ul&gt;&lt;p&gt;Die Hütte wird von Juli bis September von Sektionsmitgliedern bewartet. Im Angebot sind einfache Mahlzeiten und verschiedene Getränke.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1518015240_1109393234Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Badushütte, Aussenansicht. (&amp;copy; graubuenden.ch)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#236</styleUrl>
+            <Point id="234">
                 <coordinates>8.668381459804491,46.63653276443184,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="848">
-            <description>&lt;h4&gt;&lt;a href=http://casticino.ch/baita-del-luca/ target=_blank&gt;Baita del Luca&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147443913 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Privathütte der Sektion Ticino des Club Alpino Svizzero. 16 Schlafplätze mit Duvets, Gasherd, Holzcheminée, Warmwasser und Dusche. Getränke vorhanden. Die Hütte ist geschlossen, der Schlüsselcode kann beim Hüttenverantwortlichen angefragt werden.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1573648573_285017483Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#849</styleUrl>
-            <Point id="847">
+        <Placemark id="240">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
+                &lt;a href=http://casticino.ch/baita-del-luca/ target=_blank&gt;Baita del Luca&lt;/a&gt;
+                &lt;small&gt;CAS Ticino&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147443913 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Privathütte der Sektion Ticino des Club Alpino Svizzero. 16 Schlafplätze mit Duvets, Gasherd, Holzcheminée, Warmwasser und Dusche. Getränke vorhanden. Die Hütte ist geschlossen, der Schlüsselcode kann beim Hüttenverantwortlichen angefragt werden.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1573648573_285017483Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Baita del Luca (Cioascio). (&amp;copy; Marco Volken)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#241</styleUrl>
+            <Point id="239">
                 <coordinates>9.02811889500652,46.06339974597074,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="853">
-            <description>&lt;h4&gt;&lt;a href=http://www.balmhornhuette.ch target=_blank&gt;Balmhornhütte SAC&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000024 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das gemütliche, authentische Sommerhüttli erinnert an frühere Zeiten. Fast senkrecht über dem Kandersteger Gasteretal, auf der Talschulter am Fusse des Balmhorns gelegen, umgeben von grünen Bergwiesen, begeistert das kleine Bijou vor allem wegen seiner Lage auf einer Aussichtskanzel. Alpinwanderer besteigen anderntags gerne den Gasterespitz am Wildelsigegrat mit überwältigender Sicht über den Kanderfirn bis hin zu Eiger, Mönch und Jungfrau.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1530187848_1217311200Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#854</styleUrl>
-            <Point id="852">
+        <Placemark id="245">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
+                &lt;a href=http://www.balmhornhuette.ch target=_blank&gt;Balmhornhütte SAC&lt;/a&gt;
+                &lt;small&gt;SAC Altels&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000024 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das gemütliche, authentische Sommerhüttli erinnert an frühere Zeiten. Fast senkrecht über dem Kandersteger Gasteretal, auf der Talschulter am Fusse des Balmhorns gelegen, umgeben von grünen Bergwiesen, begeistert das kleine Bijou vor allem wegen seiner Lage auf einer Aussichtskanzel. Alpinwanderer besteigen anderntags gerne den Gasterespitz am Wildelsigegrat mit überwältigender Sicht über den Kanderfirn bis hin zu Eiger, Mönch und Jungfrau.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1530187848_1217311200Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Balmhornhütte SAC, Aussenansicht. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#246</styleUrl>
+            <Point id="244">
                 <coordinates>7.689567354207958,46.45128542486783,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="858">
-            <description>&lt;h4&gt;&lt;a href=http://www.baltschiederklause.ch target=_blank&gt;Baltschiederklause SAC&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.alpsonline.org/reservation/calendar?hut_id=349&amp;lang=de_CH target=_blank&gt;Reservation&lt;/a&gt; | &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000025 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;ul style=&quot;list-style-type:none;&quot;&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-1.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;27.09.2020:&lt;/i&gt; &lt;b&gt;36&lt;/b&gt;/36&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;28.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;29.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;30.09.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;01.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;02.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;03.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;04.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;05.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;li&gt;&lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/pie-0.png&quot;  width=&quot;9&quot; height=&quot;9&quot;&gt; &lt;i&gt;06.10.2020:&lt;/i&gt; &lt;b&gt;0&lt;/b&gt;/0&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Abgelegene Hütte, weit hinten im Baltschiedertal am Südfuss des Jägihorns (3406 m) gelegen. Eigentum der SAC-Sektion Blüemlisalp, Thun. Erbaut 1922. Benannt nach Julius Klause aus Oberuster, Stifter der Hütte. Im Winter nur bei sehr günstigen Verhältnissen zugänglich.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1528877834_687682670Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#859</styleUrl>
-            <Point id="857">
+        <Placemark id="250">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
+                &lt;a href=http://www.baltschiederklause.ch target=_blank&gt;Baltschiederklause SAC&lt;/a&gt;
+                &lt;small&gt;SAC Blümlisalp&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;a href=https://www.alpsonline.org/reservation/calendar?hut_id=349&amp;lang=de_CH target=_blank&gt;Online Reservierung&lt;/a&gt; | &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000025 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;ul class=&quot;list-inline list-unstyled hut-date-list&quot;&gt;
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mo&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;28.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Di&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;29.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mi&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;30.09.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Do&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;01.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Fr&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;02.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Sa&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;03.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;So&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;04.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mo&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;05.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Di&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;06.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   
+                    &lt;li class=&quot;hut-date-element&quot;&gt;
+                      &lt;div class=&quot;icon&quot;&gt;
+                		    &lt;img src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/pie/-1.png&quot;&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;date&quot;&gt;
+                        &lt;b&gt;Mi&lt;/b&gt;&lt;br&gt;
+                        &lt;small  class=&quot;text-muted&quot;&gt;07.10.20&lt;/small&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;free&quot;&gt;
+                        &lt;strong style=&quot;font-size: 13px;&quot;&gt;0&lt;/strong&gt;&lt;small class=&quot;text-muted&quot;&gt;/0&lt;/small&gt;
+                      &lt;/div&gt;
+                   &lt;/li&gt;
+                   &lt;/ul&gt;&lt;p&gt;Abgelegene Hütte, weit hinten im Baltschiedertal am Südfuss des Jägihorns (3406 m) gelegen. Eigentum der SAC-Sektion Blüemlisalp, Thun. Erbaut 1922. Benannt nach Julius Klause aus Oberuster, Stifter der Hütte. Im Winter nur bei sehr günstigen Verhältnissen zugänglich.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1528877834_687682670Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Baltschiederklause SAC, Aussenansicht. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#251</styleUrl>
+            <Point id="249">
                 <coordinates>7.889793548519467,46.395072603998315,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="863">
-            <description>&lt;h4&gt;&lt;a href=http://www.rotsteinpass.ch target=_blank&gt;Berggasthaus Rotsteinpass&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000224 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das auf 2124 m.ü.M. gelegene Berggasthaus Rotsteinpass liegt zwischen Säntis und Altmann auf dem Übergang vom Appenzellerland ins Toggenburg und ist durch Wanderwege gut erschlossen. Nicht nur trittfeste Wanderer und Kletterer, sondern im Winter auch begeisterte Skitourenfahrer kommen hier oben auf ihre Kosten. 
-Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Rotsteinpass bereits an Wochenenden und Feiertagen (Ostern, Pfingsten, etc.) im Frühling geöffnet.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1537881010_65685791Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#864</styleUrl>
-            <Point id="862">
+        <Placemark id="255">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.rotsteinpass.ch target=_blank&gt;Berggasthaus Rotsteinpass&lt;/a&gt;
+                &lt;small&gt;Cäcilia und Albert Wyss-Räss&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000224 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das auf 2124 m.ü.M. gelegene Berggasthaus Rotsteinpass liegt zwischen Säntis und Altmann auf dem Übergang vom Appenzellerland ins Toggenburg und ist durch Wanderwege gut erschlossen. Nicht nur trittfeste Wanderer und Kletterer, sondern im Winter auch begeisterte Skitourenfahrer kommen hier oben auf ihre Kosten. 
+Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Rotsteinpass bereits an Wochenenden und Feiertagen (Ostern, Pfingsten, etc.) im Frühling geöffnet.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1537881010_65685791Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berggasthaus Rotsteinpass (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#256</styleUrl>
+            <Point id="254">
                 <coordinates>9.365200687111027,47.24305449018079,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="868">
-            <description>&lt;h4&gt;&lt;a href=http://www.taelli.ch/ target=_blank&gt;Berggasthaus Tällihütte&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000263 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Tällihütte am Fuss der &quot;Gadmer Dolomiten&quot; ist ein per Luftseilbahn bequem erreichbares Berggasthaus. Im Sommerhalbjahr bietet es 37 Schlafplätze in verschiedenen Zimmergrössen. Es ist Ausgangspunkt für den Klettersteig Tälli und Wanderungen in der Südflanke des Gadmertales oder zur Engstlenalp im Gental.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1537882627_970037372Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#869</styleUrl>
-            <Point id="867">
+        <Placemark id="260">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.taelli.ch/ target=_blank&gt;Berggasthaus Tällihütte&lt;/a&gt;
+                &lt;small&gt;Kraftwerke Oberhasli AG&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000263 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die Tällihütte am Fuss der &quot;Gadmer Dolomiten&quot; ist ein per Luftseilbahn bequem erreichbares Berggasthaus. Im Sommerhalbjahr bietet es 37 Schlafplätze in verschiedenen Zimmergrössen. Es ist Ausgangspunkt für den Klettersteig Tälli und Wanderungen in der Südflanke des Gadmertales oder zur Engstlenalp im Gental.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1537882627_970037372Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Tällihütte (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#261</styleUrl>
+            <Point id="259">
                 <coordinates>8.328416886167386,46.74018121977818,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="873">
-            <description>&lt;h4&gt;&lt;a href=http://www.zermatt.ch/trift target=_blank&gt;Berggasthaus Trift&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000276 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Traditionsreiches Berggasthaus im einzigen Tal um Zermatt, das nicht von Bergbahnen und Skipisten erschlossen ist. Stützpunkt auf Wanderungen und beliebte Zwischenstation auf dem Weg zur Rothornhütte SAC. Geöffnet in der Sommersaison, Übernachtungsmöglichkeit in 8 Doppelzimmern, einem Dreierzimmer und 30 Plätzen im Lager.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1534411934_2031699432Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#874</styleUrl>
-            <Point id="872">
+        <Placemark id="265">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.zermatt.ch/trift target=_blank&gt;Berggasthaus Trift&lt;/a&gt;
+                &lt;small&gt;Hugo Biner&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000276 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Traditionsreiches Berggasthaus im einzigen Tal um Zermatt, das nicht von Bergbahnen und Skipisten erschlossen ist. Stützpunkt auf Wanderungen und beliebte Zwischenstation auf dem Weg zur Rothornhütte SAC. Geöffnet in der Sommersaison, Übernachtungsmöglichkeit in 8 Doppelzimmern, einem Dreierzimmer und 30 Plätzen im Lager.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1534411934_2031699432Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghaus Trift. (&amp;copy; Matthias Huss)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#266</styleUrl>
+            <Point id="264">
                 <coordinates>7.721083464594411,46.030036581521614,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="878">
-            <description>&lt;h4&gt;&lt;a href=https://baeregg.com/ target=_blank&gt;Berghaus Bäregg&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436705 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das Berghaus Bäregg liegt am Westhang des Mättenberges, hoch über dem Unteren Grindelwaldgletscher. Der Besuch der Bäregg ist ein lohnender und interessanter Tagesausflug, welcher durch ein Gebiet führt, wo die Auswirkungen des Gletscherrückgangs eindrücklich sichtbar sind. Das Berghaus Bäregg dient auch als Ausgangspunkt für die alpinen Sportklettereien am Hohturnen und für die Besteigung des Mättenbergs. Das Berghaus Bäregg würde 2006 gebaut, nachdem ein Jahr zuvor das Restaurant Stieregg durch das Abrutschen der Moräne akut gefährdet war und nicht mehr betrieben werden konnte. Das Berghaus Bäregg hat einen legendären Vorgänger. Rund 120 Höhenmeter weiter unten wurde 1858 das erste Bäregg-Wirtshaus erstellt. Nachdem 1940 eine Lawine zum dritten Mal das Bäregg-Gasthaus zerstört hatte, wurde es nicht mehr aufgebaut. Ruinen sind am heutigen Weg noch sichtbar.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1565015180_1978065872Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#879</styleUrl>
-            <Point id="877">
+        <Placemark id="270">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
+                &lt;a href=https://baeregg.com/ target=_blank&gt;Berghaus Bäregg&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436705 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das Berghaus Bäregg liegt am Westhang des Mättenberges, hoch über dem Unteren Grindelwaldgletscher. Der Besuch der Bäregg ist ein lohnender und interessanter Tagesausflug, welcher durch ein Gebiet führt, wo die Auswirkungen des Gletscherrückgangs eindrücklich sichtbar sind. Das Berghaus Bäregg dient auch als Ausgangspunkt für die alpinen Sportklettereien am Hohturnen und für die Besteigung des Mättenbergs. Das Berghaus Bäregg würde 2006 gebaut, nachdem ein Jahr zuvor das Restaurant Stieregg durch das Abrutschen der Moräne akut gefährdet war und nicht mehr betrieben werden konnte. Das Berghaus Bäregg hat einen legendären Vorgänger. Rund 120 Höhenmeter weiter unten wurde 1858 das erste Bäregg-Wirtshaus erstellt. Nachdem 1940 eine Lawine zum dritten Mal das Bäregg-Gasthaus zerstört hatte, wurde es nicht mehr aufgebaut. Ruinen sind am heutigen Weg noch sichtbar.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1565015180_1978065872Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghaus Bäregg. (&amp;copy; Heiri Büchler)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#271</styleUrl>
+            <Point id="269">
                 <coordinates>8.05999812819012,46.60048971343496,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="883">
-            <description>&lt;h4&gt;&lt;a href=https://www.diavolezza.ch/ target=_blank&gt;Berghaus Diavolezza&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000077 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das Berghaus Diavolezza ist ein beliebter und bequemer Ausgangspunkt für die klassischen (Ski-)Hochtouren im östlichen Berninagebiet. Das Berghaus ist Eigentum der Bergbahnen, direkt an die Bergstation angebaut und während den Betriebszeiten der Bahn bewartet.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1574667161_1414773011Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#884</styleUrl>
-            <Point id="882">
+        <Placemark id="275">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=https://www.diavolezza.ch/ target=_blank&gt;Berghaus Diavolezza&lt;/a&gt;
+                &lt;small&gt;Bergbahnen ENGADIN St. Moritz AG&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000077 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das Berghaus Diavolezza ist ein beliebter und bequemer Ausgangspunkt für die klassischen (Ski-)Hochtouren im östlichen Berninagebiet. Das Berghaus ist Eigentum der Bergbahnen, direkt an die Bergstation angebaut und während den Betriebszeiten der Bahn bewartet.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1574667161_1414773011Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghaus Diavolezza frisch verschneit. (&amp;copy; Fabian Lippuner)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#276</styleUrl>
+            <Point id="274">
                 <coordinates>9.965013308305586,46.41210063524525,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="888">
-            <description>&lt;h4&gt;&lt;a href=http://www.ritom.ch/ristori/rifugio-foeisc target=_blank&gt;Berghaus Flue (Fluhalp)&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000096 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das Berghaus Flue (Fluhalp) ist ein mächtiger, von der Sonne gebräunter Holzbau am Nordufer des Findelgletschers. Idealer Ausgangspunkt für Touren am Rimpfisch- und Strahlhorn.
-Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten Frühjahr bewartet.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1552314222_849093815Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#889</styleUrl>
-            <Point id="887">
+        <Placemark id="280">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.ritom.ch/ristori/rifugio-foeisc target=_blank&gt;Berghaus Flue (Fluhalp)&lt;/a&gt;
+                &lt;small&gt;Fam. Taugwalder&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000096 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Das Berghaus Flue (Fluhalp) ist ein mächtiger, von der Sonne gebräunter Holzbau am Nordufer des Findelgletschers. Idealer Ausgangspunkt für Touren am Rimpfisch- und Strahlhorn.
+Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten Frühjahr bewartet.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1552314222_849093815Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghaus Flue mit von links: Rimpfischhorn, Strahlhorn, Adlerhorn. (&amp;copy; Ludwig Weh)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#281</styleUrl>
+            <Point id="279">
                 <coordinates>7.81098249440367,46.012773904678916,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="893">
-            <description>&lt;h4&gt;&lt;a href=https://www.faulhorn.ch target=_blank&gt;Berghotel Faulhorn&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436041 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Seit 1830 trotzt das berühmte Berggasthaus auf dem Gipfel des Faulhorns (Bedeutung: faules Gestein) weitgehend unverändert Wind und Wetter. Der Bau war für die damalige Zeit eine bewundernswerte Leistung. Heute können viele Berge bequem mit der Bahn erreicht werden. Trotzdem – oder gerade deshalb – ist das Faulhorn ein beliebtes Ausflugsziel. Denn diesen einzigartigen Ort erreicht man nur unter körperlicher Anstrengung. Das Berghotel Faulhorn zählt zu den ältesten Berggasthäusern der Alpen mit touristischer Zweckbestimmung. Als älteste alpine Unterkunft im Berner Oberland gilt die 1823 erstellte Stieregghütte (2006 neu erstellt als Bäregghütte) am Unteren Grindelwaldgletscher. Der Berg verdankt seinen Namen dem zerbröckelnden schwarzen Kalkschiefer, dem sogenannten faulen Gestein. In der Schweiz werden auch verschiedene andere Berge nach dieser Steinart benannt, zum Beispiel Faulenberg, die Faulenfluh oder der Faulen.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1590413714_470737525Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#894</styleUrl>
-            <Point id="892">
+        <Placemark id="285">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=https://www.faulhorn.ch target=_blank&gt;Berghotel Faulhorn&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436041 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Seit 1830 trotzt das berühmte Berggasthaus auf dem Gipfel des Faulhorns (Bedeutung: faules Gestein) weitgehend unverändert Wind und Wetter. Der Bau war für die damalige Zeit eine bewundernswerte Leistung. Heute können viele Berge bequem mit der Bahn erreicht werden. Trotzdem – oder gerade deshalb – ist das Faulhorn ein beliebtes Ausflugsziel. Denn diesen einzigartigen Ort erreicht man nur unter körperlicher Anstrengung. Das Berghotel Faulhorn zählt zu den ältesten Berggasthäusern der Alpen mit touristischer Zweckbestimmung. Als älteste alpine Unterkunft im Berner Oberland gilt die 1823 erstellte Stieregghütte (2006 neu erstellt als Bäregghütte) am Unteren Grindelwaldgletscher. Der Berg verdankt seinen Namen dem zerbröckelnden schwarzen Kalkschiefer, dem sogenannten faulen Gestein. In der Schweiz werden auch verschiedene andere Berge nach dieser Steinart benannt, zum Beispiel Faulenberg, die Faulenfluh oder der Faulen.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1590413714_470737525Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Aus einer anderen Zeit: das Berghotel Faulhorn. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#286</styleUrl>
+            <Point id="284">
                 <coordinates>7.999584630904274,46.67482959892984,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="898">
-            <description>&lt;h4&gt;&lt;a href=http://www.stechelberg.ch/schlafen-und-essen/berghotel/ target=_blank&gt;Berghotel Obersteinberg&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436042 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;«Traumhaft», «einfach romantisch», «wie in einer anderen Welt» – solches liest, wer auf TripAdvisor nach dem Berghotel Obersteinberg sucht. Das Markenzeichen des Hauses: Es hat keinen Strom, nicht einmal Solarstrom.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593429637_1868960445Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#899</styleUrl>
-            <Point id="897">
+        <Placemark id="290">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.stechelberg.ch/schlafen-und-essen/berghotel/ target=_blank&gt;Berghotel Obersteinberg&lt;/a&gt;
+                &lt;small&gt;&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147436042 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;«Traumhaft», «einfach romantisch», «wie in einer anderen Welt» – solches liest, wer auf TripAdvisor nach dem Berghotel Obersteinberg sucht. Das Markenzeichen des Hauses: Es hat keinen Strom, nicht einmal Solarstrom.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1593429637_1868960445Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Das Berghotel Obersteinberg. (&amp;copy; David Coulin)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#291</styleUrl>
+            <Point id="289">
                 <coordinates>7.885488601680401,46.518142682706845,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="903">
-            <description>&lt;h4&gt;&lt;a href=http://www.schwarenbach.ch target=_blank&gt;Berghotel Schwarenbach&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000244 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Eine historische Unterkunft direkt am Weg über den Gemmipass, bereits auf Walliser Kantonsgebiet gelegen. Privatbesitz. 1742 erbaut. Geöffnet sowohl im Sommer wie auch seit einigen Jahren im Winter. Details unter &lt;a href=https://www.schwarenbach.ch target=&quot;_blank&quot;&gt;schwarenbach.ch&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1537881166_827257329Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#904</styleUrl>
-            <Point id="902">
+        <Placemark id="295">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.schwarenbach.ch target=_blank&gt;Berghotel Schwarenbach&lt;/a&gt;
+                &lt;small&gt;Peter Stoller&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000244 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Eine historische Unterkunft direkt am Weg über den Gemmipass, bereits auf Walliser Kantonsgebiet gelegen. Privatbesitz. 1742 erbaut. Geöffnet sowohl im Sommer wie auch seit einigen Jahren im Winter. Details unter &lt;a href=https://www.schwarenbach.ch target=&quot;_blank&quot;&gt;schwarenbach.ch&lt;/a&gt;.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1537881166_827257329Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghotel Schwarenbach. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#296</styleUrl>
+            <Point id="294">
                 <coordinates>7.624946578472197,46.43206918984961,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="908">
-            <description>&lt;h4&gt;&lt;a href=http://www.hohsaas-bergrestaurant.ch/ target=_blank&gt;Berghütte Hohsaas&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000134 target=_blank&gt;SAC&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die im 2006 etwas oberhalb des alten Berggasthauses erbaute moderne Berghütte Hohsaas bietet unter anderem Speiss und Trank sowie Übernachtungsmöglichkeiten mit einem unvergesslichen Blick auf das Monte-Rosa-Massiv und weitere imposante Viertausender.
-Die Unterkunft ist bei Bahnbetrieb geöffnet.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1545041631_566142191Mb.jpg&quot; width=250&gt;&lt;/p&gt;</description>
-            <styleUrl>#909</styleUrl>
-            <Point id="907">
+        <Placemark id="300">
+            <description>
+&lt;style&gt;
+  #hut-icon-title {
+    width: 30px;
+  }
+  .img-text {
+    vertical-align: text-bottom;
+  }
+  .header-links {
+    font-weight: 400;
+    font-size: 11pt;
+  }
+  .hut-date-list {
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .hut-date-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .hut-date-list::-webkit-scrollbar-track {
+      background: #ddd;
+    }
+
+    .hut-date-list::-webkit-scrollbar-thumb {
+      background: #aaa;
+    }
+  .hut-date-element {
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    /* background: #ddd; */
+    padding: 1px  !important;
+    margin: 2px;
+    width: 118px;
+  }
+
+    .hut-date-element div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hut-date-element .icon {
+        border: 0px solid red;
+        width:21px;
+    }
+    .hut-date-element .icon img {
+        height:20px;
+    }
+    .hut-date-element .date {
+        width:37px;
+        /* height:30px; */
+        border: 0px solid red;
+        line-height: 85%;
+    }
+    .hut-date-element .free {
+        width:35px;
+        /*height:30px; */
+        border: 0px solid green;
+        border-left: 2px solid #ccc;
+        padding-left: 5px;
+    }
+
+  figure figcaption {
+    padding: 0.5rem;
+  }
+  figure {
+      /* padding: 1rem!important; */
+    margin-bottom: 2rem!important;
+    padding : 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #ddd;
+  }
+
+
+&lt;/style&gt;
+&lt;h4&gt;
+                &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
+                &lt;a href=http://www.hohsaas-bergrestaurant.ch/ target=_blank&gt;Berghütte Hohsaas&lt;/a&gt;
+                &lt;small&gt;Burgener Urban&lt;/small&gt;&lt;/h4&gt;&lt;p  class=&quot;header-links&quot;&gt;&lt;img class=&quot;img-text&quot; src=&quot;https://api3.geo.admin.ch/1600183218/static/images/ico_extern.gif&quot;&gt; &lt;img src=&quot;https://www.sac-cas.ch/typo3conf/ext/usersaccassite/Resources/Public/Icons/favicon.ico&quot; height=&quot;15px&quot; class=&quot;img-text&quot;&gt; &lt;a href=https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/2147000134 target=_blank&gt;SAC Tourenportal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Die im 2006 etwas oberhalb des alten Berggasthauses erbaute moderne Berghütte Hohsaas bietet unter anderem Speiss und Trank sowie Übernachtungsmöglichkeiten mit einem unvergesslichen Blick auf das Monte-Rosa-Massiv und weitere imposante Viertausender.
+Die Unterkunft ist bei Bahnbetrieb geöffnet.&lt;/p&gt;
+                            &lt;figure class=&quot;figure&quot; style=&quot;width:300px;&quot;&gt;
+          &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1545041631_566142191Mb.jpg&quot;
+                class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
+              &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghütte Hohsaas, in der Ferne Monte Rosa, Strahlhorn, Rimpfischhorn, Allalin und Alphubel (&amp;copy; Weh Ludwig)&lt;/figcaption&gt;
+            &lt;/figure&gt;
+            </description>
+            <styleUrl>#301</styleUrl>
+            <Point id="299">
                 <coordinates>7.989265653061758,46.139422394556355,0.0</coordinates>
             </Point>
         </Placemark>

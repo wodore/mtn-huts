@@ -1,34 +1,59 @@
 <!doctype html>
 <html>
 <head>
-  <title>Free Huts</title>
+  <title>Mountain Huts Admin</title>
   <script src="{{ url_for('static', filename='script.js') }}"></script>
   <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
 </head>
-<body>
+<body class="bg-light">
+<div class="container">
 
+<h2> Get KML </h2>
 
-<h1> Get KML </h2>
-
-<form action="free-huts.kml" method="get">
-Date: <input name="date" value="now" size="20" type="date"> + 
- <input name="plus" value="0" size="10" type="number" min="0"> days<br>
-Start: <input name="start" value="1" size="10" type="number" min="1" max="400"><br>
-Stop: <input name="stop" value="380" size="10" type="number" min="1" max="400"><br>
-<input type="submit">
+<form action="huts.kml" method="get">
+  <div class="form-row align-items-center">
+    <div class="col-auto">
+      <label for="inlineFormInput">Date</label>
+      <input name="date" value="now" type="date"  class="form-control mb-2" id="inlineFormInput" placeholder="dd.mm.yyyy">
+    </div>
+    <div class="col-auto">
+      <label for="inlineFormInputGroup">Plus</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">+</div>
+        </div>
+        <input name="plus" value="0" size="10" type="number" min="0" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+        <div class="input-group-append">
+            <span class="input-group-text">days</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-auto">
+      <label  for="inlineFormInput">Limit</label>
+      <input name="_limit" value="1000" size="10" type="number" min="0"  class="form-control mb-2" id="inlineFormInput" placeholder="1000">
+    </div>
+  </div>
+   <input type="hidden" id="form-download" name="download" value="0">
+   <input type="hidden" id="form-lang" name="lang" value="de">
+  <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+  </div>
 </form>
 
-<h1> Get MAP </h2>
+<!--
+<h2> Get MAP </h2>
 
 <form action="map" method="get">
-Date: <input name="date" value="now" size="20" type="date"> + 
+Date: <input name="date" value="now" size="20" type="date"> +
  <input name="plus" value="0" size="10" type="number" min="0"> days<br>
 Start: <input name="start" value="1" size="10" type="number" min="1" max="400"><br>
 Stop: <input name="stop" value="380" size="10" type="number" min="1" max="400"><br>
 <input type="submit">
 </form>
 
-
-
+-->
+</div>
 </body>
 </html>
