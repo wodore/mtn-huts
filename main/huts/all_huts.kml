@@ -1,308 +1,315 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="1029">
-        <Style id="1032">
-            <IconStyle id="1033">
+    <Document id="1">
+        <Style id="4">
+            <IconStyle id="5">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1034">
+                <Icon id="6">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1037">
-            <IconStyle id="1038">
+        <Style id="9">
+            <IconStyle id="10">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1039">
+                <Icon id="11">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1042">
-            <IconStyle id="1043">
+        <Style id="14">
+            <IconStyle id="15">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1044">
+                <Icon id="16">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1047">
-            <IconStyle id="1048">
+        <Style id="19">
+            <IconStyle id="20">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1049">
+                <Icon id="21">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1052">
-            <IconStyle id="1053">
+        <Style id="24">
+            <IconStyle id="25">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1054">
+                <Icon id="26">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1057">
-            <IconStyle id="1058">
+        <Style id="29">
+            <IconStyle id="30">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1059">
+                <Icon id="31">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1062">
-            <IconStyle id="1063">
+        <Style id="34">
+            <IconStyle id="35">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1064">
+                <Icon id="36">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1067">
-            <IconStyle id="1068">
+        <Style id="39">
+            <IconStyle id="40">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1069">
+                <Icon id="41">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1072">
-            <IconStyle id="1073">
+        <Style id="44">
+            <IconStyle id="45">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1074">
+                <Icon id="46">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1077">
-            <IconStyle id="1078">
+        <Style id="49">
+            <IconStyle id="50">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1079">
+                <Icon id="51">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1082">
-            <IconStyle id="1083">
+        <Style id="54">
+            <IconStyle id="55">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1084">
+                <Icon id="56">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1087">
-            <IconStyle id="1088">
+        <Style id="59">
+            <IconStyle id="60">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1089">
+                <Icon id="61">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1092">
-            <IconStyle id="1093">
+        <Style id="64">
+            <IconStyle id="65">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1094">
+                <Icon id="66">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1097">
-            <IconStyle id="1098">
+        <Style id="69">
+            <IconStyle id="70">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1099">
+                <Icon id="71">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1102">
-            <IconStyle id="1103">
+        <Style id="74">
+            <IconStyle id="75">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1104">
+                <Icon id="76">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1107">
-            <IconStyle id="1108">
+        <Style id="79">
+            <IconStyle id="80">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1109">
+                <Icon id="81">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1112">
-            <IconStyle id="1113">
+        <Style id="84">
+            <IconStyle id="85">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1114">
+                <Icon id="86">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1117">
-            <IconStyle id="1118">
+        <Style id="89">
+            <IconStyle id="90">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1119">
+                <Icon id="91">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1122">
-            <IconStyle id="1123">
+        <Style id="94">
+            <IconStyle id="95">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1124">
+                <Icon id="96">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1127">
-            <IconStyle id="1128">
+        <Style id="99">
+            <IconStyle id="100">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1129">
+                <Icon id="101">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1132">
-            <IconStyle id="1133">
+        <Style id="104">
+            <IconStyle id="105">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1134">
+                <Icon id="106">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1137">
-            <IconStyle id="1138">
+        <Style id="109">
+            <IconStyle id="110">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1139">
+                <Icon id="111">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1142">
-            <IconStyle id="1143">
+        <Style id="114">
+            <IconStyle id="115">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1144">
+                <Icon id="116">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1147">
-            <IconStyle id="1148">
+        <Style id="119">
+            <IconStyle id="120">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1149">
+                <Icon id="121">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1152">
-            <IconStyle id="1153">
+        <Style id="124">
+            <IconStyle id="125">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1154">
+                <Icon id="126">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1157">
-            <IconStyle id="1158">
+        <Style id="129">
+            <IconStyle id="130">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1159">
+                <Icon id="131">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1162">
-            <IconStyle id="1163">
+        <Style id="134">
+            <IconStyle id="135">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1164">
+                <Icon id="136">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1167">
-            <IconStyle id="1168">
+        <Style id="139">
+            <IconStyle id="140">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1169">
+                <Icon id="141">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1172">
-            <IconStyle id="1173">
+        <Style id="144">
+            <IconStyle id="145">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1174">
+                <Icon id="146">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="1177">
-            <IconStyle id="1178">
+        <Style id="149">
+            <IconStyle id="150">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="1179">
+                <Icon id="151">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <name>Berghütten</name>
-        <Placemark id="1031">
+        <name>Berghütten test</name>
+<description>Attached to the ground. Intelligently places itself 
+       at the height of the underlying terrain.</description>
+  <atom:author>Tester<atom:author>         <!-- xmlns:atom -->
+  <atom:link href="Linkto"/>                 <!-- xmlns:atom -->
+  <address>Tester Adress</address>                <!-- string -->
+  <xal:AddressDetails>More Adress</xal:AddressDetails>  <!-- xmlns:xal -->
+  <phoneNumber>079</phoneNumber>        <!-- string -->
+        <Placemark id="3">
             <description>
 &lt;style&gt;
 
@@ -395,6 +402,17 @@
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-sac.png&quot;&gt;
             &lt;a href=http://www.sac-pilatus.ch target=_blank&gt;Aarbiwak SAC&lt;/a&gt;
@@ -404,12 +422,12 @@
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Aarbiwak SAC, Blick Richtung Studerhorn. (&amp;copy; Bruno Lüthi)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1032</styleUrl>
-            <Point id="1030">
-                <coordinates>8.15222678796981,46.55555404703093,0.0</coordinates>
+            <styleUrl>#4</styleUrl>
+            <Point id="2">
+                <coordinates>8.15222678796981,46.55555404703093,2780.8503462400004</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1036">
+        <Placemark id="8">
             <description>
 &lt;style&gt;
 
@@ -502,6 +520,17 @@
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
             &lt;a href=http://www.albertheimhuette.ch target=_blank&gt;Albert-Heim-Hütte SAC&lt;/a&gt;
@@ -511,12 +540,12 @@
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Albert-Heim-Hütte SAC, Aussenansicht (&amp;copy; George Eisler)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1037</styleUrl>
-            <Point id="1035">
-                <coordinates>8.463518795919578,46.60890792501105,0.0</coordinates>
+            <styleUrl>#9</styleUrl>
+            <Point id="7">
+                <coordinates>8.463518795919578,46.60890792501105,2591.41029964</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1041">
+        <Placemark id="13">
             <description>
 &lt;style&gt;
 
@@ -609,6 +638,17 @@
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
             &lt;a href=http://www.almagellerhuette.ch target=_blank&gt;Almagellerhütte SAC&lt;/a&gt;
@@ -618,12 +658,12 @@
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Almagellerhütte SAC, Aussenansicht. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1042</styleUrl>
-            <Point id="1040">
-                <coordinates>8.00769886181262,46.10766600032284,0.0</coordinates>
+            <styleUrl>#14</styleUrl>
+            <Point id="12">
+                <coordinates>8.00769886181262,46.10766600032284,2945.114704</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1046">
+        <Placemark id="18">
             <description>
 &lt;style&gt;
 
@@ -716,6 +756,17 @@
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=https://www.lafouly.ch/fr/sejourner/reservez-votre-hebergement target=_blank&gt;Alpage de la Peule (Peulaz)&lt;/a&gt;
@@ -725,12 +776,12 @@
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alpage de la Peule. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1047</styleUrl>
-            <Point id="1045">
-                <coordinates>7.112689864280237,45.898505200554006,0.0</coordinates>
+            <styleUrl>#19</styleUrl>
+            <Point id="17">
+                <coordinates>7.112689864280237,45.898505200554006,2123.5167191600003</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1051">
+        <Placemark id="23">
             <description>
 &lt;style&gt;
 
@@ -823,6 +874,17 @@
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=https://gruyere.com/fr/fromageries/alpage-la-grandsonnaz/ target=_blank&gt;Alpage La Grandsonnaz-Dessus&lt;/a&gt;
@@ -832,12 +894,12 @@
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alpage La Grandsonnaz-Dessus. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1052</styleUrl>
-            <Point id="1050">
-                <coordinates>6.551722036286589,46.85964309990491,0.0</coordinates>
+            <styleUrl>#24</styleUrl>
+            <Point id="22">
+                <coordinates>6.551722036286589,46.85964309990491,1536.6236377199998</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1056">
+        <Placemark id="28">
             <description>
 &lt;style&gt;
 
@@ -930,6 +992,17 @@
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=https://www.creuxduvan.com/restaurant-petites-fauconnieres.html target=_blank&gt;Alpage Les Petites Fauconnières&lt;/a&gt;
@@ -939,12 +1012,12 @@
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alpage Les Petits Fauconnières. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1057</styleUrl>
-            <Point id="1055">
-                <coordinates>6.708044798744102,46.92256637450007,0.0</coordinates>
+            <styleUrl>#29</styleUrl>
+            <Point id="27">
+                <coordinates>6.708044798744102,46.92256637450007,1392.31704464</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1061">
+        <Placemark id="33">
             <description>
 &lt;style&gt;
 
@@ -1037,6 +1110,17 @@
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
             &lt;a href=http://www.sentiero-calanca.ch target=_blank&gt;Alp de Fora&lt;/a&gt;
@@ -1046,12 +1130,12 @@
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Alp de Fora. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1062</styleUrl>
-            <Point id="1060">
-                <coordinates>9.13915759447716,46.29702234192467,0.0</coordinates>
+            <styleUrl>#34</styleUrl>
+            <Point id="32">
+                <coordinates>9.13915759447716,46.29702234192467,1893.5131536</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1066">
+        <Placemark id="38">
             <description>
 &lt;style&gt;
 
@@ -1144,6 +1228,17 @@
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=https://www.ticino.ch/de/farmhouses/details/Alpe-Cedullo/105372.html target=_blank&gt;Alpe Cedullo&lt;/a&gt;
@@ -1154,12 +1249,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alpe Cedullo. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1067</styleUrl>
-            <Point id="1065">
-                <coordinates>8.816204639535842,46.10954431382241,0.0</coordinates>
+            <styleUrl>#39</styleUrl>
+            <Point id="37">
+                <coordinates>8.816204639535842,46.10954431382241,1337.3048506399998</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1071">
+        <Placemark id="43">
             <description>
 &lt;style&gt;
 
@@ -1252,6 +1347,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.waser-bergwelt.ch/ target=_blank&gt;Alp Oberfeld&lt;/a&gt;
@@ -1261,12 +1367,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Alp Oberfeld. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1072</styleUrl>
-            <Point id="1070">
-                <coordinates>8.42296107019881,46.8671318692204,0.0</coordinates>
+            <styleUrl>#44</styleUrl>
+            <Point id="42">
+                <coordinates>8.42296107019881,46.8671318692204,1877.80503088</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1076">
+        <Placemark id="48">
             <description>
 &lt;style&gt;
 
@@ -1359,6 +1465,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
             &lt;a href=http://www.vs-wallis.ch target=_blank&gt;Ammertenhütte&lt;/a&gt;
@@ -1368,12 +1485,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt; (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1077</styleUrl>
-            <Point id="1075">
-                <coordinates>7.514739527496114,46.425899627835086,0.0</coordinates>
+            <styleUrl>#49</styleUrl>
+            <Point id="47">
+                <coordinates>7.514739527496114,46.425899627835086,1880.7980132</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1081">
+        <Placemark id="53">
             <description>
 &lt;style&gt;
 
@@ -1466,6 +1583,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.anenhuette.ch target=_blank&gt;Anenhütte Peter Tscherrig&lt;/a&gt;
@@ -1475,12 +1603,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Anenhütte Peter Tscherrig. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1082</styleUrl>
-            <Point id="1080">
-                <coordinates>7.911633630801625,46.45444577771577,0.0</coordinates>
+            <styleUrl>#54</styleUrl>
+            <Point id="52">
+                <coordinates>7.911633630801625,46.45444577771577,2408.3395800000003</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1086">
+        <Placemark id="58">
             <description>
 &lt;style&gt;
 
@@ -1573,6 +1701,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-sac.png&quot;&gt;
             &lt;a href=http://sac.zermatt.ch/verein/arbenbiwak target=_blank&gt;Arbenbiwak SAC&lt;/a&gt;
@@ -1582,12 +1721,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Arbenbiwak SAC (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1087</styleUrl>
-            <Point id="1085">
-                <coordinates>7.665167672897683,46.03133225955094,0.0</coordinates>
+            <styleUrl>#59</styleUrl>
+            <Point id="57">
+                <coordinates>7.665167672897683,46.03133225955094,3276.6432568</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1091">
+        <Placemark id="63">
             <description>
 &lt;style&gt;
 
@@ -1680,6 +1819,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=https://aubergedechindonne.ch/ target=_blank&gt;Auberge de Chindonne&lt;/a&gt;
@@ -1689,12 +1839,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Auberge de Chindonne. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1092</styleUrl>
-            <Point id="1090">
-                <coordinates>6.952252048750768,46.214399828816234,0.0</coordinates>
+            <styleUrl>#64</styleUrl>
+            <Point id="62">
+                <coordinates>6.952252048750768,46.214399828816234,1655.87438232</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1096">
+        <Placemark id="68">
             <description>
 &lt;style&gt;
 
@@ -1787,6 +1937,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.salanfe.ch target=_blank&gt;Auberge de Salanfe&lt;/a&gt;
@@ -1796,12 +1957,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Auberge de Salanfe. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1097</styleUrl>
-            <Point id="1095">
-                <coordinates>6.97052683485254,46.144652309958715,0.0</coordinates>
+            <styleUrl>#69</styleUrl>
+            <Point id="67">
+                <coordinates>6.97052683485254,46.144652309958715,2002.0329276</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1101">
+        <Placemark id="73">
             <description>
 &lt;style&gt;
 
@@ -1894,6 +2055,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
             &lt;a href=http://www.aeugstenhuette.ch target=_blank&gt;Äugstenhütte&lt;/a&gt;
@@ -1903,12 +2075,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Die Äugstenhütte. (&amp;copy; Hansueli Rhyner)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1102</styleUrl>
-            <Point id="1100">
-                <coordinates>9.106782100913087,47.027201366884896,0.0</coordinates>
+            <styleUrl>#74</styleUrl>
+            <Point id="72">
+                <coordinates>9.106782100913087,47.027201366884896,1546.7302215999998</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1106">
+        <Placemark id="78">
             <description>
 &lt;style&gt;
 
@@ -2001,6 +2173,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
             &lt;a href=http://www.baechlitalhuette.ch target=_blank&gt;Bächlitalhütte SAC&lt;/a&gt;
@@ -2010,12 +2193,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Bächlitalhütte SAC, Aussenansicht. (&amp;copy; Zettel/Schulthess)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1107</styleUrl>
-            <Point id="1105">
-                <coordinates>8.282681550901897,46.587037979835685,0.0</coordinates>
+            <styleUrl>#79</styleUrl>
+            <Point id="77">
+                <coordinates>8.282681550901897,46.587037979835685,2377.6432932800003</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1111">
+        <Placemark id="83">
             <description>
 &lt;style&gt;
 
@@ -2108,6 +2291,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.badushuette.ch target=_blank&gt;Badushütte&lt;/a&gt;
@@ -2117,12 +2311,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Badushütte, Aussenansicht. (&amp;copy; graubuenden.ch)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1112</styleUrl>
-            <Point id="1110">
-                <coordinates>8.668381459804491,46.63653276443184,0.0</coordinates>
+            <styleUrl>#84</styleUrl>
+            <Point id="82">
+                <coordinates>8.668381459804491,46.63653276443184,2552.1385512</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1116">
+        <Placemark id="88">
             <description>
 &lt;style&gt;
 
@@ -2215,6 +2409,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
             &lt;a href=http://casticino.ch/baita-del-luca/ target=_blank&gt;Baita del Luca&lt;/a&gt;
@@ -2224,12 +2429,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Baita del Luca (Cioascio). (&amp;copy; Marco Volken)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1117</styleUrl>
-            <Point id="1115">
-                <coordinates>9.02811889500652,46.06339974597074,0.0</coordinates>
+            <styleUrl>#89</styleUrl>
+            <Point id="87">
+                <coordinates>9.02811889500652,46.06339974597074,1114.2062291999998</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1121">
+        <Placemark id="93">
             <description>
 &lt;style&gt;
 
@@ -2322,6 +2527,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
             &lt;a href=http://www.balmhornhuette.ch target=_blank&gt;Balmhornhütte SAC&lt;/a&gt;
@@ -2331,12 +2547,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Balmhornhütte SAC, Aussenansicht. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1122</styleUrl>
-            <Point id="1120">
-                <coordinates>7.689567354207958,46.45128542486783,0.0</coordinates>
+            <styleUrl>#94</styleUrl>
+            <Point id="92">
+                <coordinates>7.689567354207958,46.45128542486783,2006.5642712000001</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1126">
+        <Placemark id="98">
             <description>
 &lt;style&gt;
 
@@ -2429,6 +2645,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png&quot;&gt;
             &lt;a href=http://www.baltschiederklause.ch target=_blank&gt;Baltschiederklause SAC&lt;/a&gt;
@@ -2438,12 +2665,12 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Baltschiederklause SAC, Aussenansicht. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1127</styleUrl>
-            <Point id="1125">
-                <coordinates>7.889793548519467,46.395072603998315,0.0</coordinates>
+            <styleUrl>#99</styleUrl>
+            <Point id="97">
+                <coordinates>7.889793548519467,46.395072603998315,2833.5098944000006</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1131">
+        <Placemark id="103">
             <description>
 &lt;style&gt;
 
@@ -2536,6 +2763,17 @@ Sollten die Schlafplätze nicht ausreichen, gibt es im oberen Stockwerk des Orat
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.rotsteinpass.ch target=_blank&gt;Berggasthaus Rotsteinpass&lt;/a&gt;
@@ -2546,12 +2784,12 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berggasthaus Rotsteinpass (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1132</styleUrl>
-            <Point id="1130">
-                <coordinates>9.365200687111027,47.24305449018079,0.0</coordinates>
+            <styleUrl>#104</styleUrl>
+            <Point id="102">
+                <coordinates>9.365200687111027,47.24305449018079,2166.9368700000005</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1136">
+        <Placemark id="108">
             <description>
 &lt;style&gt;
 
@@ -2644,6 +2882,17 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.taelli.ch/ target=_blank&gt;Berggasthaus Tällihütte&lt;/a&gt;
@@ -2653,12 +2902,12 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Tällihütte (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1137</styleUrl>
-            <Point id="1135">
-                <coordinates>8.328416886167386,46.74018121977818,0.0</coordinates>
+            <styleUrl>#109</styleUrl>
+            <Point id="107">
+                <coordinates>8.328416886167386,46.74018121977818,1775.2152784</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1141">
+        <Placemark id="113">
             <description>
 &lt;style&gt;
 
@@ -2751,6 +3000,17 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.zermatt.ch/trift target=_blank&gt;Berggasthaus Trift&lt;/a&gt;
@@ -2760,12 +3020,12 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghaus Trift. (&amp;copy; Matthias Huss)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1142</styleUrl>
-            <Point id="1140">
-                <coordinates>7.721083464594411,46.030036581521614,0.0</coordinates>
+            <styleUrl>#114</styleUrl>
+            <Point id="112">
+                <coordinates>7.721083464594411,46.030036581521614,2388.5916420000003</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1146">
+        <Placemark id="118">
             <description>
 &lt;style&gt;
 
@@ -2858,6 +3118,17 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/biwak-private.png&quot;&gt;
             &lt;a href=https://baeregg.com/ target=_blank&gt;Berghaus Bäregg&lt;/a&gt;
@@ -2867,12 +3138,12 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghaus Bäregg. (&amp;copy; Heiri Büchler)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1147</styleUrl>
-            <Point id="1145">
-                <coordinates>8.05999812819012,46.60048971343496,0.0</coordinates>
+            <styleUrl>#119</styleUrl>
+            <Point id="117">
+                <coordinates>8.05999812819012,46.60048971343496,1824.82822904</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1151">
+        <Placemark id="123">
             <description>
 &lt;style&gt;
 
@@ -2965,6 +3236,17 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=https://www.diavolezza.ch/ target=_blank&gt;Berghaus Diavolezza&lt;/a&gt;
@@ -2974,12 +3256,12 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghaus Diavolezza frisch verschneit. (&amp;copy; Fabian Lippuner)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1152</styleUrl>
-            <Point id="1150">
-                <coordinates>9.965013308305586,46.41210063524525,0.0</coordinates>
+            <styleUrl>#124</styleUrl>
+            <Point id="122">
+                <coordinates>9.965013308305586,46.41210063524525,3026.3885536000003</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1156">
+        <Placemark id="128">
             <description>
 &lt;style&gt;
 
@@ -3072,6 +3354,17 @@ Geöffnet von Juni bis Oktober, bei guten Verhältnissen ist das Berggasthaus Ro
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.ritom.ch/ristori/rifugio-foeisc target=_blank&gt;Berghaus Flue (Fluhalp)&lt;/a&gt;
@@ -3082,12 +3375,12 @@ Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten 
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghaus Flue mit von links: Rimpfischhorn, Strahlhorn, Adlerhorn. (&amp;copy; Ludwig Weh)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1157</styleUrl>
-            <Point id="1155">
-                <coordinates>7.81098249440367,46.012773904678916,0.0</coordinates>
+            <styleUrl>#129</styleUrl>
+            <Point id="127">
+                <coordinates>7.81098249440367,46.012773904678916,3080.5466096</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1161">
+        <Placemark id="133">
             <description>
 &lt;style&gt;
 
@@ -3180,6 +3473,17 @@ Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten 
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=https://www.faulhorn.ch target=_blank&gt;Berghotel Faulhorn&lt;/a&gt;
@@ -3189,12 +3493,12 @@ Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten 
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Aus einer anderen Zeit: das Berghotel Faulhorn. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1162</styleUrl>
-            <Point id="1160">
-                <coordinates>7.999584630904274,46.67482959892984,0.0</coordinates>
+            <styleUrl>#134</styleUrl>
+            <Point id="132">
+                <coordinates>7.999584630904274,46.67482959892984,2723.70099328</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1166">
+        <Placemark id="138">
             <description>
 &lt;style&gt;
 
@@ -3287,6 +3591,17 @@ Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten 
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.stechelberg.ch/schlafen-und-essen/berghotel/ target=_blank&gt;Berghotel Obersteinberg&lt;/a&gt;
@@ -3296,12 +3611,12 @@ Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten 
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Das Berghotel Obersteinberg. (&amp;copy; David Coulin)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1167</styleUrl>
-            <Point id="1165">
-                <coordinates>7.885488601680401,46.518142682706845,0.0</coordinates>
+            <styleUrl>#139</styleUrl>
+            <Point id="137">
+                <coordinates>7.885488601680401,46.518142682706845,1830.2053552399998</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1171">
+        <Placemark id="143">
             <description>
 &lt;style&gt;
 
@@ -3394,6 +3709,17 @@ Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten 
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.schwarenbach.ch target=_blank&gt;Berghotel Schwarenbach&lt;/a&gt;
@@ -3403,12 +3729,12 @@ Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten 
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghotel Schwarenbach. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1172</styleUrl>
-            <Point id="1170">
-                <coordinates>7.624946578472197,46.43206918984961,0.0</coordinates>
+            <styleUrl>#144</styleUrl>
+            <Point id="142">
+                <coordinates>7.624946578472197,46.43206918984961,2110.6754432000002</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="1176">
+        <Placemark id="148">
             <description>
 &lt;style&gt;
 
@@ -3501,6 +3827,17 @@ Privatbesitz. 60 Plätze, kein Winterraum. Im Sommer und auf Anfrage im späten 
 
 
 &lt;/style&gt;
+
+&lt;div class=&quot;legend&quot; style=&quot;
+    /* float: none; */
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-weight: bold;
+    text-align: right;
+&quot;&gt;
+    &lt;a href=&quot;https://frei.wodore.com/static/icons/legend.png&quot; target=&quot;_blank&quot;&gt;Legend&lt;/a&gt;
+&lt;/div&gt;
 &lt;div class=&quot;hut-info&quot;&gt;&lt;h4&gt;
             &lt;img id=&quot;hut-icon-title&quot; class=&quot;img-text&quot; src=&quot;https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png&quot;&gt;
             &lt;a href=http://www.hohsaas-bergrestaurant.ch/ target=_blank&gt;Berghütte Hohsaas&lt;/a&gt;
@@ -3511,9 +3848,9 @@ Die Unterkunft ist bei Bahnbetrieb geöffnet.&lt;/p&gt;
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Berghütte Hohsaas, in der Ferne Monte Rosa, Strahlhorn, Rimpfischhorn, Allalin und Alphubel (&amp;copy; Weh Ludwig)&lt;/figcaption&gt;
             &lt;/figure&gt;
                 &lt;/div&gt;</description>
-            <styleUrl>#1177</styleUrl>
-            <Point id="1175">
-                <coordinates>7.989265653061758,46.139422394556355,0.0</coordinates>
+            <styleUrl>#149</styleUrl>
+            <Point id="147">
+                <coordinates>7.989265653061758,46.139422394556355,3251.0532812</coordinates>
             </Point>
         </Placemark>
     </Document>

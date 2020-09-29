@@ -107,10 +107,29 @@ STYLE = """
     border: 1px solid #ddd;
   }
 
+#legend-link {
+    position: relative;
+    top: -30px;
+    right: 3px;
+    font-weight: bold;
+    text-align: right;
+    height: 0px;
+    font-size : 10pt;
+}
+
+  #legend-link a:link, .hut-info a:visited {
+    text-decoration: none;
+  }
 
 </style>
 """
 
+LEGEND = """
+
+<div id="legend-link">
+    <a href="https://frei.wodore.com/static/icons/legend_{lang}.png" target="_blank">Legend</a>
+</div>
+"""
 class HutDescription(object):
 
 
@@ -155,6 +174,8 @@ class HutDescription(object):
             desc = STYLE
         else:
             desc = ""
+
+        desc += LEGEND.format(lang=hut.user_language)
 
         if hut.sac:
             file_name = "hut-sac"

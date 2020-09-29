@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="187.78664mm"
+   height="271.86154mm"
+   viewBox="0 0 665.38572 963.28892"
+   id="svg5008"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="legend.svg"
+   inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/legend_fr.png"
+   inkscape:export-xdpi="128"
+   inkscape:export-ydpi="128">
+  <defs
+     id="defs5010" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="414.54918"
+     inkscape:cy="476.70434"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="4"
+     fit-margin-left="4"
+     fit-margin-right="4"
+     fit-margin-bottom="4"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-center="true">
+    <sodipodi:guide
+       position="235.79124,724.65305"
+       orientation="1,0"
+       id="guide6325" />
+    <sodipodi:guide
+       position="13.052617,848.39674"
+       orientation="1,0"
+       id="guide6327" />
+    <sodipodi:guide
+       position="133.86275,813.09548"
+       orientation="1,0"
+       id="guide6333" />
+    <sodipodi:guide
+       position="-493.94293,419.18294"
+       orientation="1,0"
+       id="guide6373" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5013">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-345.10552,237.85753)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#eab138;fill-opacity:1;fill-rule:nonzero;stroke:#e8a821;stroke-width:4.20724869;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 394.28509,262.82763 c -0.84613,0 -1.65736,0.29572 -2.28441,0.83699 l 0,8.9e-4 -18.68849,16.16691 c -0.66438,0.57437 -0.93749,1.20707 -1.00835,1.73621 -0.0709,0.52913 0.0493,0.94832 0.12207,1.14454 0.0731,0.19679 0.25634,0.59213 0.65621,0.94616 0.39987,0.35405 1.0208,0.65387 1.89939,0.65387 l 2.26091,0 0,15.8253 c 0,1.82006 1.48565,3.30569 3.3057,3.30569 l 27.47622,0 c 1.82006,0 3.3057,-1.48563 3.3057,-3.30569 l 0,-15.80065 0,-0.0246 2.25977,0 c 0.87854,0 1.49946,-0.29982 1.89933,-0.65386 0.39987,-0.35403 0.58312,-0.74937 0.65621,-0.94616 0.0731,-0.19627 0.19311,-0.61526 0.12214,-1.14455 -0.071,-0.52929 -1.00956,-1.73736 -1.00956,-1.73736 l -13.16058,-11.38446 -5.5267,-4.78128 c -0.6276,-0.54183 -1.43948,-0.83817 -2.28556,-0.83817 z"
+       id="hut-50"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccscsscssssccsscsccccc"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-full.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4321-5-2" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#82cf06;fill-opacity:1;fill-rule:nonzero;stroke:#7ac206;stroke-width:4.20724869;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 394.28515,328.37671 c -0.84615,0 -1.65736,0.29572 -2.28442,0.83699 l 0,8.9e-4 -18.68848,16.16691 c -0.66439,0.57437 -0.93749,1.20707 -1.00835,1.7362 -0.0709,0.52914 0.0492,0.94833 0.12207,1.14455 0.0731,0.19678 0.25634,0.59213 0.65621,0.94616 0.39987,0.35405 1.02079,0.65387 1.89938,0.65387 l 2.26092,0 0,15.8253 c 0,1.82005 1.48564,3.30569 3.3057,3.30569 l 27.47622,0 c 1.82005,0 3.3057,-1.48564 3.3057,-3.30569 l 0,-15.80065 0,-0.0246 2.25976,0 c 0.87852,0 1.49946,-0.29982 1.89933,-0.65386 0.39987,-0.35403 0.58312,-0.74937 0.65621,-0.94616 0.0731,-0.19627 0.19311,-0.61526 0.12213,-1.14455 -0.071,-0.52929 -1.00956,-1.73736 -1.00956,-1.73736 l -13.16056,-11.38446 -5.5267,-4.78128 c -0.62761,-0.54183 -1.43948,-0.83818 -2.28556,-0.83817 z"
+       id="hut-25-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccscsscssssccsscsccccc"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-full.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4321-5-2" />
+    <g
+       id="g6329"
+       transform="translate(35.179418,9.3972622)">
+      <path
+         sodipodi:nodetypes="cssc"
+         inkscape:connector-curvature="0"
+         id="path4165-2"
+         d="m 396.7615,-179.1774 c 0.092,4.06641 -3.0329,5.15154 -5.0235,7.17843 -4.89,4.97888 10.5679,8.03739 9.9293,-0.0321 -0.2046,-2.58491 -1.0478,-5.06676 -4.9058,-7.1464 z"
+         style="fill:#b3b3b3;fill-rule:evenodd;stroke:#cccccc;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-default.png"
+         sodipodi:nodetypes="ccccscsscssssccsscsczzcssscccc"
+         inkscape:connector-curvature="0"
+         id="path4321"
+         d="m 375.0106,-169.61375 c -1.4078,0 -2.7575,0.49202 -3.8008,1.39257 l 0,0.002 -31.0938,26.89843 c -1.1054,0.95563 -1.5598,2.0083 -1.6777,2.88868 -0.118,0.88037 0.082,1.57782 0.2031,1.90429 0.1217,0.32741 0.4265,0.98518 1.0918,1.57422 0.6653,0.58905 1.6984,1.08789 3.1602,1.08789 l 3.7617,0 0,26.33008 c 0,3.02819 2.4718,5.5 5.5,5.5 l 45.7148,0 c 3.0282,0 5.5,-2.47181 5.5,-5.5 l 0,-26.28906 0,-0.041 3.7598,0 c 1.4617,0 2.4948,-0.49884 3.1601,-1.08789 0.6653,-0.58904 0.9702,-1.24681 1.0918,-1.57422 0.1216,-0.32656 0.3213,-1.02367 0.2032,-1.90429 -0.1181,-0.88063 -0.5738,-1.93501 -1.6797,-2.89063 0,0 -5.5837,-4.31272 -6.2168,-5.37891 -0.6331,-1.06619 -0.1401,-0.21689 -0.1934,-0.33398 -0.053,-0.11709 -0.125,-0.36523 -0.125,-0.36523 l 0,-10.4375 c 0,-3.02819 -2.4718,-5.5 -5.5,-5.5 l -4.9961,0 c -2.1467,0 -3.9603,1.27167 -4.8652,3.07421 l -9.1953,-7.95507 c -1.0442,-0.90149 -2.395,-1.39454 -3.8027,-1.39453 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#878787;fill-opacity:1;fill-rule:nonzero;stroke:#a8a8a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#878787;fill-opacity:1;fill-rule:nonzero;stroke:#a8a8a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 410.18999,-53.487194 c -1.4077,0 -2.7574,0.49203 -3.8008,1.39258 l 0,0.002 -31.0937,26.89844 c -1.1055,0.95563 -1.5598,2.00829 -1.6778,2.88867 -0.1179,0.88037 0.082,1.57783 0.2031,1.9043 0.1216,0.32741 0.4265,0.98518 1.0918,1.57422 0.6653,0.58905 1.6985,1.08789 3.1602,1.08789 l 3.7617,0 0,26.3300802 c 0,3.0281898 2.4718,5.4999998 5.5,5.4999998 l 16.4014,0 c 2.3887,0.0844 4.4455,-1.76462 4.4014,-4.2040998 l 0,-12.2041098 c 0,-2.78604 2.2432,-5.02929 5.0293,-5.02929 l 5.8886,0 c 2.78608,0 5.02933,2.24325 5.02933,5.02929 l 0,12.1815898 c -6e-4,3.0694198 1.60529,4.2957398 4.48242,4.4033998 l 4.48242,-0.17678 c 3.02585,-0.11933 5.5,-2.47181 5.5,-5.4999998 l 0,-26.2890702 0,-0.041 3.75977,0 c 1.4618,0 2.49485,-0.49884 3.16015,-1.08789 0.6653,-0.58904 0.9701,-1.24681 1.0918,-1.57422 0.1216,-0.32656 0.32122,-1.02368 0.20312,-1.9043 -0.1181,-0.88063 -0.57368,-1.935 -1.67968,-2.89062 l -31.09183,-26.89649 c -1.0442,-0.90149 -2.395,-1.39454 -3.8027,-1.39453 z"
+       id="hut-private"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccsscssccssssccssccsscscccc"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/default/hut-private.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4321-7" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#878787;fill-opacity:1;fill-rule:nonzero;stroke:#a8a8a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 482.80649,-92.638328 c 61.1646,0 61.1646,0 61.1646,0 l -30.3415,-61.871832 z"
+       id="biwal-sac"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/default/biwak-sac.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4373" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#878787;fill-opacity:1;fill-rule:nonzero;stroke:#a8a8a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 482.80652,14.267766 19.29114,0 11.29114,-19.7989896 11.29113,19.7989896 19.29114,0 -30.3415,-61.871839 z"
+       id="biwak-private"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/default/biwak-private.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4373-3" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(80.265918,-256.62702)"><flowRegion
+         id="flowRegion5181"><rect
+           id="rect5183"
+           width="468.2489"
+           height="60.592957"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-size:22.5px"
+         id="flowPara5213">Private hut and biwak</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-5"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(80.265918,-366.97654)"><flowRegion
+         id="flowRegion5181-9"><rect
+           id="rect5183-7"
+           width="468.2489"
+           height="60.592957"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-size:22.5px"
+         id="flowPara5211">SAC hut and biwak</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-5-5-7"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-142.47272,-463.99495)"><flowRegion
+         id="flowRegion5181-9-3-9"><rect
+           id="rect5183-7-3-3"
+           width="468.2489"
+           height="60.592957"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+         id="flowPara5211-3-7">Hut symbols</flowPara></flowRoot>    <g
+       transform="matrix(0.60103551,0,0,0.60103551,469.67617,414.37862)"
+       id="hut--1"
+       inkscape:label="#g5717">
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-closed.png"
+         sodipodi:nodetypes="ccccscsscssssccsscsccccc"
+         inkscape:connector-curvature="0"
+         id="path4321-5-1-9"
+         d="m -125.43527,-34.029751 c -1.4078,0 -2.7575,0.49202 -3.8008,1.39257 l 0,0.002 -31.0938,26.8984315 c -1.1054,0.95563 -1.5598,2.0083 -1.6777,2.88868 -0.118,0.88037 0.082,1.57782 0.2031,1.90429 0.1217,0.32741 0.4265,0.98518 1.0918,1.57422 0.6653,0.58905 1.6984,1.08789 3.1602,1.08789 l 3.7617,0 0,26.3300795 c 0,3.02819 2.4718,5.49998 5.5,5.49998 l 45.7148,0 c 3.028202,0 5.500002,-2.47179 5.500002,-5.49998 l 0,-26.2890595 0,-0.041 3.7598,0 c 1.4617,0 2.4948,-0.49884 3.1601,-1.08789 0.6653,-0.58904 0.9702,-1.24681 1.0918,-1.57422 0.1216,-0.32656 0.3213,-1.02367 0.2032,-1.90429 -0.1181,-0.88063 -1.6797,-2.89063 -1.6797,-2.89063 l -21.896502,-18.9414115 -9.1953,-7.95507 c -1.0442,-0.90149 -2.395,-1.39454 -3.8027,-1.39453 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:#999999;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-closed.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4476"
+         d="m -141.1066,-18.81765 38.625,46.75"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:#999999;stroke-width:12;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-closed.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4476-8"
+         d="M -108.26161,-15.914473 -149.0441,29.932342"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:#999999;stroke-width:12;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#e16f07;fill-opacity:1;fill-rule:nonzero;stroke:#ce6606;stroke-width:4.20724869;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 394.28513,197.27854 c -0.84615,0 -1.65736,0.29572 -2.28442,0.83697 l 0,9e-4 -18.68848,16.16691 c -0.66439,0.57436 -0.93749,1.20706 -1.00835,1.73619 -0.0709,0.52914 0.0492,0.94834 0.12207,1.14455 0.0731,0.19679 0.25634,0.59213 0.65621,0.94617 0.39987,0.35403 1.02079,0.65385 1.89938,0.65385 l 2.26092,0 0,15.82532 c 0,1.82005 1.48564,3.30569 3.3057,3.30569 l 27.47622,0 c 1.82005,0 3.3057,-1.48564 3.3057,-3.30569 l 0,-15.80066 0,-0.0246 2.25977,0 c 0.87852,0 1.49946,-0.29983 1.89933,-0.65387 0.39987,-0.35403 0.58312,-0.74937 0.65621,-0.94615 0.0731,-0.19628 0.19311,-0.61527 0.12213,-1.14455 -0.071,-0.52929 -1.00956,-1.73737 -1.00956,-1.73737 l -13.16057,-11.38446 -5.5267,-4.78128 c -0.62761,-0.54183 -1.43948,-0.83817 -2.28556,-0.83816 z"
+       id="hut-75"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccscsscssssccsscsccccc"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-full.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4321-5-2" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#d32226;fill-opacity:1;fill-rule:nonzero;stroke:#e14549;stroke-width:4.20724869;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 394.28513,131.72928 c -0.84613,0 -1.65735,0.29572 -2.28441,0.83699 l 0,0.001 -18.68848,16.16692 c -0.66438,0.57436 -0.93749,1.20706 -1.00836,1.7362 -0.0709,0.52913 0.0493,0.94832 0.12207,1.14454 0.0731,0.19679 0.25634,0.59213 0.65621,0.94616 0.39987,0.35404 1.0208,0.65386 1.8994,0.65386 l 2.26091,0 0,15.82532 c 0,1.82005 1.48564,3.30569 3.30569,3.30569 l 27.47623,0 c 1.82005,0 3.30569,-1.48564 3.30569,-3.30569 l 0,-15.80066 0,-0.0246 2.25978,0 c 0.87853,0 1.49946,-0.29982 1.89933,-0.65386 0.39987,-0.35404 0.58312,-0.74938 0.65621,-0.94616 0.073,-0.19628 0.19311,-0.61527 0.12212,-1.14455 -0.071,-0.52929 -1.00956,-1.73737 -1.00956,-1.73737 l -13.16057,-11.38446 -5.5267,-4.78128 c -0.6276,-0.54183 -1.43948,-0.83817 -2.28556,-0.83816 z"
+       id="hut-100"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccscsscssssccsscsccccc"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-full.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4321-5-2" />
+    <circle
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#d32226;fill-opacity:1;fill-rule:nonzero;stroke:#e14549;stroke-width:3.18372989;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="day3-100-9"
+       cx="-503.03574"
+       cy="154.55127"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/pie/100.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       r="18.30645"
+       inkscape:label="#path4660"
+       transform="scale(-1,1)" />
+    <g
+       id="g4250"
+       transform="matrix(1.5918652,0,0,1.5918652,2123.9553,266.3383)"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/pie/-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <ellipse
+         transform="scale(-1,1)"
+         inkscape:label="#path4660-1-2-9"
+         ry="11.514347"
+         rx="11.501462"
+         cy="94.471924"
+         cx="1018.2518"
+         id="day3-back-1"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4219"
+         d="m -1024.5591,88.164625 12.6146,12.614605"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4219-5"
+         d="m -1011.9445,88.164623 -12.6146,12.614597"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(1.5918652,0,0,1.5918652,2001.3417,70.903315)"
+       id="g4221"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/pie/50.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <ellipse
+         transform="scale(-1,-1)"
+         inkscape:label="#path4660-1-2-9"
+         ry="11.514347"
+         rx="11.501462"
+         cy="-134.89476"
+         cx="941.22668"
+         id="day3-back-6"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.5;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#eab138;fill-opacity:1;fill-rule:nonzero;stroke:#e8a821;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="day3-back-6-3"
+         d="m -941.22717,123.38041 0,23.0293 a 11.501462,11.514347 0 0 0 11.50195,-11.51367 11.501462,11.514347 0 0 0 -11.50195,-11.51563 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#eab138;fill-opacity:1;fill-rule:nonzero;stroke:#e8a821;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(1.5918652,0,0,1.5918652,1939.3932,136.44723)"
+       id="g4275"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/pie/25.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <ellipse
+         transform="scale(-1,1)"
+         inkscape:label="#path4660-1-2-9"
+         ry="11.514347"
+         rx="11.501462"
+         cy="134.89476"
+         cx="902.31104"
+         id="day3-back-7"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.5;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#82cf06;fill-opacity:1;fill-rule:nonzero;stroke:#7ac206;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="day3-back-6-3-3"
+         d="m -902.31153,123.38042 0,11.60352 11.49805,0 a 11.501462,11.514347 0 0 0 0.004,-0.0879 11.501462,11.514347 0 0 0 -11.50196,-11.51563 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#82cf06;fill-opacity:1;fill-rule:nonzero;stroke:#7ac206;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(1.5918652,0,0,1.5918652,2063.2901,5.3608491)"
+       id="g4340"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/pie/75.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <ellipse
+         transform="scale(-1,1)"
+         inkscape:label="#path4660-1-2-9"
+         ry="11.514347"
+         rx="11.501462"
+         cy="134.89476"
+         cx="980.14227"
+         id="day3-back-3"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.5;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#e16f07;fill-opacity:1;fill-rule:nonzero;stroke:#ce6606;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="day3-back-3-6"
+         d="m -980.14472,123.37982 0,11.60351 -11.49414,0 a 11.501462,11.514347 0 0 0 11.4961,11.42578 11.501462,11.514347 0 0 0 11.50195,-11.51367 11.501462,11.514347 0 0 0 -11.50195,-11.51562 11.501462,11.514347 0 0 0 -0.002,0 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#e16f07;fill-opacity:1;fill-rule:nonzero;stroke:#ce6606;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-5-5"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-142.47272,-165.21765)"><flowRegion
+         id="flowRegion5181-9-3"><rect
+           id="rect5183-7-3"
+           width="468.2489"
+           height="60.592957"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+         id="flowPara5211-3">Occupation</flowPara></flowRoot>    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:#999999;stroke-width:4.20724869;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 394.28513,459.47479 c -0.84613,0 -1.65735,0.29572 -2.28441,0.83699 l 0,10e-4 -18.68848,16.16692 c -0.66438,0.57436 -0.93749,1.20706 -1.00836,1.7362 -0.0709,0.52913 0.0493,0.94832 0.12207,1.14454 0.0731,0.19679 0.25634,0.59213 0.65621,0.94616 0.39987,0.35404 1.0208,0.65386 1.8994,0.65386 l 2.26091,0 0,15.82532 c 0,1.82005 1.48564,3.30569 3.30569,3.30569 l 27.47623,0 c 1.82005,0 3.30569,-1.48564 3.30569,-3.30569 l 0,-15.80066 0,-0.0246 2.25978,0 c 0.87853,0 1.49946,-0.29982 1.89933,-0.65386 0.39987,-0.35404 0.58312,-0.74938 0.65621,-0.94616 0.073,-0.19628 0.19311,-0.61527 0.12212,-1.14455 -0.071,-0.52929 -1.00956,-1.73737 -1.00956,-1.73737 l -13.16057,-11.38446 -5.5267,-4.78128 c -0.6276,-0.54183 -1.43948,-0.83817 -2.28556,-0.83816 z"
+       id="hut-100-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccscsscssssccsscsccccc"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-full.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4321-5-2" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#808073;fill-opacity:1;fill-rule:nonzero;stroke:#959595;stroke-width:4.20724869;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 503.03513,459.47479 c -0.84613,0 -1.65735,0.29572 -2.28441,0.83699 l 0,10e-4 -18.68848,16.16692 c -0.66438,0.57436 -0.93749,1.20706 -1.00836,1.7362 -0.0709,0.52913 0.0493,0.94832 0.12207,1.14454 0.0731,0.19679 0.25634,0.59213 0.65621,0.94616 0.39987,0.35404 1.0208,0.65386 1.8994,0.65386 l 2.26091,0 0,15.82532 c 0,1.82005 1.48564,3.30569 3.30569,3.30569 l 27.47623,0 c 1.82005,0 3.30569,-1.48564 3.30569,-3.30569 l 0,-15.80066 0,-0.0246 2.25978,0 c 0.87853,0 1.49946,-0.29982 1.89933,-0.65386 0.39987,-0.35404 0.58312,-0.74938 0.65621,-0.94616 0.073,-0.19628 0.19311,-0.61527 0.12212,-1.14455 -0.071,-0.52929 -1.00956,-1.73737 -1.00956,-1.73737 l -13.16057,-11.38446 -5.5267,-4.78128 c -0.6276,-0.54183 -1.43948,-0.83817 -2.28556,-0.83816 z"
+       id="hut-100-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccscsscssssccsscsccccc"
+       inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-full.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="#path4321-5-2" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-0"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(80.265918,-94.466036)"><flowRegion
+         id="flowRegion5181-98"><rect
+           id="rect5183-8"
+           width="230.66103"
+           height="28.066044"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-size:22.5px"
+         id="flowPara5213-5">Full</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-0-8"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(80.903125,-31.600449)"><flowRegion
+         id="flowRegion5181-98-4"><rect
+           id="rect5183-8-3"
+           width="298.54327"
+           height="33.722893"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-size:22.5px"
+         id="flowPara5213-5-7">60% to 100% occupied</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-0-8-1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(81.375537,33.44589)"><flowRegion
+         id="flowRegion5181-98-4-3"><rect
+           id="rect5183-8-3-8"
+           width="298.54327"
+           height="33.722893"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-size:22.5px"
+         id="flowPara5213-5-7-0">30% to 60% occupied</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-0-8-1-9"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(80.826221,98.492279)"><flowRegion
+         id="flowRegion5181-98-4-3-7"><rect
+           id="rect5183-8-3-8-9"
+           width="298.54327"
+           height="33.722893"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-size:22.5px"
+         id="flowPara5213-5-7-0-9">up to 30% occupied</flowPara></flowRoot>    <g
+       id="g6335"
+       transform="translate(0,-42.72346)">
+      <flowRoot
+         transform="translate(80.430713,192.9188)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5179-0-8-1-9-3"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5181-98-4-3-7-2"><rect
+             y="234.9776"
+             x="500.63159"
+             height="39.379753"
+             width="383.39609"
+             id="rect5183-8-3-8-9-4" /></flowRegion><flowPara
+           id="flowPara5213-5-7-0-9-3"
+           style="font-size:22.5px">reservation system is closed</flowPara></flowRoot>      <flowRoot
+         transform="translate(80.774951,222.61728)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5179-0-8-1-9-3-7"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5181-98-4-3-7-2-1"><rect
+             y="234.9776"
+             x="500.63159"
+             height="39.379761"
+             width="509.26114"
+             id="rect5183-8-3-8-9-4-2" /></flowRegion><flowPara
+           id="flowPara5213-5-7-0-9-3-2"
+           style="font-size:20px;fill:#808080">usually an emergency shelter is available</flowPara></flowRoot>    </g>
+    <g
+       id="g6345"
+       transform="translate(0,-65.966556)">
+      <flowRoot
+         transform="translate(80.430713,282.01426)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5179-0-8-1-0"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5181-98-4-3-2"><rect
+             y="234.9776"
+             x="500.63159"
+             height="63.421387"
+             width="523.40326"
+             id="rect5183-8-3-8-1" /></flowRegion><flowPara
+           id="flowPara5495"
+           style="font-size:22.5px">no online reservation information </flowPara><flowPara
+           id="flowPara5493"
+           style="font-size:22.5px" /></flowRoot>      <flowRoot
+         transform="translate(80.657764,310.1007)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5179-0-8-1-9-3-7-5"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5181-98-4-3-7-2-1-1"><rect
+             y="234.9776"
+             x="500.63159"
+             height="39.379761"
+             width="509.26114"
+             id="rect5183-8-3-8-9-4-2-7" /></flowRegion><flowPara
+           id="flowPara5213-5-7-0-9-3-2-4"
+           style="font-size:20px;fill:#808080">SAC and private huts</flowPara></flowRoot>    </g>
+    <g
+       transform="translate(301.24892,402.13174)"
+       id="g6198-9">
+      <path
+         inkscape:label="#path4321-5-2"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/hut-sac-full.png"
+         sodipodi:nodetypes="ccccscsscssssccsscsccccc"
+         inkscape:connector-curvature="0"
+         id="hut-50-0-0"
+         d="m 120.95524,217.99478 c -1.4078,0 -2.7575,0.49202 -3.8008,1.39257 l 0,0.002 -31.093795,26.89843 c -1.1054,0.95563 -1.5598,2.0083 -1.6777,2.88868 -0.118,0.88037 0.082,1.57782 0.2031,1.90429 0.1217,0.32741 0.4265,0.98518 1.0918,1.57422 0.6653,0.58905 1.6984,1.08789 3.1602,1.08789 l 3.7617,0 0,26.33008 c 0,3.02819 2.4718,5.49999 5.5,5.49999 l 45.714795,0 c 3.0282,0 5.5,-2.4718 5.5,-5.49999 l 0,-26.28906 0,-0.041 3.7598,0 c 1.4617,0 2.4948,-0.49884 3.1601,-1.08789 0.6653,-0.58904 0.9702,-1.24681 1.0918,-1.57422 0.1216,-0.32656 0.3213,-1.02367 0.2032,-1.90429 -0.1181,-0.88063 -1.6797,-2.89063 -1.6797,-2.89063 l -21.8965,-18.94141 -9.1953,-7.95507 c -1.0442,-0.90149 -2.395,-1.39454 -3.8027,-1.39453 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.47000002;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#eab138;fill-opacity:1;fill-rule:nonzero;stroke:#e8a821;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <ellipse
+         transform="scale(-1,1)"
+         inkscape:label="#path4660-1-2-9"
+         ry="11.514347"
+         rx="11.501462"
+         cy="284.86511"
+         cx="-161.67645"
+         id="day3-back-4"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <ellipse
+         transform="scale(-1,1)"
+         inkscape:label="#path4660-1-2-9-5"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="day0-back-0"
+         cx="-81.707581"
+         cy="284.86511"
+         rx="11.501462"
+         ry="11.514347" />
+      <ellipse
+         transform="scale(-1,1)"
+         inkscape:label="#path4660-1-2"
+         ry="13.009636"
+         rx="13"
+         cy="295.11667"
+         cx="-136.55035"
+         id="day2-back-1"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <ellipse
+         transform="scale(-1,1)"
+         inkscape:label="#path4660-1"
+         ry="13.000368"
+         rx="13.009625"
+         cy="295.11667"
+         cx="-106.84592"
+         id="day1-back-3"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text6140-7"
+         y="292.39011"
+         x="72.975082"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:MathJax_Caligraphic;-inkscape-font-specification:MathJax_Caligraphic;fill:#4d4d4d"
+           y="292.39011"
+           x="72.975082"
+           id="tspan6142-4"
+           sodipodi:role="line">0</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6140-1-1"
+         y="303.04416"
+         x="97.885918"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:MathJax_Caligraphic;-inkscape-font-specification:MathJax_Caligraphic;fill:#4d4d4d"
+           y="303.04416"
+           x="97.885918"
+           id="tspan6142-2-13"
+           sodipodi:role="line">1</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6140-1-2-0"
+         y="303.04416"
+         x="127.92285"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:MathJax_Caligraphic;-inkscape-font-specification:MathJax_Caligraphic;fill:#4d4d4d"
+           y="303.04416"
+           x="127.92285"
+           id="tspan6142-2-1-3"
+           sodipodi:role="line">2</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6140-1-2-5-2"
+         y="288.40512"
+         x="154.20645"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:MathJax_Caligraphic;-inkscape-font-specification:MathJax_Caligraphic;fill:#4d4d4d"
+           y="288.40512"
+           x="154.20645"
+           id="tspan6142-2-1-0-1"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-5-5-75"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-142.47272,320.2224)"><flowRegion
+         id="flowRegion5181-9-3-6"><rect
+           id="rect5183-7-3-5"
+           width="468.2489"
+           height="60.592957"
+           x="500.63159"
+           y="234.9776" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+         id="flowPara5211-3-4">Future occupation</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5179-0-8-2"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(75.92902,359.21379)"><flowRegion
+         id="flowRegion5181-98-4-2"><rect
+           id="rect5183-8-3-1"
+           width="186.82033"
+           height="148.27419"
+           x="473.05441"
+           y="226.49232" /></flowRegion><flowPara
+         style="font-size:22.5px"
+         id="flowPara5213-5-7-7" /><flowPara
+         style="font-size:22.5px"
+         id="flowPara6315"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+   id="flowSpan6321">0:</flowSpan> selected date</flowPara><flowPara
+         style="font-size:22.5px"
+         id="flowPara6317"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+   id="flowSpan6323">1:</flowSpan> day after</flowPara><flowPara
+         style="font-size:22.5px"
+         id="flowPara6319">     ...</flowPara></flowRoot>  </g>
+</svg>

@@ -211,7 +211,7 @@ class Hut(object):
         """SAC route portal link"""
         return self.SAC_ROUTE_PORTAL_URL[self.user_language].format(id=self.sac_id)
 
-    def get_coordinates(self, system="wsg84"):
+    def get_coordinates(self, system="wsg84", include_altitude=False):
         """
         Returns coordinates wither as WSG84, LV03 or LV95 (newest).
         More information:
@@ -222,6 +222,8 @@ class Hut(object):
         system : str, optional
             Coordinateion system. Allowed values are 'wsg84', 'lv03', or 'lv95'.
             The default is "wsg84".
+        include_altitude : bool, optional
+            Return altitude as third element. The default is False.
 
         Returns
         -------
@@ -229,6 +231,9 @@ class Hut(object):
             List with two coordinates (A, B)
             A: Longitude (WSG84) or east coordinate.
             B: Latitue (WSG84) or north coordinate.
+            If `include_altitude` is True a third element with the altitude is
+            added (A,B, H)
+            H: Altitude
         """
         system = system.lower()
         if system not in ["wsg84", "lv03", "lv95"]:
@@ -242,11 +247,16 @@ class Hut(object):
             if north > 1000000:
                 north -= 1000000
 
+        H = self.altitude
         if system == "wsg84":
             converter = GPSConverter()
             lat, lng, H = converter.LV03toWGS84(east, north, self.altitude)
-            return (lng, lat)
-        return (east, north)
+            out = (lng, lat)
+        else:
+            out = (east, north)
+        if include_altitude:
+            out += tuple([H])
+        return out
 
 
 

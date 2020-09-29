@@ -3,3 +3,4 @@ simplekml
 pandas
 bs4
 requests
+flask-babel

@@ -95,7 +95,7 @@ class Huts(object):
         #for index, hut in df_huts.iterrows():
         add_style = True
         for hut in self.get_huts():
-            coords = hut.get_coordinates(system="wsg84")
+            coords = hut.get_coordinates(system="wsg84",  include_altitude=True)
 
             hut_desc = HutDescription(hut, add_style=add_style)
             add_style = False

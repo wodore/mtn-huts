@@ -14,14 +14,30 @@
 
 # [START gae_python38_render_template]
 import datetime
+import urllib
 
-from flask import Flask, render_template, request, Response, redirect
+from flask import Flask, render_template, request, Response, redirect, url_for
 import werkzeug
+
+from flask_babel import Babel
+
 
 
 from huts.Huts import Huts
+from config import Config
 
 app = Flask(__name__)
+
+app.config.from_object(Config)
+
+babel = Babel(app)
+
+
+# @babel.localeselector
+# def get_locale():
+#     if not g.get('lang_code', None):
+#         g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
+#     return g.lang_code
 
 @app.route('/en')
 def root_en():
@@ -38,32 +54,52 @@ def root_it():
 
 @app.route('/')
 def root():
-    lang = request.args.get('lang', default = "", type = str)
-    if not lang:
-        supported_languages = ["en", "de", "fr", "it"]
-        lang =  werkzeug.datastructures.LanguageAccept([(al[0][0:2], al[1]) for al in request.accept_languages]).best_match(supported_languages)
-        if not lang:
-            lang = 'en'
     start_datetime = datetime.datetime.now().strftime("%Y-%m-%d")
     #start_datetime = datetime.datetime.now().strftime("%d.%m.%Y")
-    return render_template('index.html', date=start_datetime, lang=lang)
+    return render_template('index.html', date=start_datetime, lang = get_user_language())
 
 @app.route('/admin')
 def admin():
-    return render_template('admin.html')
+    return render_template('admin.html', lang = get_user_language())
+
 
 @app.route('/map')
 def map():
+    """/map?date=<dd.mm.yyyy|0>&[redirect=<0|1>]&[_show_link=<0|1>]"""
     start_date = request.args.get('date', default = 'now', type = str)
     days_from_start = request.args.get('plus', default = 0, type = int)
-    lang = request.args.get('lang', default = "de", type = str)
+    lang = get_user_language()
     show_link = request.args.get('_show_link', default = 0, type = int)
+    _redirect = request.args.get('redirect', default = 0, type = int)
     link = "https://map.geo.admin.ch/?topic=ech&lang={lang}&bgLayer=ch.swisstopo.pixelkarte-farbe&zoom=2&layers_opacity=0.65,0.75,1&E=2662509.24&N=1172513.90&layers_visibility=false,false,true&layers=ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fmtn-huts.oa.r.appspot.com%2Fhuts.kml%3Fdate%3D{date}%26plus%3D{days}%26lang%3D{lang}"
 
     link_fmt = link.format(days=days_from_start, date=start_date, lang=lang)
+
+    try:
+        start_datetime = int(start_date)
+    except ValueError:
+        pass
+    if start_date == 'now':
+        start_datetime = datetime.datetime.now()
+    else:
+        try:
+            start_datetime = datetime.datetime.strptime(start_date, "%d.%m.%Y")
+        except:
+            start_datetime = None
+        if start_datetime is None:
+            try:
+                start_datetime = datetime.datetime.strptime(start_date, "%Y-%m-%d")
+            except:
+                start_datetime = None
+    if start_datetime:
+        formatted_date = (start_datetime).strftime("%d.%m.%Y")
+    else:
+        formatted_date = "dd.mm.yyyy" # do not get any information
     if show_link:
         return "<a href={link}>{link}</a>".format(link=link_fmt)
-    return  redirect(link_fmt, code=302)
+    if _redirect:
+        return redirect(link_fmt)
+    return render_template('map.html', lang=lang, url=link_fmt, date=formatted_date)
 
 
 # /huts.kml?date=now&plus=5
@@ -79,11 +115,9 @@ def huts_kml():
     days_from_start_date = request.args.get('plus', default = 0, type = int)
     _limit = request.args.get('_limit', default = 2000, type = int)
     download = request.args.get('download', default = 1, type = int)
-    lang = request.args.get('lang', default = "de", type = str)
-    if lang not in ["de", "fr", "en", "it"]:
-        lang = "en"
+    lang = get_user_language()
     huts = Huts(start_date = start_date, days_from_start_date = days_from_start_date,
-                show_future_days = 7, limit=_limit, lang=lang)
+                show_future_days = 12, limit=_limit, lang=lang)
 
     kml = huts.generate_kml()
     if download:
@@ -91,6 +125,14 @@ def huts_kml():
     else:
         return Response(kml.kml(format=True), mimetype='text/xml')
 
+def get_user_language():
+    lang = request.args.get('lang', default = "", type = str)
+    if not lang:
+        supported_languages = ["en", "de", "fr", "it"]
+        lang =  werkzeug.datastructures.LanguageAccept([(al[0][0:2], al[1]) for al in request.accept_languages]).best_match(supported_languages)
+        if not lang:
+            lang = 'en'
+    return lang
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App

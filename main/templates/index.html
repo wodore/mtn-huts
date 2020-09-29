@@ -1,67 +1,22 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Mountain Huts</title>
-
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
-  <script src="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/locales/bootstrap-datepicker.de.min.js" charset="UTF-8"></script>
-  <script src="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/locales/bootstrap-datepicker.fr.min.js" charset="UTF-8"></script>
-  <script src="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/locales/bootstrap-datepicker.it.min.js" charset="UTF-8"></script>
-  <script src="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/locales/bootstrap-datepicker.en-GB.min.js" charset="UTF-8"></script>
-
-  <script src="{{ url_for('static', filename='script.js') }}"></script>
-
-  <link rel="icon" type="image/png" href="/static/favicon.ico">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link id="bsdp-css" href="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker3.min.css" rel="stylesheet">
-  <meta name="theme-color" content="#563d7c">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      #language-nav {
-          width: 200px;
-        /* height: 50px; */
-        position: absolute;
-        right: 100px;
-        top: 3px;
-        transform: translate(50%,-50%);
-        z-index: 100;
-        text-align: right;
-        margin: 15px;
+{% extends "base.html" %}
+{% block style %}
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
-    #lang-select-{{lang}} {
-        color: #e49504 !important;
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
     }
-    </style>
+{% endblock %}
 
-
-  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-
-</head>
+{% block body %}
 <body  class="text-center">
 
 <div id="language-nav">
@@ -105,23 +60,50 @@
               <input type="hidden" id="form-date" name="date">
               <input type="hidden" id="form-lang" name="lang" value="{{lang}}">
               <button class="btn btn-warning btn-block" type="submit"><b>OK</b></button>
-              <small style="margin-top:10px;"><a class="text-info" href="https://map.geo.admin.ch/?topic=ech&lang={{lang}}&bgLayer=ch.swisstopo.pixelkarte-farbe&zoom=2&layers_opacity=0.65,0.75,0.9&E=2649690.78&N=1161675.64&layers_visibility=false,false,true&layers=ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fmtn-huts.oa.r.appspot.com%2Fhuts.kml%3Fdate%3D0%26plus%3D0%26lang%3D{{lang}}">
+              <small style="margin-top:10px;">
+
+
+  <!-- Button trigger modal -->
+  <button type="button" class="text-info btn btn-link btn-sm" data-toggle="modal" data-target="#legendModal">
               {% if lang == "de" %}
-                Nur Hütten anzeigen
+                Legende
               {% elif lang == "fr" %}
-               Afficher uniquement les cabines
+               Légende
               {% elif lang == "it" %}
-               Mostra solo capanne
+               Legenda
               {% else %}
-               Show only huts
+               Legend
               {% endif %}
-              </a></small>
+  </button><b class="text-muted"> | </b>
+
+                  <a class="text-info btn btn-link btn-sm" href="/map?lang={{lang}}&date=0">
+
+              {% if lang == "de" %}
+                nur Hütten anzeigen
+              {% elif lang == "fr" %}
+               afficher uniquement les cabines
+              {% elif lang == "it" %}
+               mostra solo capanne
+              {% else %}
+               show only huts
+              {% endif %}
+              </a>
           </div>
       </div>
   </div>
 
   <!--<p class="mt-5 mb-3 text-muted">&copy; 2020</p>-->
 </form>
+
+
+<!-- Modal -->
+<div class="modal fade" id="legendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        {% include 'legend.html' %}
+    </div>
+</div>
+
+
  <script>
  $('#date-picker-div').datepicker({
     format: "yyyy-mm-dd",
@@ -138,4 +120,4 @@
 });
  </script>
 </body>
-</html>
+{% endblock %}

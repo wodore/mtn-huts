@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+
+{% block style %}
+    #legend-link {
+        position: fixed;
+        bottom: 65px;
+        right: 60px;
+        font-weight: bold;
+        text-align: right;
+        height: 0px;
+        font-size: 12pt;
+        z-index: 100;
+    }
+    #select-date {
+        position: fixed;
+        bottom: 65px;
+        right: 130px;
+        z-index: 100;
+        height: 0px;
+    }
+
+    @media only screen and (min-width: 480px) {
+      /* For tablets: */
+          #legend-link {
+            top: 10px;
+            right: 5px;
+            bottom: unset;
+      }
+      #select-date {
+            top: 10px;
+            right: 70px;
+            bottom: unset;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      /* For tablets: */
+       #legend-link {
+            top: 27px;
+            right: 10px;
+            bottom: unset;
+      }
+      #select-date {
+            top: 27px;
+            right: 70px;
+            bottom: unset;
+      }
+    }
+    @media only screen and (min-width: 992px) {
+      /* For tablets: */
+       #legend-link {
+            top: 34px;
+            right: 30px;
+            bottom: unset;
+      }
+      #select-date {
+            top: 34px;
+            right: 100px;
+            bottom: unset;
+      }
+    }
+
+
+    .geo-input {
+        background: #fff!important;
+        padding-left: 2.8em;
+        padding-right: 2.1em;
+        display: block;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        /* border: 1px solid #ccc; */
+        border: 1.3px solid rgba(0, 102, 152, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 2px 3px 3px rgba(0, 102, 152, 0.15);
+
+        height: 30px;
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 1px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .geo-button {
+        background-color: #eee;
+        /* border: 1px solid #ccc; */
+        border: 1.3px solid rgba(0, 102, 152, 0.6);
+        box-shadow:  2px 3px 3px rgba(0, 102, 152, 0.15);
+        color: #555;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    #map {
+        position:fixed;
+        top:0px;
+        left:0;
+        bottom:0;
+        right:0;
+        width:100%;
+        height:100%;
+        border:none;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        z-index:10;
+    }
+{% endblock %}
+
+{% block body %}
+<body  onload="checkIframeLoaded();">
+
+
+<div id="select-date">
+<form class=""  action="map" method="get"  autocomplete="off">
+<div class="input-group mb-1"  id="date-picker">
+  <input type="text" class="geo-input" name="date" placeholder="{{date}}" style="width: 95px;" readonly="readonly">
+  <div class="input-group-append">
+    <button class="geo-button" type="submit"  style="width:30px; font-size:14pt;">&#8618;</button>
+  </div>
+</div>
+ <input type="hidden" id="form-lang" name="lang" value="{{lang}}">
+</from>
+</div>
+
+<div id="legend-link">
+  <!-- Button trigger modal -->
+  <button type="button" class="geo-button" data-toggle="modal" data-target="#legendModal">
+              {% if lang == "de" %}
+                Legende
+              {% elif lang == "fr" %}
+               Légende
+              {% elif lang == "it" %}
+               Legenda
+              {% else %}
+               Legend
+              {% endif %}
+  </button>
+</div>
+<iframe src="{{url}}" id="map">
+    Your browser doesn't support iframes
+</iframe>
+
+<!-- Modal -->
+<div class="modal fade" id="legendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        {% include 'legend.html' %}
+    </div>
+</div>
+
+
+ <script>
+$('#date-picker input').datepicker({
+    format: "dd.mm.yyyy",
+    weekStart: 1,
+    startDate: "0d",
+    daysOfWeekHighlighted: "0,6",
+    autoclose: true,
+    todayHighlight: true,
+    toggleActive: false,
+    language: "{{lang}}"
+});
+ </script>
+
+</body>
+{% endblock %}
