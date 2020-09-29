@@ -363,7 +363,7 @@ class Hut(object):
         start_date = self.start_date
         max_days = self._show_future_days
         # date format: dd.mm.yyyy
-        if not self.online_reservation:
+        if not self.online_reservation or not self.start_date:
             future.set_result([])
             return False
 

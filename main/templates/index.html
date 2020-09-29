@@ -53,6 +53,9 @@
         text-align: right;
         margin: 15px;
     }
+    #lang-select-{{lang}} {
+        color: #e49504 !important;
+    }
     </style>
 
 
@@ -63,10 +66,10 @@
 
 <div id="language-nav">
     <span class="text-muted">
-        <a href="/de" class="text-info">DE</a> &sdot;
-        <a href="/fr" class="text-info">FR</a> &sdot;
-        <a href="/it" class="text-info">IT</a> &sdot;
-        <a href="/en" class="text-info">EN</a>
+        <a href="/de" class="text-info" id="lang-select-de">DE</a> &sdot;
+        <a href="/fr" class="text-info" id="lang-select-fr">FR</a> &sdot;
+        <a href="/it" class="text-info" id="lang-select-it">IT</a> &sdot;
+        <a href="/en" class="text-info" id="lang-select-en">EN</a>
     </span>
 </div>
 
@@ -78,6 +81,10 @@
   <small>
   {% if lang == "de" %}
    Es dauert <b>ein paar Minuten</b> bis die Resultate auf der Karte erscheinen.
+    {% elif lang == "fr" %}
+   Il faut <b>quelques minutes</b> pour voir les résultats sur la carte.
+   {% elif lang == "it" %}
+   Ci vogliono alcuni minuti per vedere i risultati sulla mappa.
   {% else %}
   It takes <b>a few minutes</b> until you see the results on the map.
   {% endif %}
@@ -98,6 +105,17 @@
               <input type="hidden" id="form-date" name="date">
               <input type="hidden" id="form-lang" name="lang" value="{{lang}}">
               <button class="btn btn-warning btn-block" type="submit"><b>OK</b></button>
+              <small style="margin-top:10px;"><a class="text-info" href="https://map.geo.admin.ch/?topic=ech&lang={{lang}}&bgLayer=ch.swisstopo.pixelkarte-farbe&zoom=2&layers_opacity=0.65,0.75,0.9&E=2649690.78&N=1161675.64&layers_visibility=false,false,true&layers=ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fmtn-huts.oa.r.appspot.com%2Fhuts.kml%3Fdate%3D0%26plus%3D0%26lang%3D{{lang}}">
+              {% if lang == "de" %}
+                Nur Hütten anzeigen
+              {% elif lang == "fr" %}
+               Afficher uniquement les cabines
+              {% elif lang == "it" %}
+               Mostra solo capanne
+              {% else %}
+               Show only huts
+              {% endif %}
+              </a></small>
           </div>
       </div>
   </div>
