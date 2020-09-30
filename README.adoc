@@ -37,6 +37,6 @@ two steps:
 
 == Deploy
 
-  gcloud app deploy --project mtn-huts main/ 
+  gcloud app deploy --quiet --project mtn-huts main/ 
 
 

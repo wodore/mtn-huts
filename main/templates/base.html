@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Mountain Huts</title>
+  {% if lang == "de" %}
+  <title>Hütten Schweiz</title>
+  {% else %}
+  <title>Alpine Huts Switzerland</title>
+  {% endif %}
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -20,7 +24,12 @@
 
   <script src="{{ url_for('static', filename='script.js') }}"></script>
 
-  <link rel="icon" type="image/png" href="/static/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/static/favicon.png" sizes="32x32">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <meta name="msapplication-TileImage" content="/static/mstile-144x144.png">
+    <meta name="msapplication-TileColor" content="#dddddd">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link id="bsdp-css" href="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker3.min.css" rel="stylesheet">
   <meta name="theme-color" content="#563d7c">

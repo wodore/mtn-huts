@@ -29,6 +29,7 @@ class Huts(object):
                  _sleep_time = 1.5):
 
         self._limit = limit
+        self._filter = filter
         if start_date:
             if start_date == 'now':
                 start_datetime = datetime.datetime.now()
@@ -46,12 +47,13 @@ class Huts(object):
 
         self._lang = self._language_check(lang)
 
-        self._hut_list = False
+        self._hut_list = {}
 
-    def get_huts(self, limit=None):
+    def get_huts(self, limit = None, **kwargs):
         if limit is None:
             limit = self._limit
-        if not self._hut_list:
+        key = "limit{}kwargs{}".format(limit, str(kwargs).replace(" ",""))
+        if key not in self._hut_list:
             with requests.Session() as s:
                 url = "https://www.suissealpine.sac-cas.ch/api/1/poi/search"
                 params = {'lang': self.user_language,
@@ -61,6 +63,8 @@ class Huts(object):
                           "hut_type" : "all",
                           "limit" : limit}
 
+                params.update(kwargs)
+
                 r = s.get(url, params=params)
                 huts = r.json().get("results", {})
                 r.close()
@@ -69,14 +73,13 @@ class Huts(object):
                 hut_list = [Hut(hut, start_date = self._start_date,
                                 show_future_days = self._show_future_days,
                                 lang = self.user_language) for hut in huts]
-                self._hut_list = hut_list
+                self._hut_list[key] = hut_list
 
-        return  self._hut_list
+        return  self._hut_list[key]
         #df = pd.json_normalize(huts)
 
-    def generate_kml(self):
-        #df_huts = self.get_vacancies(1, self.MAX_HUTS, self.START_DATE, self.EXCLUDE_IDS, self.MAX_DAYS)
-
+    def generate_kml(self, **filter):
+        all_huts = self.get_huts(**filter)
         #main_url = self.MAIN_URL + '/calendar'
         kml=simplekml.Kml()
         hut_name = {"de": "Berghütten",
@@ -89,12 +92,14 @@ class Huts(object):
         else:
             kml.document.name = "{}".format(hut_name[self.user_language])
             icon_scale = 0.33
+        if filter.get("has_hrsid", "") in ["0", 0, "false", "False", "f", "F"]:
+            icon_scale = 0.42
 
         # generate GPX file
         #print("Generate KML file.")
         #for index, hut in df_huts.iterrows():
         add_style = True
-        for hut in self.get_huts():
+        for hut in all_huts:
             coords = hut.get_coordinates(system="wsg84",  include_altitude=True)
 
             hut_desc = HutDescription(hut, add_style=add_style)
@@ -128,6 +133,11 @@ if __name__ == '__main__':
     huts = Huts(0, show_future_days = 9, limit = 30)
 
     hut_list = huts.get_huts()
-    kml = huts.generate_kml()
+    kml = huts.generate_kml(limit=3, has_hrsid = True)
 
     kml.save('all_huts.kml')
+
+    # try filters
+    print([h.name for h in huts.get_huts(limit=3, has_hrsid = True)])
+    print([h.name for h in huts.get_huts(limit=3, has_hrsid = False)])
+    print([h.name for h in huts.get_huts(limit=3)])

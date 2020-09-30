@@ -71,8 +71,7 @@ def map():
     lang = get_user_language()
     show_link = request.args.get('_show_link', default = 0, type = int)
     _redirect = request.args.get('redirect', default = 0, type = int)
-    link = "https://map.geo.admin.ch/?topic=ech&lang={lang}&bgLayer=ch.swisstopo.pixelkarte-farbe&zoom=2&layers_opacity=0.65,0.75,1&E=2662509.24&N=1172513.90&layers_visibility=false,false,true&layers=ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fmtn-huts.oa.r.appspot.com%2Fhuts.kml%3Fdate%3D{date}%26plus%3D{days}%26lang%3D{lang}"
-
+    link = "https://map.geo.admin.ch/?topic=schneesport&lang=de&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.bafu.wrz-jagdbanngebiete_select,ch.bafu.wrz-wildruhezonen_portal,ch.swisstopo.hangneigung-ueber_30,ch.swisstopo-karto.schneeschuhrouten,ch.swisstopo-karto.skitouren,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fhuts.wodore.com%2Fhuts.kml%3Fhas_hrsid%3D0%26date%3D0%26lang%3D{lang},KML%7C%7Chttps:%2F%2Fhuts.wodore.com%2Fhuts.kml%3Fhas_hrsid%3D1%26date%3D{date}%26lang%3D{lang}&layers_visibility=false,false,false,false,false,false,false,true,true&layers_opacity=0.6,0.6,0.3,0.8,0.55,0.7,0.5,0.85,0.9&E=2669094.02&N=1156288.37&zoom=2"
     link_fmt = link.format(days=days_from_start, date=start_date, lang=lang)
 
     try:
@@ -102,10 +101,11 @@ def map():
     return render_template('map.html', lang=lang, url=link_fmt, date=formatted_date)
 
 
-# /huts.kml?date=now&plus=5
+# /huts.kml?date=now&plus=5&[has_hrsid=1|0|]
 @app.route('/huts.kml')
 def huts_kml():
     start_date = request.args.get('date', default = 'now', type = str)
+    has_hrsid = request.args.get('has_hrsid', default = "", type = str)
     try:
         start_date = int(start_date)
     except ValueError:
@@ -119,7 +119,7 @@ def huts_kml():
     huts = Huts(start_date = start_date, days_from_start_date = days_from_start_date,
                 show_future_days = 12, limit=_limit, lang=lang)
 
-    kml = huts.generate_kml()
+    kml = huts.generate_kml(has_hrsid = has_hrsid)
     if download:
         return Response(kml.kml(format=False), mimetype='application/vnd.google-earth.kml+xml')
     else:
