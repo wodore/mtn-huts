@@ -24,6 +24,8 @@ from flask_babel import Babel
 
 
 from huts.Huts import Huts
+from huts.Hut import Hut
+from huts.HutDescription import HutDescription
 from config import Config
 
 app = Flask(__name__)
@@ -71,7 +73,7 @@ def map():
     lang = get_user_language()
     show_link = request.args.get('_show_link', default = 0, type = int)
     _redirect = request.args.get('redirect', default = 0, type = int)
-    link = "https://map.geo.admin.ch/?topic=schneesport&lang=de&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.bafu.wrz-jagdbanngebiete_select,ch.bafu.wrz-wildruhezonen_portal,ch.swisstopo.hangneigung-ueber_30,ch.swisstopo-karto.schneeschuhrouten,ch.swisstopo-karto.skitouren,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fhuts.wodore.com%2Fhuts.kml%3Fhas_hrsid%3D0%26date%3D0%26lang%3D{lang},KML%7C%7Chttps:%2F%2Fhuts.wodore.com%2Fhuts.kml%3Fhas_hrsid%3D1%26date%3D{date}%26lang%3D{lang}&layers_visibility=false,false,false,false,false,false,false,true,true&layers_opacity=0.6,0.6,0.3,0.8,0.55,0.7,0.5,0.85,0.9&E=2669094.02&N=1156288.37&zoom=2"
+    link = "https://map.geo.admin.ch/?topic=schneesport&lang={lang}&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.bafu.wrz-jagdbanngebiete_select,ch.bafu.wrz-wildruhezonen_portal,ch.swisstopo.hangneigung-ueber_30,ch.swisstopo-karto.schneeschuhrouten,ch.swisstopo-karto.skitouren,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fhuts.wodore.com%2Fhuts.kml%3Fhas_hrsid%3D0%26date%3D0%26lang%3D{lang},KML%7C%7Chttps:%2F%2Fhuts.wodore.com%2Fhuts.kml%3Fhas_hrsid%3D1%26date%3D{date}%26lang%3D{lang}&layers_visibility=false,false,false,false,false,false,false,true,true&layers_opacity=0.6,0.6,0.3,0.8,0.55,0.7,0.5,0.85,0.9&E=2669094.02&N=1156288.37&zoom=2"
     link_fmt = link.format(days=days_from_start, date=start_date, lang=lang)
 
     try:
@@ -124,6 +126,23 @@ def huts_kml():
         return Response(kml.kml(format=False), mimetype='application/vnd.google-earth.kml+xml')
     else:
         return Response(kml.kml(format=True), mimetype='text/xml')
+
+@app.route('/hut/<int:hut_id>')
+def hut(hut_id):
+    """/map?date=<dd.mm.yyyy|0>&[redirect=<0|1>]&[_show_link=<0|1>]"""
+    lang = get_user_language()
+    hut = Hut(hut_id, lang=lang)
+    hut_desc = HutDescription(hut, add_style=False, add_legend_link=False)
+    #return hut.name
+    return render_template('hut.html', lang=lang, hut=hut, description=hut_desc.description)
+
+@app.route('/legend')
+def legend():
+    """/map?date=<dd.mm.yyyy|0>&[redirect=<0|1>]&[_show_link=<0|1>]"""
+    lang = get_user_language()
+    #return hut.name
+    return render_template('legend.html', lang=lang)
+
 
 def get_user_language():
     lang = request.args.get('lang', default = "", type = str)

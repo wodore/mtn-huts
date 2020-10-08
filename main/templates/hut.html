@@ -136,10 +136,10 @@
 
 <div id="language-nav">
     <span class="text-muted">
-        <a href="/legend?lang=de" class="text-info" id="lang-select-de">DE</a> &sdot;
-        <a href="/legend?lang=fr" class="text-info" id="lang-select-fr">FR</a> &sdot;
-        <a href="/legend?lang=it" class="text-info" id="lang-select-it">IT</a> &sdot;
-        <a href="/legend?lang=en" class="text-info" id="lang-select-en">EN</a>
+        <a href="/hut/{{hut.sac_id}}?lang=de" class="text-info" id="lang-select-de">DE</a> &sdot;
+        <a href="/hut/{{hut.sac_id}}?lang=fr" class="text-info" id="lang-select-fr">FR</a> &sdot;
+        <a href="/hut/{{hut.sac_id}}?lang=it" class="text-info" id="lang-select-it">IT</a> &sdot;
+        <a href="/hut/{{hut.sac_id}}?lang=en" class="text-info" id="lang-select-en">EN</a>
     </span>
 </div>
 
@@ -171,13 +171,7 @@
 
 
 <div>
-    <div class="modal-dialog" role="document">
-    {% with legend_as_modal=False %}
-        {% include 'legend_modal.html' %}
-    {% endwith %}
-    </div>
-
-
+{{description|safe}}
 </div>
 
       </div>
@@ -186,6 +180,13 @@
   <!--<p class="mt-5 mb-3 text-muted">&copy; 2020</p>-->
 </div>
 
+
+<!-- Modal -->
+<div class="modal fade" id="legendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        {% include 'legend.html' %}
+    </div>
+</div>
 
 
 

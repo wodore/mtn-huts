@@ -108,7 +108,7 @@
 {% endblock %}
 
 {% block body %}
-<body  onload="checkIframeLoaded();">
+<body>
 
 
 <div id="select-date">
@@ -137,14 +137,16 @@
               {% endif %}
   </button>
 </div>
-<iframe src="{{url}}" id="map">
-    Your browser doesn't support iframes
+<iframe src="{{url}}" id="map" >
+    Your browser doesn't support iframes.
 </iframe>
 
 <!-- Modal -->
 <div class="modal fade" id="legendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        {% include 'legend.html' %}
+    {% with legend_as_modal=True %}
+        {% include 'legend_modal.html' %}
+    {% endwith %}
     </div>
 </div>
 
@@ -160,6 +162,15 @@ $('#date-picker input').datepicker({
     toggleActive: false,
     language: "{{lang}}"
 });
+
+window.addEventListener('message', function(e) {
+  // Different message types might come in the future.
+  // It's best practice to filter by message type. As
+  // can be seen below
+  console.log(e)
+
+}, false);
+
  </script>
 
 </body>

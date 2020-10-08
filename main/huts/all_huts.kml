@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="761">
-        <Style id="764">
-            <IconStyle id="765">
+    <Document id="780">
+        <Style id="783">
+            <IconStyle id="784">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="766">
+                <Icon id="785">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="769">
-            <IconStyle id="770">
+        <Style id="788">
+            <IconStyle id="789">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="771">
+                <Icon id="790">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-sac.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Style id="774">
-            <IconStyle id="775">
+        <Style id="793">
+            <IconStyle id="794">
                 <colorMode>normal</colorMode>
                 <scale>0.33</scale>
                 <heading>0</heading>
-                <Icon id="776">
+                <Icon id="795">
                     <href>https://mtn-huts.oa.r.appspot.com/static/icons/default/hut-private.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <name>Berghütten</name>
-        <Placemark id="763">
+        <Placemark id="782">
             <description>
 &lt;style&gt;
 
@@ -151,13 +151,36 @@
               &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1521188008_205599419Mb.jpg&quot; class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Almagellerhütte SAC, Aussenansicht. (&amp;copy; SAC-CAS)&lt;/figcaption&gt;
             &lt;/figure&gt;
-                &lt;/div&gt;</description>
-            <styleUrl>#764</styleUrl>
-            <Point id="762">
+                
+       &lt;!-- Button trigger modal --&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;
+  Launch demo modal
+&lt;/button&gt;
+
+&lt;!-- Modal --&gt;
+&lt;div class=&quot;modal fade&quot; id=&quot;myModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot;&gt;
+  &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+      &lt;div class=&quot;modal-header&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+        &lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel&quot;&gt;Modal title&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-body&quot;&gt;
+        ...
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-footer&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;</description>
+            <styleUrl>#783</styleUrl>
+            <Point id="781">
                 <coordinates>8.00769886181262,46.10766600032284,2945.114704</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="768">
+        <Placemark id="787">
             <description>
 &lt;style&gt;
 
@@ -276,13 +299,36 @@
               &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1521129729_1734077068Mb.jpg&quot; class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Bächlitalhütte SAC, Aussenansicht. (&amp;copy; Zettel/Schulthess)&lt;/figcaption&gt;
             &lt;/figure&gt;
-                &lt;/div&gt;</description>
-            <styleUrl>#769</styleUrl>
-            <Point id="767">
+                
+       &lt;!-- Button trigger modal --&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;
+  Launch demo modal
+&lt;/button&gt;
+
+&lt;!-- Modal --&gt;
+&lt;div class=&quot;modal fade&quot; id=&quot;myModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot;&gt;
+  &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+      &lt;div class=&quot;modal-header&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+        &lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel&quot;&gt;Modal title&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-body&quot;&gt;
+        ...
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-footer&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;</description>
+            <styleUrl>#788</styleUrl>
+            <Point id="786">
                 <coordinates>8.282681550901897,46.587037979835685,2377.6432932800003</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="773">
+        <Placemark id="792">
             <description>
 &lt;style&gt;
 
@@ -401,9 +447,32 @@
               &lt;img src=&quot;https://static.suissealpine.sac-cas.ch/1518015240_1109393234Mb.jpg&quot; class=&quot;figure-img img-fluid z-depth-1&quot; alt=&quot;...&quot; style=&quot;width: 100%&quot;&gt;
               &lt;figcaption class=&quot;figure-caption text-right text-muted&quot;&gt;Badushütte, Aussenansicht. (&amp;copy; graubuenden.ch)&lt;/figcaption&gt;
             &lt;/figure&gt;
-                &lt;/div&gt;</description>
-            <styleUrl>#774</styleUrl>
-            <Point id="772">
+                
+       &lt;!-- Button trigger modal --&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;
+  Launch demo modal
+&lt;/button&gt;
+
+&lt;!-- Modal --&gt;
+&lt;div class=&quot;modal fade&quot; id=&quot;myModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot;&gt;
+  &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+      &lt;div class=&quot;modal-header&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+        &lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel&quot;&gt;Modal title&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-body&quot;&gt;
+        ...
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-footer&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;</description>
+            <styleUrl>#793</styleUrl>
+            <Point id="791">
                 <coordinates>8.668381459804491,46.63653276443184,2552.1385512</coordinates>
             </Point>
         </Placemark>

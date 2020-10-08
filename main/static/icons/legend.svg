@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.91 r"
    sodipodi:docname="legend.svg"
-   inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/legend_fr.png"
+   inkscape:export-filename="/home/tobias/git/mtn-huts/main/static/icons/legend_de.png"
    inkscape:export-xdpi="128"
    inkscape:export-ydpi="128">
   <defs
@@ -29,8 +29,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="414.54918"
-     inkscape:cy="476.70434"
+     inkscape:cx="70.54918"
+     inkscape:cy="472.70434"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,7 +73,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -394,7 +394,7 @@
            x="500.63159"
            y="234.9776" /></flowRegion><flowPara
          style="font-size:22.5px"
-         id="flowPara5213-5-7">60% to 100% occupied</flowPara></flowRoot>    <flowRoot
+         id="flowPara5213-5-7">70% to 100% occupied</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5179-0-8-1"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -406,7 +406,7 @@
            x="500.63159"
            y="234.9776" /></flowRegion><flowPara
          style="font-size:22.5px"
-         id="flowPara5213-5-7-0">30% to 60% occupied</flowPara></flowRoot>    <flowRoot
+         id="flowPara5213-5-7-0">30% to 70% occupied</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5179-0-8-1-9"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

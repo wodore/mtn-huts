@@ -127,19 +127,21 @@ STYLE = """
 LEGEND = """
 
 <div id="legend-link">
-    <a href="https://frei.wodore.com/static/icons/legend_{lang}.png" target="_blank">Legend</a>
+    <a href="https://frei.wodore.com/hut/{sac_id}?lang={lang}" target="_blank">More</a> |
+    <a href="https://frei.wodore.com/legend?lang={lang}" target="_blank">Help</a>
 </div>
 """
 class HutDescription(object):
 
 
-    def __init__(self, hut, host=None, add_style=True):
+    def __init__(self, hut=None, host=None, add_style=True, add_legend_link=True):
         if host is None:
             self.HOST_URL = "https://mtn-huts.oa.r.appspot.com"
         else:
             self.HOST_URL = host
         self._hut = hut
-        self._add_style = True
+        self._add_style = add_style
+        self._add_legend_link = add_legend_link
         self._desc = self._generate()
 
 
@@ -175,14 +177,10 @@ class HutDescription(object):
         else:
             desc = ""
 
-        desc += LEGEND.format(lang=hut.user_language)
+        if self._add_legend_link:
+            desc += LEGEND.format(sac_id = hut.sac_id, lang=hut.user_language)
 
-        if hut.sac:
-            file_name = "hut-sac"
-        else:
-            file_name = "hut-private"
-        if hut.is_biwak:
-            file_name = file_name.replace("hut", "biwak")
+        file_name = hut.category
 
         if hut.url:
             url = hut.url
@@ -281,6 +279,31 @@ class HutDescription(object):
             </figure>
                 """.format(hut.photo["M"], hut.photo["caption"], hut.photo["copyright"])
 
+#         # modal
+#         desc += """
+#         <!-- Button trigger modal -->
+# <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+#   Launch demo modal
+# </button>
+
+# <!-- Modal -->
+# <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+#   <div class="modal-dialog" role="document">
+#     <div class="modal-content">
+#       <div class="modal-header">
+#         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+#         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+#       </div>
+#       <div class="modal-body">
+#         ...
+#       </div>
+#       <div class="modal-footer">
+#         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+#         <button type="button" class="btn btn-primary">Save changes</button>
+#       </div>
+#     </div>
+#   </div>
+#   """
         desc += "</div>"
 
         return desc
@@ -289,7 +312,7 @@ class HutDescription(object):
     def round_percent(self, p):
         if p >= 99:
              percent = 100
-        elif p >= 60:
+        elif p >= 70:
              percent = 75
         elif p >= 30:
              percent = 50

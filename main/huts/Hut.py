@@ -12,8 +12,12 @@ from concurrent.futures import Future
 
 try:
     from .GPSConverter import GPSConverter
+    #from .HutDescription import HutDescription
 except ImportError: # for local testing
     from GPSConverter import GPSConverter
+    #from HutDescription import HutDescription
+
+
 
 
 class Hut(object):
@@ -29,10 +33,29 @@ class Hut(object):
         }
 
 
-    def __init__(self, hut_dict, start_date='now',
+    def __init__(self, hut_dict_or_id, start_date='now',
                  show_future_days=9, lang='de', _async = True):
+
+        self._hut_dict = {}
         self._lang = self._language_check(lang)
-        self._hut_dict = hut_dict
+        try:
+            _id = int(hut_dict_or_id)
+            with requests.Session() as s:
+                url = "https://www.suissealpine.sac-cas.ch/api/1/poi/search"
+                params = {'lang': self.user_language,
+                          "id" : _id}
+
+                r = s.get(url, params=params)
+                huts = r.json().get("results", {})
+                r.close()
+
+                if len(huts) > 0:
+                    self._hut_dict = huts[0]
+        except TypeError:
+            self._hut_dict = hut_dict_or_id
+
+
+
 
         self._show_future_days = show_future_days
 
@@ -58,18 +81,19 @@ class Hut(object):
 
 
 
+
     @classmethod
-    def create(obj, hut_dict, lang='de'):
-        return obj(hut_dict, lang=lang)
+    def create(obj, hut_dict_or_id, lang='de'):
+        return obj(hut_dict_or_id, lang=lang)
 
     @property
     def start_date(self):
-        """Returns start date fro reservation requests"""
+        """Returns start date from reservation requests"""
         return self._start_date
 
     @property
     def show_future_days(self):
-        """Returns start date fro reservation requests"""
+        """Number of future days to so (occupation)"""
         return self._show_future_days
 
     @property
@@ -126,9 +150,55 @@ class Hut(object):
         return not self._hut_dict.get('is_private', True)
 
     @property
+    def is_biwak(self):
+        """If catering is offered it is no biwak"""
+        # check special case sleeps < emergency shelters:
+        if self.sleeps < self.emergency_shelter:
+            return True
+        # check if catering is offered at least in two months
+        return not ((self.catering.count(0) + self.catering.count(1)) >= 2)
+        #return self.sleeps <= self.emergency_shelter
+
+    @property
+    def category(self):
+        """Category name:
+
+            - biwak-sac
+            - biwak-private
+            - hut-sac
+            - hut-private
+        """
+        cat = "biwak" if self.is_biwak else "hut"
+        cat += "-sac" if self.sac else "-private"
+        return cat
+
+    @property
     def language(self):
         """Returns hut main language"""
         return self._hut_dict.get('main_lang', "de")
+
+
+    @property
+    def catering(self):
+        """Returns a catering list (idx0: january, 11: december)
+
+        0: fully catered
+        1: sometimes
+        2: no catering
+        """
+        catering = list(self._hut_dict.get("catering",[]).values())
+        return catering
+
+    @property
+    def opening(self):
+        """Returns a catering list (idx0: january, 11: december)
+
+        0: open
+        1: sometimes
+        2: closed
+        """
+        opening = list(self._hut_dict.get("opening",[]).values())
+        return opening
 
     @property
     def altitude(self):
@@ -161,10 +231,7 @@ class Hut(object):
         """Returns number of beds (Schlafplaetze)"""
         return int(self._hut_dict.get('sleeps', 0))
 
-    @property
-    def is_biwak(self):
-        """If sleeping places and shelder space is the same we assume it is a biwak."""
-        return self.sleeps <= self.emergency_shelter
+
 
     @property
     def photos(self):
@@ -452,30 +519,38 @@ if __name__ == '__main__':
     s = requests.Session()
 
     LANG = "de"
-    HUT_INDEX = 30
-    # 0: biwak
-    # 1: SAC, no online reservation
+    HUT_INDEX = 2147000006
+
+    # 0: Aarbiwak SAC, biwak
+    # 1: Albert-Heim SAC, no online reservation
     # 2: Almagellerhütte SAC, massenlager, online reservation
-    # 3: private, no online reservation
-    # 11:biwak, no reservation
+    # 3: Alpage de la Peule, private, no online reservation
+    # 4: Alpage La Grandsonnaz-Dessus, private, no reservation, no catering info
+    # 11: Arbenbiwak SAC, biwak, no reservation
     # 30: Berglihütte SAC, biwak  with reservation
     # 35: Binntalhütte SAC, online reservation, different rooms
-    url = "https://www.suissealpine.sac-cas.ch/api/1/poi/search"
-    params = {'lang': "de",
-              "order_by" : "display_name",
-              "type" : "hut",
-              "disciplines" : "",
-              "hut_type" : "all",
-              "limit" : HUT_INDEX + 2}
+    # 252: Rifugio Andolla, no informations
 
-    r = s.get(url, params=params)
-    huts = r.json().get("results", {})
+    if HUT_INDEX < 1000:
+        url = "https://www.suissealpine.sac-cas.ch/api/1/poi/search"
+        params = {'lang': "de",
+                  "order_by" : "display_name",
+                  "type" : "hut",
+                  "disciplines" : "",
+                  "hut_type" : "all",
+                  "limit" : HUT_INDEX + 2}
+
+        r = s.get(url, params=params)
+        huts = r.json().get("results", {})
+        hut_or_id = huts[HUT_INDEX]
+    else:
+        hut_or_id = HUT_INDEX
     #df = pd.json_normalize(huts)
 
 
 
 
-    hut = Hut.create(huts[HUT_INDEX], lang=LANG)
+    hut = Hut.create(hut_or_id, lang=LANG)
 
     print("#{} - {}".format(hut.sac_id, hut.name))
 

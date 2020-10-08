@@ -98,12 +98,10 @@ class Huts(object):
         # generate GPX file
         #print("Generate KML file.")
         #for index, hut in df_huts.iterrows():
-        add_style = True
         for hut in all_huts:
             coords = hut.get_coordinates(system="wsg84",  include_altitude=True)
 
-            hut_desc = HutDescription(hut, add_style=add_style)
-            add_style = False
+            hut_desc = HutDescription(hut, add_style=True)
             if __name__ == '__main__':
                 print("#{} - {}".format(hut.sac_id, hut.name))
             pnt = kml.newpoint(coords=[coords]) # lng, lat

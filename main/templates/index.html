@@ -103,7 +103,9 @@
 <!-- Modal -->
 <div class="modal fade" id="legendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        {% include 'legend.html' %}
+    {% with legend_as_modal=True %}
+        {% include 'legend_modal.html' %}
+    {% endwith %}
     </div>
 </div>
 
