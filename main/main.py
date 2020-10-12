@@ -16,10 +16,11 @@
 import datetime
 import urllib
 
-from flask import Flask, render_template, request, Response, redirect, url_for
+from flask import Flask, render_template, request, Response, redirect, url_for, session
 import werkzeug
 
 from flask_babel import Babel
+from flask_babel import _
 
 
 
@@ -35,34 +36,69 @@ app.config.from_object(Config)
 babel = Babel(app)
 
 
-# @babel.localeselector
-# def get_locale():
-#     if not g.get('lang_code', None):
-#         g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
-#     return g.lang_code
+@babel.localeselector
+def get_locale():
+    return get_user_language()
+
+def get_user_language():
+    # return "it"
+    # if not g.get('lang_code', None):
+    #     g.lang_code = request.accept_languages.best_match(app.config['LANGUAGES'])
+    lang = request.args.get('lang', default = "", type = str)
+    if lang:
+        if lang in Config.LANGUAGES:
+            session['language'] = lang
+            return lang
+    try:
+        language = session['language']
+    except KeyError:
+        language = None
+    if language is not None:
+        return language
+
+    lang =  werkzeug.datastructures.LanguageAccept([(al[0][0:2], al[1]) for al in request.accept_languages]).best_match(Config.LANGUAGES)
+    if not lang:
+        lang = 'en'
+    return lang
+
+
+@app.context_processor
+def inject_conf_var():
+    lang = get_user_language()
+    return dict(
+           CURRENT_LANGUAGE = lang,
+           lang = lang)
 
 @app.route('/en')
 def root_en():
-    return  redirect("/?lang=en", code=302)
+    session['language'] = "en"
+    return  redirect("/", code=302)
+
 @app.route('/de')
 def root_de():
-    return  redirect("/?lang=de", code=302)
+    session['language'] = "de"
+    return  redirect("/", code=302)
+
 @app.route('/fr')
 def root_fr():
-    return  redirect("/?lang=fr", code=302)
+    session['language'] = "fr"
+    return  redirect("/", code=302)
+
 @app.route('/it')
 def root_it():
-    return  redirect("/?lang=it", code=302)
+    session['language'] = "it"
+    return  redirect("/", code=302)
 
 @app.route('/')
 def root():
     start_datetime = datetime.datetime.now().strftime("%Y-%m-%d")
     #start_datetime = datetime.datetime.now().strftime("%d.%m.%Y")
-    return render_template('index.html', date=start_datetime, lang = get_user_language())
+    show_huts_text = _("show only huts")
+    return render_template('index.html', date=start_datetime, show_huts_text=show_huts_text)
 
 @app.route('/admin')
 def admin():
-    return render_template('admin.html', lang = get_user_language())
+    return render_template('admin.html')
 
 
 @app.route('/map')
@@ -70,11 +106,10 @@ def map():
     """/map?date=<dd.mm.yyyy|0>&[redirect=<0|1>]&[_show_link=<0|1>]"""
     start_date = request.args.get('date', default = 'now', type = str)
     days_from_start = request.args.get('plus', default = 0, type = int)
-    lang = get_user_language()
     show_link = request.args.get('_show_link', default = 0, type = int)
     _redirect = request.args.get('redirect', default = 0, type = int)
     link = "https://map.geo.admin.ch/?topic=schneesport&lang={lang}&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.bafu.wrz-jagdbanngebiete_select,ch.bafu.wrz-wildruhezonen_portal,ch.swisstopo.hangneigung-ueber_30,ch.swisstopo-karto.schneeschuhrouten,ch.swisstopo-karto.skitouren,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fhuts.wodore.com%2Fhuts.kml%3Fhas_hrsid%3D0%26date%3D0%26lang%3D{lang},KML%7C%7Chttps:%2F%2Fhuts.wodore.com%2Fhuts.kml%3Fhas_hrsid%3D1%26date%3D{date}%26lang%3D{lang}&layers_visibility=false,false,false,false,false,false,false,true,true&layers_opacity=0.6,0.6,0.3,0.8,0.55,0.7,0.5,0.85,0.9&E=2669094.02&N=1156288.37&zoom=2"
-    link_fmt = link.format(days=days_from_start, date=start_date, lang=lang)
+    link_fmt = link.format(days=days_from_start, date=start_date, lang= get_user_language())
 
     try:
         start_datetime = int(start_date)
@@ -100,7 +135,7 @@ def map():
         return "<a href={link}>{link}</a>".format(link=link_fmt)
     if _redirect:
         return redirect(link_fmt)
-    return render_template('map.html', lang=lang, url=link_fmt, date=formatted_date)
+    return render_template('map.html', url=link_fmt, date=formatted_date)
 
 
 # /huts.kml?date=now&plus=5&[has_hrsid=1|0|]
@@ -117,9 +152,8 @@ def huts_kml():
     days_from_start_date = request.args.get('plus', default = 0, type = int)
     _limit = request.args.get('_limit', default = 2000, type = int)
     download = request.args.get('download', default = 1, type = int)
-    lang = get_user_language()
     huts = Huts(start_date = start_date, days_from_start_date = days_from_start_date,
-                show_future_days = 12, limit=_limit, lang=lang)
+                show_future_days = 12, limit=_limit, lang=get_user_language())
 
     kml = huts.generate_kml(has_hrsid = has_hrsid)
     if download:
@@ -129,29 +163,21 @@ def huts_kml():
 
 @app.route('/hut/<int:hut_id>')
 def hut(hut_id):
-    """/map?date=<dd.mm.yyyy|0>&[redirect=<0|1>]&[_show_link=<0|1>]"""
-    lang = get_user_language()
-    hut = Hut(hut_id, lang=lang)
+    """get detailed hut information"""
+    start_date = request.args.get('date', default = 'now', type = str)
+    hut = Hut(hut_id, lang=get_user_language(), start_date=start_date)
     hut_desc = HutDescription(hut, add_style=False, add_legend_link=False)
     #return hut.name
-    return render_template('hut.html', lang=lang, hut=hut, description=hut_desc.description)
+    return render_template('hut.html', hut=hut, description=hut_desc.description, date=start_date)
 
 @app.route('/legend')
 def legend():
     """/map?date=<dd.mm.yyyy|0>&[redirect=<0|1>]&[_show_link=<0|1>]"""
-    lang = get_user_language()
+   # lang = get_user_language()
     #return hut.name
-    return render_template('legend.html', lang=lang)
+    return render_template('legend.html')
 
 
-def get_user_language():
-    lang = request.args.get('lang', default = "", type = str)
-    if not lang:
-        supported_languages = ["en", "de", "fr", "it"]
-        lang =  werkzeug.datastructures.LanguageAccept([(al[0][0:2], al[1]) for al in request.accept_languages]).best_match(supported_languages)
-        if not lang:
-            lang = 'en'
-    return lang
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App

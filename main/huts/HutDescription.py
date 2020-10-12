@@ -8,6 +8,7 @@ Created on Sun Sep 13 07:10:14 2020
 # import time
 import datetime
 import locale
+from flask_babel import _
 # import threading
 # from concurrent.futures import Future
 
@@ -125,12 +126,11 @@ STYLE = """
 """
 
 LEGEND = """
-
 <div id="legend-link">
-    <a href="https://frei.wodore.com/hut/{sac_id}?lang={lang}" target="_blank">More</a> |
-    <a href="https://frei.wodore.com/legend?lang={lang}" target="_blank">Help</a>
+    <a href="https://frei.wodore.com/hut/{{sac_id}}?lang={{lang}}&date={{date}}" target="_blank">{more}</a> |
+    <a href="https://frei.wodore.com/legend?lang={{lang}}" target="_blank">{help}</a>
 </div>
-"""
+""".format(more=_("More"), help=_("Help"))
 class HutDescription(object):
 
 
@@ -178,7 +178,11 @@ class HutDescription(object):
             desc = ""
 
         if self._add_legend_link:
-            desc += LEGEND.format(sac_id = hut.sac_id, lang=hut.user_language)
+            if hut.start_date:
+                start_date = hut.start_date
+            else:
+                start_date= ""
+            desc += LEGEND.format(sac_id = hut.sac_id, lang=hut.user_language, date=start_date)
 
         file_name = hut.category
 
@@ -197,22 +201,22 @@ class HutDescription(object):
 
         # get correct translation
         if hut.online_reservation:
-            res_text = "Online reservation"
-            if hut.user_language == "de":
-                res_text = "Online Reservierung"
-            elif hut.user_language == "fr":
-                res_text = "Réservation en ligne"
-            elif hut.user_language == "it":
-                res_text = "Prenotazione online"
+            res_text = _("Online reservation")
+            # if hut.user_language == "de":
+            #     res_text = "Online Reservierung"
+            # elif hut.user_language == "fr":
+            #     res_text = "Réservation en ligne"
+            # elif hut.user_language == "it":
+            #     res_text = "Prenotazione online"
             desc += """<img class="img-text" src="{}/static/icons/calendar.png" height="15px"> <a href={} target=_blank>{}</a> | """.format(self.HOST_URL, hut.reservation_url, res_text)
 
-        sac_portal_text = "SAC route portal"
-        if hut.user_language == "de":
-            sac_portal_text = "SAC Tourenportal"
-        elif hut.user_language == "fr":
-            sac_portal_text = "Portail des courses du CAS"
-        elif hut.user_language == "it":
-            sac_portal_text = "Portale escursionistico del CAS"
+        sac_portal_text = _("SAC route portal")
+        # if hut.user_language == "de":
+        #     sac_portal_text = "SAC Tourenportal"
+        # elif hut.user_language == "fr":
+        #     sac_portal_text = "Portail des courses du CAS"
+        # elif hut.user_language == "it":
+        #     sac_portal_text = "Portale escursionistico del CAS"
         desc += """<img src="{}/static/external/sac.ico" height="17px" class="img-text"> <a href={} target=_blank>{}</a></p>""".format(self.HOST_URL, hut.sac_url, sac_portal_text)
 
         # get capacity icons if online reservation is possible

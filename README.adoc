@@ -40,3 +40,26 @@ two steps:
   gcloud app deploy --quiet --project mtn-huts main/ 
 
 
+== Translation
+
+=== Extract messages
+
+  pybabel extract -F main/babel.cfg -k _l -o messages.pot .
+
+=== Init Translation Files
+
+NOTE: Only needed the frist time
+
+  pybabel init -i messages.pot -d main/translations -l de
+  pybabel init -i messages.pot -d main/translations -l fr
+  pybabel init -i messages.pot -d main/translations -l it
+
+=== Init or Update Translation Files
+
+  pybabel update -i messages.pot -d main/translations
+
+
+=== Compile Translations
+
+  pybabel compile -d main/translations
+

@@ -12,3 +12,6 @@ Created on Tue Sep 29 13:07:04 2020
 
 class Config(object):
     LANGUAGES = ['de', 'fr', 'it', 'en']
+
+    SESSION_TYPE = 'memcached'
+    SECRET_KEY = 'super secret key'

@@ -4,15 +4,7 @@
     <div class="modal-header">
 {% endif %}
         <h5 class="modal-title" id="exampleModalLabel">
-      {% if lang == "de" %}
-        Legende
-      {% elif lang == "fr" %}
-       Légende
-      {% elif lang == "it" %}
-       Legenda
-      {% else %}
-       Legend
-      {% endif %}
+      {{ _('Legend') }}
             </h5>
 {% if legend_as_modal %}
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -22,7 +14,7 @@
     <div class="modal-body">
 {% endif %}
 
-          <img src="/static/icons/legend_{{lang}}.png" width="100%">
+          <img src="/static/icons/legend_{{CURRENT_LANGUAGE}}.png" width="100%">
 {% if legend_as_modal %}
     </div>
     <div class="modal-footer">

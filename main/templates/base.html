@@ -1,11 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  {% if lang == "de" %}
-  <title>Hütten Schweiz</title>
-  {% else %}
-  <title>Alpine Huts Switzerland</title>
-  {% endif %}
+  <title>{{ _('Mountain Huts Switzerland') }}</title>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -47,7 +43,7 @@
         text-align: right;
         margin: 15px;
     }
-    #lang-select-{{lang}} {
+    #lang-select-{{CURRENT_LANGUAGE}} {
         color: #e49504 !important;
     }
     {% block style %}

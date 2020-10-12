@@ -62,35 +62,18 @@
             -->
               <div class="mb-4  text-center" id="date-picker-div" data-date="{{date}}"></div>
               <input type="hidden" id="form-date" name="date">
-              <input type="hidden" id="form-lang" name="lang" value="{{lang}}">
+              <input type="hidden" id="form-lang" name="lang" value="{{CURRENT_LANGUAGE}}">
               <button class="btn btn-warning btn-block" type="submit"><b>OK</b></button>
               <small style="margin-top:10px;">
 
 
   <!-- Button trigger modal -->
   <button type="button" class="text-info btn btn-link btn-sm" data-toggle="modal" data-target="#legendModal">
-              {% if lang == "de" %}
-                Legende
-              {% elif lang == "fr" %}
-               Légende
-              {% elif lang == "it" %}
-               Legenda
-              {% else %}
-               Legend
-              {% endif %}
+              {{ _('Legend') }}
   </button><b class="text-muted"> | </b>
 
-                  <a class="text-info btn btn-link btn-sm" href="/map?lang={{lang}}&date=0">
-
-              {% if lang == "de" %}
-                nur Hütten anzeigen
-              {% elif lang == "fr" %}
-               afficher uniquement les cabines
-              {% elif lang == "it" %}
-               mostra solo capanne
-              {% else %}
-               show only huts
-              {% endif %}
+            <a class="text-info btn btn-link btn-sm" href="/map?lang={{CURRENT_LANGUAGE}}&date=0">
+              {{ _('show only huts') }}
               </a>
           </div>
       </div>
@@ -117,7 +100,7 @@
     daysOfWeekHighlighted: "0,6",
     todayHighlight: true,
     startDate: "{{date}}",
-    language: "{{lang}}"
+    language: "{{CURRENT_LANGUAGE}}"
   });
   $('#date-picker-div').on('changeDate', function() {
     $('#form-date').val(
