@@ -131,8 +131,9 @@ LEGEND = """
     <a href="https://frei.wodore.com/legend?lang={{lang}}" target="_blank">{help}</a>
 </div>
 """.format(more=_("More"), help=_("Help"))
-class HutDescription(object):
 
+
+class HutDescription(object):
 
     def __init__(self, hut=None, host=None, add_style=True, add_legend_link=True):
         if host is None:
@@ -143,8 +144,6 @@ class HutDescription(object):
         self._add_style = add_style
         self._add_legend_link = add_legend_link
         self._desc = self._generate()
-
-
 
     @property
     def description(self):
@@ -168,7 +167,7 @@ class HutDescription(object):
             occupied = capacity_list[0]['occupied_percent']
         else:
             free = 0
-            total_rooms =0
+            total_rooms = 0
             occupied = -1
 
         # start description variable
@@ -181,8 +180,9 @@ class HutDescription(object):
             if hut.start_date:
                 start_date = hut.start_date
             else:
-                start_date= ""
-            desc += LEGEND.format(sac_id = hut.sac_id, lang=hut.user_language, date=start_date)
+                start_date = ""
+            desc += LEGEND.format(sac_id=hut.sac_id,
+                                  lang=hut.user_language, date=start_date)
 
         file_name = hut.category
 
@@ -202,29 +202,27 @@ class HutDescription(object):
         # get correct translation
         if hut.online_reservation:
             res_text = _("Online reservation")
-            # if hut.user_language == "de":
-            #     res_text = "Online Reservierung"
-            # elif hut.user_language == "fr":
-            #     res_text = "Réservation en ligne"
-            # elif hut.user_language == "it":
-            #     res_text = "Prenotazione online"
-            desc += """<img class="img-text" src="{}/static/icons/calendar.png" height="15px"> <a href={} target=_blank>{}</a> | """.format(self.HOST_URL, hut.reservation_url, res_text)
+            desc += """<img class="img-text" src="{}/static/icons/calendar.png" height="15px"> <a href={} target=_blank>{}</a> | """.format(
+                self.HOST_URL, hut.reservation_url, res_text)
 
         sac_portal_text = _("SAC route portal")
-        # if hut.user_language == "de":
-        #     sac_portal_text = "SAC Tourenportal"
-        # elif hut.user_language == "fr":
-        #     sac_portal_text = "Portail des courses du CAS"
-        # elif hut.user_language == "it":
-        #     sac_portal_text = "Portale escursionistico del CAS"
-        desc += """<img src="{}/static/external/sac.ico" height="17px" class="img-text"> <a href={} target=_blank>{}</a></p>""".format(self.HOST_URL, hut.sac_url, sac_portal_text)
+        desc += """<img src="{}/static/external/sac.ico" height="17px" class="img-text"> <a href={} target=_blank>{}</a></p>""".format(
+            self.HOST_URL, hut.sac_url, sac_portal_text)
 
         # get capacity icons if online reservation is possible
         if hut.online_reservation and capacity_list:
             percent_list = []
             desc += '<ul class="list-inline list-unstyled hut-date-list">'
             for capacity in capacity_list:
-                res_date = datetime.datetime.strptime(capacity['reservation_date'], "%d.%m.%Y") # convert from string
+                cap_res_date = capacity['reservation_date']
+                # print("Reservation date: '{}'".format(
+                # cap_res_date))
+                if cap_res_date == '':
+                    # print("name: {}\nurl:{}".format(
+                    # self._hut.name, self._hut.sac_url))
+                    continue
+                res_date = datetime.datetime.strptime(
+                    cap_res_date, "%d.%m.%Y")  # convert from string
                 free = capacity['total_free_rooms']
                 total = capacity['total_rooms']
                 percent = capacity['occupied_percent']
@@ -242,7 +240,7 @@ class HutDescription(object):
                     user_loc = "en_GB.UTF8"
                 try:
                     locale.setlocale(locale.LC_TIME, user_loc)
-                except: # default english
+                except:  # default english
                     locale.setlocale(locale.LC_TIME, "en_GB.UTF8")
 
                 date_fmt = res_date.strftime("%d.%m.%y")
@@ -262,7 +260,7 @@ class HutDescription(object):
                   </div>
                </li>
                """.format(icon=self.get_occupied_icon(percent),
-                          day = day_short,
+                          day=day_short,
                           date=date_fmt,
                           free=int(free),
                           total=int(total))
@@ -272,7 +270,7 @@ class HutDescription(object):
         else:
             percent_list = []
 
-        self.get_occupied_days_icon(percent_list, name = file_name)
+        self.get_occupied_days_icon(percent_list, name=file_name)
 
         desc += "<p>{}</p>".format(hut.description)
         if hut.photo:
@@ -312,30 +310,29 @@ class HutDescription(object):
 
         return desc
 
-
     def round_percent(self, p):
         if p >= 99:
-             percent = 100
+            percent = 100
         elif p >= 70:
-             percent = 75
+            percent = 75
         elif p >= 30:
-             percent = 50
+            percent = 50
         elif p >= 0:
-             percent = 25
+            percent = 25
         else:
             percent = -1
         return percent
 
-
     def get_occupied_icon(self, percent):
         percent_rounded = self.round_percent(percent)
-        icon = "{url}/static/icons/pie/{p}.png".format(url=self.HOST_URL, p=percent_rounded)
+        icon = "{url}/static/icons/pie/{p}.png".format(
+            url=self.HOST_URL, p=percent_rounded)
 
         return icon
 
-
-    def get_occupied_days_icon(self, percent_list, name = "hut-sac"):
-        self._icon = "{url}/static/icons/default/{name}.png".format(url=self.HOST_URL, name=name)
+    def get_occupied_days_icon(self, percent_list, name="hut-sac"):
+        self._icon = "{url}/static/icons/default/{name}.png".format(
+            url=self.HOST_URL, name=name)
         if len(percent_list) < 3:
             icon = self._icon
         else:
@@ -343,7 +340,8 @@ class HutDescription(object):
             o1 = self.round_percent(percent_list[1])
             o2 = self.round_percent(percent_list[2])
             o3 = self.round_percent(percent_list[3])
-            icon = "{}/static/icons/generated/{}-{}-{}-{}-{}.png".format(self.HOST_URL, name, o0, o1, o2, o3)
+            icon = "{}/static/icons/generated/{}-{}-{}-{}-{}.png".format(
+                self.HOST_URL, name, o0, o1, o2, o3)
         self._icon_days = icon
 
         return icon
@@ -366,18 +364,15 @@ if __name__ == '__main__':
     # 35: Binntalhütte SAC, online reservation, different rooms
     url = "https://www.suissealpine.sac-cas.ch/api/1/poi/search"
     params = {'lang': "de",
-              "order_by" : "display_name",
-              "type" : "hut",
-              "disciplines" : "",
-              "hut_type" : "all",
-              "limit" : HUT_INDEX + 2}
+              "order_by": "display_name",
+              "type": "hut",
+              "disciplines": "",
+              "hut_type": "all",
+              "limit": HUT_INDEX + 2}
 
     r = s.get(url, params=params)
     huts = r.json().get("results", {})
     #df = pd.json_normalize(huts)
-
-
-
 
     hut = Hut.create(huts[HUT_INDEX], lang=LANG)
 
@@ -401,7 +396,7 @@ if __name__ == '__main__':
 """
     rendered = TEMPLATE.format(DESC=desc)
     output = '../../tmp/hut-description.html'
-    with open(output,'w') as f:
+    with open(output, 'w') as f:
         f.write(rendered)
         f.close()
         print("File written to '{}'".format(os.path.abspath(output)))

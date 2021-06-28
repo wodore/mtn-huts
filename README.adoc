@@ -35,6 +35,12 @@ two steps:
   cd ~/.../mtn-huts
   source env/bin/activate
 
+
+== Local run
+
+  python main/main.py
+  
+
 == Deploy
 
   gcloud app deploy --quiet --project mtn-huts main/ 
