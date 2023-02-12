@@ -42,7 +42,7 @@ class Huts(object):
             self._start_date = (start_datetime).strftime("%d.%m.%Y")
         else:
             self._start_date = None # do not get any information
-        print("Start date: {}".format(self._start_date))
+        #print("Start date: {}".format(self._start_date))
         self._days_from_start_date = days_from_start_date
         self._show_future_days = show_future_days
 
@@ -67,7 +67,7 @@ class Huts(object):
                 params.update(kwargs)
 
                 r = s.get(url, params=params)
-                print(r.url)
+                #print(r.url)
                 huts = r.json().get("results", {})
                 r.close()
 
@@ -107,7 +107,7 @@ class Huts(object):
 
                 for idx, hut in enumerate(huts):
                     if hut.get("hrs_id") in huts_alps_vac:
-                        print("ID: {}, HRS_ID: {}".format(hut.get("id"), hut.get("hrs_id")))
+                        #print("ID: {}, HRS_ID: {}".format(hut.get("id"), hut.get("hrs_id")))
                         huts[idx]["hrs_original"] = huts_alps_vac[hut.get("hrs_id")]
 
             #hut_list = list(map(Hut.create, huts))
