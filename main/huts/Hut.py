@@ -416,12 +416,14 @@ class Hut(object):
 
 
     def load_capacity_async(self):
-        if not self._capacity_loading_p:
+        if not self._capacity_loading_p and not self._hut_dict.get("hrs_original"):
             self._future_capacity = Future()
             self._capacity_loading_p = threading.Thread(target=self._get_capacity_async, args=[self._future_capacity])
             self._capacity_loading_p.start()
 
     def get_capacity(self):
+        if self._hut_dict.get("hrs_original"):
+            return self._get_capacity_from_hrs_dict()
 
         if not self._capacity_loading_p:
             self.load_capacity_async()
@@ -434,6 +436,44 @@ class Hut(object):
         else:
             return capacity_dict
 
+    def _get_capacity_from_hrs_dict(self, ):
+        hrs_dict = self._hut_dict.get("hrs_original")
+
+        rooms_over_time = []
+        for date_key, date_vac in hrs_dict.items():
+            room_dict = {}
+            rooms = date_vac.get("ns2:bookingAvailabilityPerCategory",{})
+            #print("Check room '{}'".format(date_key))
+            total_free_rooms = 0
+            total_rooms = 0
+            reservation_date = ""
+            if not rooms:
+                #print("No rooms.")
+                #print(rooms)
+                break
+
+            if not isinstance(rooms, list):
+                rooms = [rooms]
+            for room_json in rooms:
+                free_room = int(room_json.get('ns2:freePlaces'))
+                total_room = int(room_json.get('ns2:totalPlaces'))
+                hrs_res_datetime = datetime.datetime.strptime(date_vac.get('ns2:date'), "%Y-%m-%d")
+                reservation_date = (hrs_res_datetime).strftime("%d.%m.%Y")
+                total_free_rooms += free_room
+                total_rooms += total_room
+            # TODO multiple rooms (for loop)
+
+            room_dict['raw'] = rooms
+            room_dict['total_free_rooms'] = int(total_free_rooms)
+            room_dict['total_rooms'] = int(total_rooms)
+            room_dict['occupied_percent'] = int(round(100* (1 - total_free_rooms/float(total_rooms))) if total_rooms != 0 else 0)
+            room_dict['reservation_date'] = reservation_date
+            room_dict['booking_enabled'] = date_vac["ns2:status"] in ["ReservationPossible", "ReservationNotPossibleOnline", "InsufficientContingent"]
+            room_dict['closed'] = not room_dict['booking_enabled']
+            room_dict['commment'] = "" # if rooms[0].get("contingentText", "") is None else rooms[0].get("contingentText", "")
+            rooms_over_time.append(dict(room_dict))
+        #return_dict[str(hut_id)] = hut_dict
+        return rooms_over_time
     def _get_capacity_async(self, future, _retries=0):
 
 
@@ -450,7 +490,9 @@ class Hut(object):
         with requests.Session() as s:
             try:
                 calendar_req = s.get(calendar_url, params=params)
+                print(calendar_req.url)
                 date_req = s.get(select_date_url)
+                print(date_req.url)
             except requests.ConnectionError:
                 time.sleep(0.2)
                 # sleep and try again.
@@ -505,6 +547,18 @@ class Hut(object):
         future.set_result(rooms_over_time)
         return True
 
+    def __repr__(self):
+        out = "#{} - {}\n".format(self.sac_id, self.name)
+        out += "{}".format(self.sac_url)
+        if self.hrs_id:
+            out += "\nhrs-id: {}\n".format(self.hrs_id)
+            out += "{}\n".format(self.reservation_url)
+        if self.get_capacity():
+            capacity = self.get_capacity()[0]
+            out += "free: {}, total: {} (booking {})".format(capacity.get("total_free_rooms"),
+                                                 capacity.get("total_rooms"), "enabled" if capacity.get("booking_enabled") else "disabled")
+        return out
+
     def __getitem__(self,key):
         return getattr(self,key, None)
 
@@ -519,7 +573,7 @@ if __name__ == '__main__':
     s = requests.Session()
 
     LANG = "de"
-    HUT_INDEX = 2147000006
+    HUT_INDEX = 2
 
     # 0: Aarbiwak SAC, biwak
     # 1: Albert-Heim SAC, no online reservation
