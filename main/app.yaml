@@ -1,6 +1,13 @@
-runtime: python38
+runtime: python
 
-instance_class: F4_1G
+#instance_class: F4_1G
+env: flex
+
+entrypoint: gunicorn -b :$PORT main:app
+
+runtime_config:
+  python_version: 3
+
 
 handlers:
   # This configures Google App Engine to serve the files in the app's static
