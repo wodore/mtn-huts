@@ -9,6 +9,8 @@ import time
 import datetime
 import threading
 from concurrent.futures import Future
+from concurrent.futures._base import TimeoutError as futureTimeoutError
+from rich import print
 
 try:
     from .GPSConverter import GPSConverter
@@ -112,7 +114,10 @@ class Hut(object):
 
         https://www.alpsonline.org/reservation/calendar?hut_id=ID.
         """
-        return int(self._hut_dict.get('hrs_id', 0))
+        try:
+            return int(self._hut_dict.get('hrs_id', 0))
+        except TypeError:
+            return 0
 
 
 
@@ -430,8 +435,8 @@ class Hut(object):
         # wait until it is done (max 10 s)
         try:
             capacity_dict = self._future_capacity.result(10)
-        except TimeoutError:
-            print("ERROR: capacitiy request for '{}' failed (timeout)".format(hut.name))
+        except (TimeoutError, futureTimeoutError):
+            print("ERROR: capacitiy request for '{}' failed (timeout)".format(self.name))
             return []
         else:
             return capacity_dict
