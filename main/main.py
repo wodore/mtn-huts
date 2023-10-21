@@ -1,17 +1,4 @@
-# Copyright 2018 Google LLC
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
+#!/usr/bin/env python
 # [START gae_python38_render_template]
 import datetime
 import urllib
@@ -22,12 +9,12 @@ import werkzeug
 from flask_babel import Babel
 from flask_babel import _
 
+from flask_caching import Cache
 
-
-from huts.Huts import Huts
-from huts.Hut import Hut
-from huts.HutDescription import HutDescription
-from config import Config
+from .huts.Huts import Huts
+from .huts.Hut import Hut
+from .huts.HutDescription import HutDescription
+from .config import Config
 
 app = Flask(__name__)
 
@@ -35,10 +22,12 @@ app.config.from_object(Config)
 
 babel = Babel(app)
 
-
-@babel.localeselector
 def get_locale():
     return get_user_language()
+babel.init_app(app, locale_selector=get_locale)
+
+cache = Cache(config={'CACHE_TYPE': 'SimpleCache', "TIMEOUT": 3600})
+cache.init_app(app)
 
 def get_user_language():
     # return "it"
@@ -102,6 +91,7 @@ def admin():
 
 
 @app.route('/map')
+@cache.cached(query_string=True)
 def map():
     """/map?date=<dd.mm.yyyy|0>&[redirect=<0|1>]&[_show_link=<0|1>]"""
     start_date = request.args.get('date', default = 'now', type = str)
@@ -145,6 +135,7 @@ def map():
 
 # /huts.kml?date=now&plus=5&[has_hrsid=1|0|]
 @app.route('/huts.kml')
+@cache.cached(timeout=5*60, query_string=True)
 def huts_kml():
     start_date = request.args.get('date', default = 'now', type = str)
     has_hrsid = request.args.get('has_hrsid', default = "", type = str)
@@ -167,6 +158,7 @@ def huts_kml():
         return Response(kml.kml(format=True), mimetype='text/xml')
 
 @app.route('/hut/<int:hut_id>')
+@cache.cached()
 def hut(hut_id):
     """get detailed hut information"""
     start_date = request.args.get('date', default = 'now', type = str)
@@ -176,6 +168,7 @@ def hut(hut_id):
     return render_template('hut.html', hut=hut, description=hut_desc.description, date=start_date)
 
 @app.route('/legend')
+@cache.cached()
 def legend():
     """/map?date=<dd.mm.yyyy|0>&[redirect=<0|1>]&[_show_link=<0|1>]"""
    # lang = get_user_language()

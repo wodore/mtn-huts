@@ -495,9 +495,9 @@ class Hut(object):
         with requests.Session() as s:
             try:
                 calendar_req = s.get(calendar_url, params=params)
-                print(calendar_req.url)
+                #print(calendar_req.url)
                 date_req = s.get(select_date_url)
-                print(date_req.url)
+                #print(date_req.url)
             except requests.ConnectionError:
                 time.sleep(0.2)
                 # sleep and try again.
@@ -611,7 +611,7 @@ if __name__ == '__main__':
 
     hut = Hut.create(hut_or_id, lang=LANG)
 
-    print("#{} - {}".format(hut.sac_id, hut.name))
+    #print("#{} - {}".format(hut.sac_id, hut.name))
 
     #free = hut.get_capacity("26.09.2020")
     capacity = hut.get_capacity()

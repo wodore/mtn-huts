@@ -4,27 +4,19 @@
 
 = Initial Steps
 
-Got into your workdir:
+NOTE: install 'poetry'
+
+Go into your workdir:
 
   cd ~/.../mtn-huts
 
-Create a virtual environment:
+Create a virtual environment and install requirements:
 
-  python3 -m venv env
+  poetry install
 
 Activate virtual enviroment:
 
-  source env/bin/activate
-
-
-Install requirements:
-
-  pip install -r main/requirements.txt
-
-Deactivate environment:
-
-  deactivate
-
+  poetry shell
 
 = Commands
 
@@ -33,17 +25,17 @@ If not created yet follow the initial steps, if installed already you need todo 
 two steps:
 
   cd ~/.../mtn-huts
-  source env/bin/activate
+  poetry shell
 
 
 == Local run
 
-  python main/main.py
+  ./wsgy.py
   
 
-== Deploy
+== Production
 
-  gcloud app deploy --quiet --project mtn-huts main/ 
+  gunicorn -w 4 -b localhost:8080 wsgi:application 
 
 
 == Translation
