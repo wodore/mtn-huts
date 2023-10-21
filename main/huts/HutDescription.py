@@ -140,7 +140,7 @@ class HutDescription(object):
         if host is None:
             #self.HOST_URL = "https://mtn-huts.oa.r.appspot.com"
             self.HOST_URL = request.url_root.replace("http","https")
-            if "127.0.0.1" in self.HOST or "0.0.0.0" in self.HOST or "localhost" in self.HOST:
+            if "127.0.0.1" in self.HOST_URL or "0.0.0.0" in self.HOST_URL or "localhost" in self.HOST_URL:
                 self.HOST_URL="https://huts.wodore.com"
         else:
             self.HOST_URL = host
