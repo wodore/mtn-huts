@@ -237,11 +237,11 @@ class HutDescription(object):
                 if hut.user_language == "fr":
                     user_loc = "fr_FR.UTF8"
                 if hut.user_language == "en":
-                    user_loc = "en_GB.UTF8"
+                    user_loc = "en_US.UTF8"
                 try:
                     locale.setlocale(locale.LC_TIME, user_loc)
                 except:  # default english
-                    locale.setlocale(locale.LC_TIME, "en_GB.UTF8")
+                    locale.setlocale(locale.LC_TIME, "en_US.UTF8")
 
                 date_fmt = res_date.strftime("%d.%m.%y")
                 day_short = res_date.strftime("%a")
