@@ -11,6 +11,7 @@ import locale
 from flask_babel import _
 # import threading
 # from concurrent.futures import Future
+from flask import  request
 
 # try:
 #     from .GPSConverter import GPSConverter
@@ -137,7 +138,10 @@ class HutDescription(object):
 
     def __init__(self, hut=None, host=None, add_style=True, add_legend_link=True):
         if host is None:
-            self.HOST_URL = "https://mtn-huts.oa.r.appspot.com"
+            #self.HOST_URL = "https://mtn-huts.oa.r.appspot.com"
+            self.HOST_URL = request.url_root
+            if "127.0.0.1" in url_root or "0.0.0.0" in url_root or "localhost" in url_root:
+                self.HOST_URL="https://huts.wodore.com"
         else:
             self.HOST_URL = host
         self._hut = hut
