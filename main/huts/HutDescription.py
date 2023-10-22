@@ -14,7 +14,10 @@ import locale
 from flask import request
 from flask_babel import _
 
-from .Hut import Hut
+try:
+    from .Hut import Hut
+except ImportError:
+    from Hut import Hut
 
 # try:
 #     from .GPSConverter import GPSConverter

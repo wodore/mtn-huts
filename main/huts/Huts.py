@@ -10,6 +10,7 @@ from typing import Union
 import requests
 import simplekml
 import xmltodict
+from rich import print
 
 try:
     from .Hut import Hut
@@ -33,6 +34,7 @@ class Huts(object):
         _async=True,
         _sleep_time=1.5,
     ):
+        assert show_future_days > 0, "future days need to be at least 1"
         self._limit = limit if limit else 2000
         self._filter = filter
         if isinstance(start_date, str):
@@ -52,92 +54,98 @@ class Huts(object):
 
         self._lang = self._language_check(lang)
 
-        self._hut_list = {}
+        # self._hut_list = {}
 
     def get_huts(self, limit=None, **kwargs):
         if limit is None:
             limit = self._limit
-        key = "limit{}kwargs{}".format(
-            limit,
-            str(kwargs).replace(" ", ""),
-        )
-        if key not in self._hut_list:
-            with requests.Session() as s:  # SAC
-                url = "https://www.suissealpine.sac-cas.ch/api/1/poi/search"
-                params = {
-                    "lang": self.user_language,
-                    "order_by": "display_name",
-                    "type": "hut",
-                    "disciplines": "",
-                    "hut_type": "all",
-                    "limit": limit,
-                }
+        # key = "limit{}kwargs{}".format(limit, str(kwargs).replace(" ", ""))
+        # if key not in self._hut_list:
+        with requests.Session() as s:  # SAC
+            url = "https://www.suissealpine.sac-cas.ch/api/1/poi/search"
+            params = {
+                "lang": self.user_language,
+                "order_by": "display_name",
+                "type": "hut",
+                "disciplines": "",
+                "hut_type": "all",
+                "limit": limit,
+            }
 
-                params.update(kwargs)
+            params.update(kwargs)
 
-                r = s.get(url, params=params)
-                # print(r.url)
-                huts = r.json().get("results", {})
-                r.close()
+            r = s.get(url, params=params)
+            # print(r.url)
+            huts = r.json().get("results", {})
+            r.close()
 
-            if self._start_date:  # only get info from alpsonline if startedate is given
-                hrs_start_datetime = datetime.datetime.strptime(self._start_date, "%d.%m.%Y")
-                hrs_end_datetime = hrs_start_datetime + datetime.timedelta(days=self._show_future_days - 1)
-                hrs_start_datetime_str = (hrs_start_datetime).strftime("%Y-%m-%d")
-                hrs_end_datetime_str = (hrs_end_datetime).strftime("%Y-%m-%d")
-                with requests.Session() as s:  # alpsonline
-                    url = "https://www.alpsonline.org/hut-web-service?wsdl"
-                    post = """
-    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:alp="http://www.alpsonline.org/">
-       <soapenv:Header/>
-       <soapenv:Body>
-          <alp:getHutAvailability>
-             <arg0>
-                <alp:startDate>{start}</alp:startDate>
-                <alp:tenant>SAC</alp:tenant>
-                <alp:includeOnlyHutsWithContingent>false</alp:includeOnlyHutsWithContingent>
-                <alp:numberOfPersons>{persons}</alp:numberOfPersons>
-                <alp:endDate>{end}</alp:endDate>
-                <alp:detailsIncluded>true</alp:detailsIncluded>
-             </arg0>
-          </alp:getHutAvailability>
-       </soapenv:Body>
-    </soapenv:Envelope>
-        """.format(
-                        start=hrs_start_datetime_str,
-                        end=hrs_end_datetime_str,
-                        persons=1,
-                    )
-                    r = s.post(url, data=post)
-                alps_res = (
-                    xmltodict.parse(r.text)
-                    .get("S:Envelope", {})
-                    .get("S:Body", {})
-                    .get("ns2:getHutAvailabilityResponse", {})
-                    .get("return", {})
-                    .get("ns2:hutAvailabilityWebResponsePerHutId", [])
+        if self._start_date:  # only get info from alpsonline if startedate is given
+            hrs_start_datetime = datetime.datetime.strptime(self._start_date, "%d.%m.%Y")
+            hrs_end_datetime = hrs_start_datetime + datetime.timedelta(days=self._show_future_days - 1)
+            hrs_start_datetime_str = (hrs_start_datetime).strftime("%Y-%m-%d")
+            hrs_end_datetime_str = (hrs_end_datetime).strftime("%Y-%m-%d")
+            with requests.Session() as s:  # alpsonline
+                url = "https://www.alpsonline.org/hut-web-service?wsdl"
+                post = """
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:alp="http://www.alpsonline.org/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <alp:getHutAvailability>
+            <arg0>
+            <alp:startDate>{start}</alp:startDate>
+            <alp:tenant>SAC</alp:tenant>
+            <alp:includeOnlyHutsWithContingent>false</alp:includeOnlyHutsWithContingent>
+            <alp:numberOfPersons>{persons}</alp:numberOfPersons>
+            <alp:endDate>{end}</alp:endDate>
+            <alp:detailsIncluded>true</alp:detailsIncluded>
+            </arg0>
+        </alp:getHutAvailability>
+    </soapenv:Body>
+</soapenv:Envelope>
+    """.format(
+                    start=hrs_start_datetime_str,
+                    end=hrs_end_datetime_str,
+                    persons=1,
                 )
-                huts_alps_vac = {}
-                for ar in alps_res:
-                    # huts_vac[o.get("ns2:hutId")] = o.get("ns2:bookingAvailability")
-                    per_date = {}
+                r = s.post(url, data=post)
+            alps_res = (
+                xmltodict.parse(r.text)
+                .get("S:Envelope", {})
+                .get("S:Body", {})
+                .get("ns2:getHutAvailabilityResponse", {})
+                .get("return", {})
+                .get("ns2:hutAvailabilityWebResponsePerHutId", [])
+            )
+            huts_alps_vac = {}
+            # print(alps_res)
+            for ar in alps_res:
+                # huts_vac[o.get("ns2:hutId")] = o.get("ns2:bookingAvailability")
+                per_date = {}
+                book_avail = ar.get("ns2:bookingAvailability")
+                if isinstance(book_avail, dict):
+                    per_date[book_avail.get("ns2:date")] = book_avail
+                else:
                     for d in ar.get("ns2:bookingAvailability"):
                         per_date[d.get("ns2:date")] = d
-                    huts_alps_vac[int(ar.get("ns2:hutId"))] = per_date
+                huts_alps_vac[int(ar.get("ns2:hutId"))] = per_date
 
-                for idx, hut in enumerate(huts):
-                    if hut.get("hrs_id") in huts_alps_vac:
-                        # print("ID: {}, HRS_ID: {}".format(hut.get("id"), hut.get("hrs_id")))
-                        huts[idx]["hrs_original"] = huts_alps_vac[hut.get("hrs_id")]
+            for idx, hut in enumerate(huts):
+                if hut.get("hrs_id") in huts_alps_vac:
+                    # print("ID: {}, HRS_ID: {}".format(hut.get("id"), hut.get("hrs_id")))
+                    orig = huts_alps_vac[hut.get("hrs_id")]
+                    if orig is None:
+                        orig = {}
+                    huts[idx]["hrs_original"] = orig
 
-            # hut_list = list(map(Hut.create, huts))
-            hut_list = [
-                Hut(hut, start_date=self._start_date, show_future_days=self._show_future_days, lang=self.user_language)
-                for hut in huts
-            ]
-            self._hut_list[key] = hut_list
+        # hut_list = list(map(Hut.create, huts))
+        hut_list = [
+            Hut(hut, start_date=self._start_date, show_future_days=self._show_future_days, lang=self.user_language)
+            for hut in huts
+        ]
+        # self._hut_list[key] = hut_list
 
-        return self._hut_list[key]
+        return hut_list
+        # return self._hut_list[key]
         # df = pd.json_normalize(huts)
 
     def generate_kml(self, **filter):
@@ -214,27 +222,32 @@ if __name__ == "__main__":
     #             per_date[d.get("ns2:date")] = d
     #         huts_vac[o.get("ns2:hutId")] = per_date
 
-    huts = Huts("now", show_future_days=9, limit=None)
+    huts = Huts("20.10.2023", show_future_days=2, limit=None)
 
     hut_list = huts.get_huts()
 
-    HUT_IDX = 107
+    HUT_IDX = 19
+    hut = hut_list[HUT_IDX]
+    print(hut)
     capacity = hut_list[HUT_IDX].get_capacity()
     hrs_original = hut_list[HUT_IDX]._hut_dict.get("hrs_original")
-    for i, h in enumerate(hut_list):
-        print("{}: ".format(i), end="")
-        print(h)
-        print("---")
-        # print("Hut index {} booking: ".format(i), end="")
-        # if h.get_capacity():
-        #     print(str(h.get_capacity()[0].get("booking_enabled")).upper())
-        # else:
-        #     print("-")
+    hrs_id = hut_list[HUT_IDX]._hut_dict.get("hrs_id")
+    # print(hrs_id)
+    # print(hrs_original)
+    # for i, h in enumerate(hut_list):
+    # print("{}: ".format(i), end="")
+    # print(h)
+    # print("---")
+    # print("Hut index {} booking: ".format(i), end="")
+    # if h.get_capacity():
+    #     print(str(h.get_capacity()[0].get("booking_enabled")).upper())
+    # else:
+    #     print("-")
     # print(capacity)
     #
-    kml = huts.generate_kml(limit=None)
+    # kml = huts.generate_kml(limit=None)
 
-    kml.save("all_huts.kml")
+    # kml.save("all_huts.kml")
 
     # # try filters
     # print([h.name for h in huts.get_huts(limit=3, has_hrsid = True)])

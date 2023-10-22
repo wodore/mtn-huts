@@ -36,7 +36,7 @@ class Hut(object):
     }
 
     def __init__(
-        self, hut_dict_or_id, start_date: Union[str, int, None] = "now", show_future_days=9, lang="de", _async=True
+        self, hut_dict_or_id, start_date: Union[str, int, None] = "now", show_future_days=9, lang="de", _async=False
     ):
         self._hut_dict = {}
         self._lang = self._language_check(lang)
@@ -72,8 +72,8 @@ class Hut(object):
             self._start_date = None  # do not get any information
 
         self._capacity_loading_p = False
-        if self._async:
-            self.load_capacity_async()
+        # if self._async:
+        #    self.load_capacity_async()
 
     @classmethod
     def create(cls, hut_dict_or_id, lang="de"):
@@ -411,8 +411,9 @@ class Hut(object):
             self._capacity_loading_p.start()
 
     def get_capacity(self):
-        if self._hut_dict.get("hrs_original"):
+        if self._hut_dict.get("hrs_original", None) is not None:
             return self._get_capacity_from_hrs_dict()
+        return []
 
         if not self._capacity_loading_p:
             self.load_capacity_async()
@@ -425,9 +426,7 @@ class Hut(object):
         else:
             return capacity_dict
 
-    def _get_capacity_from_hrs_dict(
-        self,
-    ):
+    def _get_capacity_from_hrs_dict(self):
         hrs_dict = self._hut_dict.get("hrs_original", {})
 
         rooms_over_time = []
