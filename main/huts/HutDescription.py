@@ -8,10 +8,13 @@ Created on Sun Sep 13 07:10:14 2020
 # import time
 import datetime
 import locale
-from flask_babel import _
+
 # import threading
 # from concurrent.futures import Future
-from flask import  request
+from flask import request
+from flask_babel import _
+
+from .Hut import Hut
 
 # try:
 #     from .GPSConverter import GPSConverter
@@ -131,17 +134,18 @@ LEGEND = """
     <a href="https://frei.wodore.com/hut/{{sac_id}}?lang={{lang}}&date={{date}}" target="_blank">{more}</a> |
     <a href="https://frei.wodore.com/legend?lang={{lang}}" target="_blank">{help}</a>
 </div>
-""".format(more=_("More"), help=_("Help"))
+""".format(
+    more=_("More"), help=_("Help")
+)
 
 
 class HutDescription(object):
-
-    def __init__(self, hut=None, host=None, add_style=True, add_legend_link=True):
+    def __init__(self, hut: Hut, host=None, add_style=True, add_legend_link=True):
         if host is None:
-            #self.HOST_URL = "https://mtn-huts.oa.r.appspot.com"
-            self.HOST_URL = request.url_root.replace("http","https")
+            # self.HOST_URL = "https://mtn-huts.oa.r.appspot.com"
+            self.HOST_URL = request.url_root.replace("http", "https")
             if "127.0.0.1" in self.HOST_URL or "0.0.0.0" in self.HOST_URL or "localhost" in self.HOST_URL:
-                self.HOST_URL="https://huts.wodore.com"
+                self.HOST_URL = "https://huts.wodore.com"
         else:
             self.HOST_URL = host
         self._hut = hut
@@ -166,13 +170,13 @@ class HutDescription(object):
         hut = self._hut
         capacity_list = hut.get_capacity()
         if capacity_list:
-            free = capacity_list[0]['total_free_rooms']
-            total_rooms = capacity_list[0]['total_rooms']
-            occupied = capacity_list[0]['occupied_percent']
+            free = capacity_list[0]["total_free_rooms"]
+            # total_rooms = capacity_list[0]["total_rooms"]
+            # occupied = capacity_list[0]["occupied_percent"]
         else:
             free = 0
-            total_rooms = 0
-            occupied = -1
+            # total_rooms = 0
+            # occupied = -1
 
         # start description variable
         if self._add_style:
@@ -185,8 +189,11 @@ class HutDescription(object):
                 start_date = hut.start_date
             else:
                 start_date = ""
-            desc += LEGEND.format(sac_id=hut.sac_id,
-                                  lang=hut.user_language, date=start_date)
+            desc += LEGEND.format(
+                sac_id=hut.sac_id,
+                lang=hut.user_language,
+                date=start_date,
+            )
 
         file_name = hut.category
 
@@ -199,7 +206,9 @@ class HutDescription(object):
         desc += """<div class="hut-info"><h4>
             <img id="hut-icon-title" class="img-text" src="{}/static/icons/default/{}.png">
             <a href={} target=_blank>{}</a>
-            <small>{}</small></h4>""".format(self.HOST_URL, file_name, url, hut.name, hut.owner)
+            <small>{}</small></h4>""".format(
+            self.HOST_URL, file_name, url, hut.name, hut.owner
+        )
 
         desc += '<p  class="header-links">'
 
@@ -207,53 +216,56 @@ class HutDescription(object):
         if hut.online_reservation:
             res_text = _("Online reservation")
             desc += """<img class="img-text" src="{}/static/icons/calendar.png" height="15px"> <a href={} target=_blank>{}</a> | """.format(
-                self.HOST_URL, hut.reservation_url, res_text)
+                self.HOST_URL, hut.reservation_url, res_text
+            )
 
         sac_portal_text = _("SAC route portal")
         desc += """<img src="{}/static/external/sac.ico" height="17px" class="img-text"> <a href={} target=_blank>{}</a></p>""".format(
-            self.HOST_URL, hut.sac_url, sac_portal_text)
+            self.HOST_URL, hut.sac_url, sac_portal_text
+        )
 
         # get capacity icons if online reservation is possible
         if hut.online_reservation and capacity_list:
             percent_list = []
             desc += '<ul class="list-inline list-unstyled hut-date-list">'
             for capacity in capacity_list:
-                cap_res_date = capacity['reservation_date']
+                cap_res_date = capacity["reservation_date"]
                 # print("Reservation date: '{}'".format(
                 # cap_res_date))
-                if cap_res_date == '':
+                if cap_res_date == "":
                     # print("name: {}\nurl:{}".format(
                     # self._hut.name, self._hut.sac_url))
                     continue
                 res_date = datetime.datetime.strptime(
-                    cap_res_date, "%d.%m.%Y")  # convert from string
-                free = capacity['total_free_rooms']
-                total = capacity['total_rooms']
-                percent = capacity['occupied_percent']
-                if capacity['closed']:
+                    cap_res_date,
+                    "%d.%m.%Y",
+                )  # convert from string
+                free = capacity["total_free_rooms"]
+                total = capacity["total_rooms"]
+                percent = capacity["occupied_percent"]
+                if capacity["closed"]:
                     percent = -1
 
                 # use correct translation
+                user_loc = "en_US.UTF8"  # default english
                 if hut.user_language == "de":
                     user_loc = "de_DE.UTF8"
                 if hut.user_language == "it":
                     user_loc = "it_IT.UTF8"
                 if hut.user_language == "fr":
                     user_loc = "fr_FR.UTF8"
-                if hut.user_language == "en":
-                    user_loc = "en_US.UTF8"
                 try:
                     locale.setlocale(locale.LC_TIME, user_loc)
-                except:  # default english
+                except locale.Error:
+                    # print(f"[WARN] locale '{hut.user_language}' unkown.")
                     locale.setlocale(locale.LC_TIME, "en_US.UTF8")
-
                 date_fmt = res_date.strftime("%d.%m.%y")
                 day_short = res_date.strftime("%a")
 
                 desc += """
                 <li class="hut-date-element">
                   <div class="icon">
-            		    <img src="{icon}">
+                    <img src="{icon}">
                   </div>
                   <div class="date">
                     <b>{day}</b><br>
@@ -263,11 +275,9 @@ class HutDescription(object):
                     <strong style="font-size: 13px;">{free}</strong><small class="text-muted">/{total}</small>
                   </div>
                </li>
-               """.format(icon=self.get_occupied_icon(percent),
-                          day=day_short,
-                          date=date_fmt,
-                          free=int(free),
-                          total=int(total))
+               """.format(
+                    icon=self.get_occupied_icon(percent), day=day_short, date=date_fmt, free=int(free), total=int(total)
+                )
 
                 percent_list.append(percent)
             desc += "</ul>"
@@ -283,38 +293,43 @@ class HutDescription(object):
               <img src="{}" class="figure-img img-fluid z-depth-1" alt="..." style="width: 100%">
               <figcaption class="figure-caption text-right text-muted">{} (&copy; {})</figcaption>
             </figure>
-                """.format(hut.photo["M"], hut.photo["caption"], hut.photo["copyright"])
+                """.format(
+                hut.photo["M"], hut.photo["caption"], hut.photo["copyright"]
+            )
 
-#         # modal
-#         desc += """
-#         <!-- Button trigger modal -->
-# <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-#   Launch demo modal
-# </button>
+        #         # modal
+        #         desc += """
+        #         <!-- Button trigger modal -->
+        # <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        #   Launch demo modal
+        # </button>
 
-# <!-- Modal -->
-# <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-#   <div class="modal-dialog" role="document">
-#     <div class="modal-content">
-#       <div class="modal-header">
-#         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-#         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-#       </div>
-#       <div class="modal-body">
-#         ...
-#       </div>
-#       <div class="modal-footer">
-#         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-#         <button type="button" class="btn btn-primary">Save changes</button>
-#       </div>
-#     </div>
-#   </div>
-#   """
+        # <!-- Modal -->
+        # <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        #   <div class="modal-dialog" role="document">
+        #     <div class="modal-content">
+        #       <div class="modal-header">
+        #         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        #         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        #       </div>
+        #       <div class="modal-body">
+        #         ...
+        #       </div>
+        #       <div class="modal-footer">
+        #         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        #         <button type="button" class="btn btn-primary">Save changes</button>
+        #       </div>
+        #     </div>
+        #   </div>
+        #   """
         desc += "</div>"
 
         return desc
 
-    def round_percent(self, p):
+    def round_percent(
+        self,
+        p,
+    ):
         if p >= 99:
             percent = 100
         elif p >= 70:
@@ -329,14 +344,12 @@ class HutDescription(object):
 
     def get_occupied_icon(self, percent):
         percent_rounded = self.round_percent(percent)
-        icon = "{url}/static/icons/pie/{p}.png".format(
-            url=self.HOST_URL, p=percent_rounded)
+        icon = "{url}/static/icons/pie/{p}.png".format(url=self.HOST_URL, p=percent_rounded)
 
         return icon
 
     def get_occupied_days_icon(self, percent_list, name="hut-sac"):
-        self._icon = "{url}/static/icons/default/{name}.png".format(
-            url=self.HOST_URL, name=name)
+        self._icon = "{url}/static/icons/default/{name}.png".format(url=self.HOST_URL, name=name)
         if len(percent_list) < 3:
             icon = self._icon
         else:
@@ -344,17 +357,18 @@ class HutDescription(object):
             o1 = self.round_percent(percent_list[1])
             o2 = self.round_percent(percent_list[2])
             o3 = self.round_percent(percent_list[3])
-            icon = "{}/static/icons/generated/{}-{}-{}-{}-{}.png".format(
-                self.HOST_URL, name, o0, o1, o2, o3)
+            icon = "{}/static/icons/generated/{}-{}-{}-{}-{}.png".format(self.HOST_URL, name, o0, o1, o2, o3)
         self._icon_days = icon
 
         return icon
 
 
-if __name__ == '__main__':
-    from Hut import Hut
-    import requests
+if __name__ == "__main__":
     import os
+
+    import requests
+    from Hut import Hut
+
     s = requests.Session()
 
     LANG = "de"
@@ -367,16 +381,18 @@ if __name__ == '__main__':
     # 30: Berglihütte SAC, biwak  with reservation
     # 35: Binntalhütte SAC, online reservation, different rooms
     url = "https://www.suissealpine.sac-cas.ch/api/1/poi/search"
-    params = {'lang': "de",
-              "order_by": "display_name",
-              "type": "hut",
-              "disciplines": "",
-              "hut_type": "all",
-              "limit": HUT_INDEX + 2}
+    params = {
+        "lang": "de",
+        "order_by": "display_name",
+        "type": "hut",
+        "disciplines": "",
+        "hut_type": "all",
+        "limit": HUT_INDEX + 2,
+    }
 
     r = s.get(url, params=params)
     huts = r.json().get("results", {})
-    #df = pd.json_normalize(huts)
+    # df = pd.json_normalize(huts)
 
     hut = Hut.create(huts[HUT_INDEX], lang=LANG)
 
@@ -399,8 +415,8 @@ if __name__ == '__main__':
 </body>
 """
     rendered = TEMPLATE.format(DESC=desc)
-    output = '../../tmp/hut-description.html'
-    with open(output, 'w') as f:
+    output = "../../tmp/hut-description.html"
+    with open(output, "w") as f:
         f.write(rendered)
         f.close()
         print("File written to '{}'".format(os.path.abspath(output)))

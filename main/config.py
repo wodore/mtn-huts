@@ -6,12 +6,12 @@ Created on Tue Sep 29 13:07:04 2020
 @author: tobias
 """
 
-#import os
-#basedir = os.path.abspath(os.path.dirname(__file__))
+# import os
+# basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class Config(object):
-    LANGUAGES = ['de', 'fr', 'it', 'en']
+    LANGUAGES = ["de", "fr", "it", "en"]
 
-    SESSION_TYPE = 'memcached'
-    SECRET_KEY = 'super secret key'
+    SESSION_TYPE = "memcached"
+    SECRET_KEY = "super secret key"
