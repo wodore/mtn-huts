@@ -22,7 +22,7 @@ except ImportError:
 class Huts(object):
     def __init__(
         self,
-        start_date="now",
+        start_date: Union[int, str, None] = "now",
         days_from_start_date=0,
         show_future_days=9,
         lang="de",
@@ -35,7 +35,7 @@ class Huts(object):
     ):
         self._limit = limit if limit else 2000
         self._filter = filter
-        if start_date:
+        if isinstance(start_date, str):
             if start_date == "now":
                 start_datetime = datetime.datetime.now()
             else:

@@ -2,6 +2,7 @@
 # [START gae_python38_render_template]
 import datetime
 import os
+from typing import Union
 
 import werkzeug
 from flask import (
@@ -166,12 +167,12 @@ def map():
 @app.route("/huts.kml")
 @cache.cached(timeout=5 * 60, query_string=True)
 def huts_kml():
-    start_date = request.args.get("date", default="now", type=str)
+    start_date: Union[str, int] = request.args.get("date", default="now", type=str)
     has_hrsid = request.args.get("has_hrsid", default="", type=str)
-    # try:
-    #    start_date = int(start_date)
-    # except ValueError:
-    #    pass  # date string assigned
+    try:
+        start_date = int(start_date)
+    except ValueError:
+        pass  # date string assigned
     if start_date == "":
         start_date = "now"
     days_from_start_date = request.args.get(
