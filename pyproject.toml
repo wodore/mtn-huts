@@ -18,6 +18,7 @@ bs4 = "^0.0.1"
 requests = "^2.31.0"
 xmltodict = "^0.13.0"
 rich = "^13.6.0"
+gunicorn = "^21.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
