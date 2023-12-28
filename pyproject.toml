@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Show swiss mountain huts"
 authors = ["tb <tb@wodore.com>"]
 license = "MIT"
-readme = "README.md"
+readme = "README.adoc"
 packages = [{include = "main"}]
 
 [tool.poetry.dependencies]
