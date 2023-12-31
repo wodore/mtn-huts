@@ -257,11 +257,11 @@ class HutDescription(object):
                     user_loc = "it_IT.UTF8"
                 if hut.user_language == "fr":
                     user_loc = "fr_FR.UTF8"
-                try:
-                    locale.setlocale(locale.LC_TIME, user_loc)
-                except locale.Error:
-                    # print(f"[WARN] locale '{hut.user_language}' unkown.")
-                    locale.setlocale(locale.LC_TIME, "en_US.UTF8")
+                #try:
+                #    locale.setlocale(locale.LC_TIME, user_loc)
+                #except locale.Error:
+                #    # print(f"[WARN] locale '{hut.user_language}' unkown.")
+                #    locale.setlocale(locale.LC_TIME, "en_US.UTF8")
                 date_fmt = res_date.strftime("%d.%m.%y")
                 day_short = res_date.strftime("%a")
 
