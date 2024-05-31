@@ -18,6 +18,7 @@
 
 {% block body %}
 <body  class="text-center">
+<!--
 
 <div id="language-nav">
     <span class="text-muted">
@@ -27,8 +28,9 @@
         <a href="/en" class="text-info" id="lang-select-en">EN</a>
     </span>
 </div>
+-->
 
-<form class="form-date"  action="map" method="get">
+<form class="form-date"  action="https://beta.wodore.com/m" method="get">
   <img class="mb-1" src="/static/header_img.png" alt="" height="75px" style="margin-bottom: 25px !important;">
   <!-- <h1 class="h4 mb-2 font-weight-normal">Select Date</h1> -->
   <!--
@@ -50,9 +52,10 @@
   -->
   <br>
 
-  <div class="card text-center card-date mx-auto shadow">
+  <div class="card text-center card-date mx-auto shadow-lg">
       <div class="card-body  text-center">
           <div class="input-group justify-content-center">
+            <p style="color:#846a15;"><b>Neue Beta Version</b></p>
           <!--
           <label for="date" class="sr-only">Date</label>
               <input type="text" id="date-picker" class="form-control" value="{{date}}" required name="date">
@@ -62,18 +65,19 @@
             -->
               <div class="mb-4  text-center" id="date-picker-div" data-date="{{date}}"></div>
               <input type="hidden" id="form-date" name="date">
-              <input type="hidden" id="form-lang" name="lang" value="{{CURRENT_LANGUAGE}}">
-              <button class="btn btn-warning btn-block" type="submit"><b>OK</b></button>
+              <!-- <input type="hidden" id="form-lang" name="lang" value="{{CURRENT_LANGUAGE}}"> -->
+              <button class="btn btn-block" style="background-color:#bfab25;" type="submit"><b>OK</b></button>
               <small style="margin-top:10px;">
 
 
-  <!-- Button trigger modal -->
+  <!-- Button trigger modal
   <button type="button" class="text-info btn btn-link btn-sm" data-toggle="modal" data-target="#legendModal">
               {{ _('Legend') }}
   </button><b class="text-muted"> | </b>
+   -->
 
-            <a class="text-info btn btn-link btn-sm" href="/map?lang={{CURRENT_LANGUAGE}}&date=0">
-              {{ _('show only huts') }}
+            <a class="text-info btn btn-link btn-sm" href="https://beta.wodore.com">
+              Nur Hütten
               </a>
           </div>
       </div>
@@ -100,7 +104,7 @@
     daysOfWeekHighlighted: "0,6",
     todayHighlight: true,
     startDate: "{{date}}",
-    language: "{{CURRENT_LANGUAGE}}"
+    language: "de"
   });
   $('#date-picker-div').on('changeDate', function() {
     $('#form-date').val(
